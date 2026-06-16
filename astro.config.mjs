@@ -5,5 +5,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "https://cab.world-cup-2026.ai",
+  site: "https://wc2026.zeabur.app",
+  trailingSlash: "ignore",
 });
