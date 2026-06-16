@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "start": "serve dist -l 3000 --no-clipboard --single",
+    "start": "serve dist -l 3000 --no-clipboard",
     "generate": "echo 'TODO: run AI generation pipeline, write data files, then astro build'"
   },
   "dependencies": {
