@@ -1,0 +1,57 @@
+{
+  "match": {
+    "id": "760418",
+    "homeTeam": "海地",
+    "awayTeam": "蘇格蘭",
+    "homeScore": 0,
+    "awayScore": 1,
+    "group": "C",
+    "venue": "Gillette Stadium, Foxborough, Massachusetts",
+    "date": "2026-06-13",
+    "matchday": 3,
+    "status": "finished",
+    "highlights": "蘇格蘭 1-0 海地，McTominay 頭槌定江山"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "away", "confidence": 62, "homeWinPct": 18, "drawPct": 25, "awayWinPct": 57,
+      "predictedScore": "0-1", "overUnder": "under 2.5",
+      "analysis": "蘇格蘭 FIFA 排名 36，歐洲經驗豐富，Robertson 領銜的防線穩定。海地排名 82，世界盃新軍，實力差距明顯。蘇格蘭在小組賽需要從實力較弱的對手身上全取三分，才有機會與 Brazil 和 Morocco 競爭出線名額。",
+      "keyFactor": "Robertson 的邊路傳中——Liverpool 隊長的精準度是蘇格蘭最主要的進攻手段"
+    },
+    "postMatchReview": "蘇格蘭 1-0 海地，過程比預期艱辛但結果符合預期。McTominay 的頭槌是少數亮點，進攻效率仍是 Clarke 需要解決的問題。對於首次世界盃的海地來說，1-0 的比分是可以抬頭離開的表現。",
+    "accuracy": "correct"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "海地", "flag": "https://flagcdn.com/w80/ht.png", "fifaRank": 82,
+      "keyPlayers": [
+        {"name": "Johnny Placide", "role": "門將隊長", "stat": "FC Sheriff，歐洲賽事經驗"},
+        {"name": "Duke Lacroix", "role": "前場支點", "stat": "獨立聯盟，身體素質出眾"}
+      ],
+      "strength": "拼搏精神、防守紀律、團結一致",
+      "weakness": "技術差距、大賽經驗極度欠缺、進攻手段單一",
+      "webSummary": "海地能夠晉級世界盃會內賽，本身就是這個加勒比海國家足球史上最大的成就。FIFA 排名 82 說明了他們在實力上的定位——在小組賽階段，海地的目標不是晉級，而是證明自己的實力，留下至少一場值得驕傲的比賽。上半場守住 0-0 對他們來說就是勝利。門將 Placide 在歐洲賽事的經驗是防線最寶貴的資產。"
+    },
+    "away": {
+      "name": "蘇格蘭", "flag": "https://flagcdn.com/w80/gb-sct.png", "fifaRank": 36,
+      "keyPlayers": [
+        {"name": "Andy Robertson", "role": "隊長核心", "stat": "Liverpool 隊長，世界最佳左後衛之一"},
+        {"name": "Scott McTominay", "role": "中場悍將", "stat": "Napoli，攻守兼備的現代中場"},
+        {"name": "John McGinn", "role": "中場能量", "stat": "Aston Villa，英超經驗豐富"}
+      ],
+      "strength": "防守紀律、團隊精神、Robertson 的傳中能力",
+      "weakness": "進攻創造力有限、缺乏穩定進球來源、前鋒深度不足",
+      "webSummary": "蘇格蘭在 Steve Clarke 的帶領下，以務實的防守足球重返世界盃。FIFA 排名 36 不算頂尖，但蘇格蘭在大賽中向來不好對付——他們在歐洲盃的表現已經證明了這一點。Robertson 是球隊的靈魂，McTominay 與 McGinn 的中場提供了對手難以應付的硬度與活力。C 組有 Brazil 和 Morocco，蘇格蘭的出線策略很明確：對海地全取三分，然後在 Brazil 和 Morocco 身上至少搶到一分。"
+    }
+  },
+  "story": {
+    "title": "三分的重量：蘇格蘭 1-0 艱苦勝海地",
+    "narrative": "對蘇格蘭來說，這場比賽沒有第二種結果——必須贏，而且必須贏得沒有懸念。但足球從來不照劇本走。\n\n上半場的前 30 分鐘，蘇格蘭的進攻像是撞上了一堵牆。海地的防線收縮得極深，五後衛加上雙防守中場的配置，讓蘇格蘭的傳中球找不到任何目標。Robertson 在左路不斷嘗試傳中，但每一次都被海地球員奮不顧身地擋出。\n\n第 41 分鐘，僵局終於被打破。Robertson 在左路接到 McGinn 的轉移球，這一次他沒有直接傳中，而是等了一下——等 McTominay 從中路插上。一記弧線球越過海地後衛的頭頂，精準落在 McTominay 的跑動路線上。這名 Napoli 中場沒有停球，直接一個魚躍衝頂——球應聲入網。0-1。\n\n下半場蘇格蘭有多次機會擴大比分，但海地的門將 Placide 一次又一次地化解了危機。終場哨響，1-0。對蘇格蘭來說，這不是一場漂亮的勝利，但小組賽的三分，醜陋的勝利也比漂亮的平局好。\n\n海地球員沒有垂頭喪氣。他們在 Gillette 球場向世界展現了海地足球的尊嚴——世界排名 82 的球隊，和世界排名 36 的球隊踢了 90 分鐘，只輸一球。",
+    "dramaticMoment": "McTominay 在第 41 分鐘的魚躍衝頂——Robertson 的精準傳中找到了最需要的人。",
+    "turningPoint": "上半場結束前的進球——如果海地守住 0-0 進更衣室，下半場的信心將完全不同。",
+    "quote": "「我們不只是來參加的。我們來這裡競爭。」——海地總教練 Migné"
+  },
+  "oddsDeepDive": "蘇格蘭讓 0.5/1 球的盤口，主勝賠率約 1.60。1-0 的結果讓上盤驚險過關，但贏球輸盤（只贏一球，讓 0.75 球只贏一半）。大小球 2.5 開小，反映兩隊進攻效率都不高的事實。蘇格蘭雖然贏球，但進攻端的掙扎在盤口上已經有跡可循——對世界排名 82 的球隊只進一球，不是一個好的信號。",
+  "boxscoreSummary": "海地控球率 35%，4 次射門 1 次射正。蘇格蘭控球率 65%，14 次射門 5 次射正。海地門將 Placide 全場 4 次撲救。"
+}

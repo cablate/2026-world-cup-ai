@@ -1,0 +1,52 @@
+{
+  "match": {
+    "id": "760427",
+    "homeTeam": "伊朗", "awayTeam": "紐西蘭",
+    "homeScore": 2, "awayScore": 2,
+    "group": "G", "venue": "SoFi Stadium, Los Angeles, California",
+    "date": "2026-06-15", "matchday": 5, "status": "finished",
+    "highlights": "兩度領先兩度扳平！伊朗 2-2 紐西蘭的進球大戰"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 52, "homeWinPct": 48, "drawPct": 28, "awayWinPct": 24,
+      "predictedScore": "1-0", "overUnder": "under 2.5",
+      "analysis": "伊朗 FIFA 排名 24，亞洲防守強權。紐西蘭排名 104，大洋洲代表實力差距明顯。伊朗理應取勝但進攻效率是變數。",
+      "keyFactor": "Taremi 的終結能力——Inter Milan 前鋒的進球嗅覺"
+    },
+    "postMatchReview": "伊朗 2-2 紐西蘭——完全不照劇本走的比賽。伊朗的防守紀律沒有發揮，紐西蘭展現了令人尊敬的韌性兩度扳平。Taremi 和 Wood 各自展現了領袖價值。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "伊朗", "flag": "https://flagcdn.com/w80/ir.png", "fifaRank": 24,
+      "keyPlayers": [
+        {"name": "Mehdi Taremi", "role": "前鋒核心", "stat": "Inter Milan，亞洲最強射手之一"},
+        {"name": "Sardar Azmoun", "role": "前鋒搭檔", "stat": "AS Roma，歐洲賽事經驗"},
+        {"name": "Ehsan Hajsafi", "role": "隊長中場", "stat": "AEK Athens，國家隊精神領袖"}
+      ],
+      "strength": "防守紀律、反擊效率、Taremi 的終結能力",
+      "weakness": "持球進攻創造力有限、面對體能型球隊時防守專注度",
+      "webSummary": "伊朗是亞洲足球的防守大師，以硬朗的球風和紀律性的防守著稱。FIFA 排名 24 是亞洲頂端水準。Taremi 在 Inter Milan 的經驗為伊朗提供了世界級的進攻終結——他在義甲的歷練讓他成為亞洲最全面的前鋒之一。伊朗在 G 組的目標是與比利時競爭出線資格，對紐西蘭的比賽是必須拿下的一場。"
+    },
+    "away": {
+      "name": "紐西蘭", "flag": "https://flagcdn.com/w80/nz.png", "fifaRank": 104,
+      "keyPlayers": [
+        {"name": "Chris Wood", "role": "前鋒隊長", "stat": "Nottingham Forest，英超前鋒"},
+        {"name": "Liberato Cacace", "role": "邊衛", "stat": "Empoli，義甲經驗"}
+      ],
+      "strength": "體能、高空球、團隊精神、Wood 的進球能力",
+      "weakness": "技術差距、防守速度、大賽經驗極度欠缺",
+      "webSummary": "紐西蘭做為大洋洲代表，FIFA 排名 104 顯示了他們在實力上的定位。能夠晉級世界盃會內賽已是不錯的成就。Chris Wood 在 Nottingham Forest 的英超經驗是球隊最寶貴的資產，他的空中能力和禁區內的嗅覺是紐西蘭最主要的進攻手段。對紐西蘭來說，每場比賽都是學習經驗，能拿到積分就是歷史性突破。"
+    }
+  },
+  "story": {
+    "title": "大洋洲的驕傲：紐西蘭 2-2 兩度扳平伊朗",
+    "narrative": "賽前的劇本很簡單：伊朗防守穩健、紐西蘭實力懸殊、伊朗應該輕鬆取勝。\n\n但足球從來不讀劇本。\n\n伊朗在第 14 分鐘由 Azmoun 先馳得點——一次流暢的團隊配合後禁區內的冷靜射門。一切照計畫進行。但紐西蘭沒有按照劇本躺平。第 31 分鐘，Wood 在一次角球進攻中用他標誌性的頭槌扳平比分——這名 Nottingham Forest 前鋒在空中就是無解的存在。\n\n下半場伊朗再次領先——Taremi 在第 57 分鐘展現了為什麼 Inter Milan 會簽下他：禁區內轉身抽射，一氣呵成。2-1。伊朗球迷以為比賽結束了。\n\n但紐西蘭再次證明他們不是來觀光的。第 78 分鐘，一次漂亮的反擊，Cacace 在左路傳中，Wood 前點一蹭，後排插上的中場球員將球捅進球門——2-2。\n\n終場哨響，紐西蘭球員的臉上寫滿了自豪。FIFA 排名 104 的球隊，在 90 分鐘內兩度落後兩度扳平 FIFA 排名 24 的對手。這是紐西蘭足球史上最偉大的 90 分鐘之一。",
+    "dramaticMoment": "紐西蘭在第 78 分鐘的第二次扳平——世界排名 104 的球隊展現了令人尊敬的戰鬥意志。",
+    "turningPoint": "紐西蘭上半場扳平——伊朗原本期待的上半場鎖定勝局變成了拉鋸戰。",
+    "quote": "「沒有人期待我們在這裡做什麼。但我們自己期待。」——Chris Wood"
+  },
+  "oddsDeepDive": "伊朗讓 0.5/1 球（賠率約 1.70）。2-2 的結果讓下盤（紐西蘭受讓）全贏——這是一場冷門。伊朗的防守紀律向來是他們的招牌，但這場比賽完全失靈。紐西蘭的兩度扳平不僅讓他們拿到歷史性的一分，也讓 G 組的情勢變得更加混亂。",
+  "boxscoreSummary": "伊朗控球率 51%，11 次射門 5 次射正。紐西蘭控球率 49%，9 次射門 4 次射正。進場人數 52,384。"
+}

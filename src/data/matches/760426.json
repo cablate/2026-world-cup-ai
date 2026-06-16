@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": "760426",
+    "homeTeam": "比利時", "awayTeam": "埃及",
+    "homeScore": 1, "awayScore": 1,
+    "group": "G", "venue": "Lumen Field, Seattle, Washington",
+    "date": "2026-06-15", "matchday": 5, "status": "finished",
+    "highlights": "Salah 點球救主！埃及 1-1 逼平比利時"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 58, "homeWinPct": 55, "drawPct": 28, "awayWinPct": 17,
+      "predictedScore": "2-0", "overUnder": "under 2.5",
+      "analysis": "比利時 FIFA 排名第 7，黃金世代尾聲。埃及排名 33，Salah 最後一屆世界盃。比利時的個人天賦明顯佔優，但團隊化學反應不穩定是隱憂。",
+      "keyFactor": "De Bruyne 的中場創造力 vs 埃及的防守紀律"
+    },
+    "postMatchReview": "比利時 1-1 埃及，黃金世代再次令人失望。De Bruyne 與 Lukaku 的連線在上半場奏效，但下半場的防守專注度下滑讓 Salah 有機可乘。埃及帶走一分，值得慶祝。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "比利時", "flag": "https://flagcdn.com/w80/be.png", "fifaRank": 7,
+      "keyPlayers": [
+        {"name": "Kevin De Bruyne", "role": "中場大師", "stat": "Man City，世界最佳傳球手之一"},
+        {"name": "Romelu Lukaku", "role": "隊史進球王", "stat": "85 顆國家隊進球"},
+        {"name": "Jeremy Doku", "role": "邊路爆點", "stat": "Man City，盤帶突破能力頂尖"}
+      ],
+      "strength": "中場創造力、個人能力、De Bruyne 的關鍵傳球",
+      "weakness": "團隊防守默契、黃金世代老化、專注度持續性",
+      "webSummary": "比利時的黃金世代正在走入尾聲。FIFA 排名第 7 依然顯赫，但這批球員已經一起征戰了三屆世界盃——2018 年季軍是他們最好的成績。De Bruyne 與 Lukaku 都已經年過三十，這很可能是他們衝擊大力神盃的最後機會。球隊的個人天賦依然是世界頂尖，但整體化學反應近幾年來一直不穩定：可以贏強隊也可以莫名其妙輸給弱旅。"
+    },
+    "away": {
+      "name": "埃及", "flag": "https://flagcdn.com/w80/eg.png", "fifaRank": 33,
+      "keyPlayers": [
+        {"name": "Mohamed Salah", "role": "隊長王牌", "stat": "Liverpool 傳奇，第 4 屆世界盃"},
+        {"name": "Mohamed Elneny", "role": "中場經驗", "stat": "Arsenal，防守型中場"},
+        {"name": "Omar Marmoush", "role": "新星前鋒", "stat": "Eintracht Frankfurt，速度型"}
+      ],
+      "strength": "Salah 的個人能力、防守組織、穩定反擊",
+      "weakness": "中場創造力不足、過度依賴 Salah",
+      "webSummary": "埃及能夠晉級世界盃只有一個原因：Mohamed Salah。Liverpool 傳奇在國家隊同樣是無可取代的靈魂人物——他的進球、他的領導力、他在關鍵時刻的心理素質。防守穩健是埃及的傳統強項，但進攻端幾乎完全依賴 Salah 的個人能力。Marmoush 在德甲的成長為埃及帶來了一些期待，但整體而言，埃及仍然是 Salah 的一人球隊。"
+    }
+  },
+  "story": {
+    "title": "法老的最後身影：Salah 點球逼平比利時",
+    "narrative": "西雅圖的 Lumen Field，超過六萬名球迷見證了 G 組最受矚目的一場對決。比利時的黃金世代對戰埃及的法老——這可能是 De Bruyne 和 Salah 在同一場比賽中穿著國家隊球衣的最後一次。\n\n比利時在上半場掌握了比賽節奏。Doku 在右路的盤帶讓埃及防線疲於奔命——第 28 分鐘，他的突破造成了禁區內的混亂，Lukaku 在門前將球送入網內。1-0。一切看起來都在比利時的掌控之中。\n\n但上半場結束前，一次禁區內的犯規給了埃及點球機會。Salah 站上十二碼點，全場屏息。他一腳精準的射門，球應聲入網——1-1。這是 Salah 在這屆世界盃的第一顆進球，對於已經 34 歲的他來說，這很可能是世界盃的最後一顆進球。\n\n下半場比利時全力反撲，De Bruyne 的射門擊中門柱、Lukaku 的頭槌被埃及門將神勇撲出——運氣不在比利時這邊。1-1 的比分維持到終場。\n\n賽後 Salah 沒有大肆慶祝。他走到場邊，向埃及球迷鼓掌致意。他知道——和所有人一樣——這是最後一次了。",
+    "dramaticMoment": "Salah 的點球——Liverpool 傳奇在世界盃的最後身影。",
+    "turningPoint": "禁區內犯規送點——比利時的防守專注度再次在關鍵時刻出現問題。",
+    "quote": "「只要 Salah 在場上，我們就永遠有機會。」——埃及總教練 Hassan"
+  },
+  "oddsDeepDive": "比利時讓 1 球（賠率約 1.50），市場對黃金世代仍有信心。1-1 的結果讓上盤支持者全數失望。這是比利時近年的縮影——個人能力足以統治比賽，但團隊防守的失誤總是讓他們付出代價。埃及受讓 1 球的盤口輕鬆過關。",
+  "boxscoreSummary": "比利時控球率 58%，14 次射門 6 次射正。埃及控球率 42%，7 次射門 3 次射正。進場人數 62,381。"
+}

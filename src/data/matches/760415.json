@@ -1,0 +1,69 @@
+{
+  "match": {
+    "id": "760415",
+    "homeTeam": "墨西哥",
+    "awayTeam": "南非",
+    "homeScore": 2,
+    "awayScore": 0,
+    "group": "A",
+    "venue": "Estadio Banorte, Guadalajara, Mexico",
+    "date": "2026-06-11",
+    "matchday": 1,
+    "status": "finished",
+    "highlights": "地主國開幕戰旗開得勝！墨西哥 2-0 擊敗南非"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 68,
+      "homeWinPct": 65,
+      "drawPct": 22,
+      "awayWinPct": 13,
+      "predictedScore": "2-0",
+      "overUnder": "under 2.5",
+      "analysis": "墨西哥 FIFA 排名第 14，三度主辦世界盃，開幕戰在 Guadalajara 的熱情主場進行。南非排名第 59，實力有差距但防守有紀律。",
+      "keyFactor": "墨西哥的主場優勢與開幕戰壓力"
+    },
+    "postMatchReview": "墨西哥 2-0 南非，比數符合預期。Edson Alvarez 展現了領袖氣質，Raul Jimenez 的老將經驗在關鍵時刻發揮作用。開幕戰的三分對地主國至關重要。",
+    "accuracy": "correct"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "墨西哥",
+      "flag": "https://flagcdn.com/w80/mx.png",
+      "fifaRank": 14,
+      "form": ["W", "D", "W", "D", "W"],
+      "keyPlayers": [
+        {"name": "Edson Alvarez", "role": "隊長核心", "stat": "West Ham，防守中場"},
+        {"name": "Raul Jimenez", "role": "老將前鋒", "stat": "Fulham，經驗豐富"},
+        {"name": "Guillermo Ochoa", "role": "傳奇門將", "stat": "第 6 屆世界盃，國家隊圖騰"},
+        {"name": "Hirving Lozano", "role": "邊路速度", "stat": "PSV，反擊利器"}
+      ],
+      "strength": "主場優勢、防守組織、Ochoa 的大賽經驗",
+      "weakness": "進攻效率、整體天賦天花板不高",
+      "webSummary": "墨西哥成為史上第一個三度主辦世界盃的國家（1970、1986、2026）。Ochoa 有機會成為史上第一位參加六屆世界盃的球員。墨西哥在自家主場向來表現出色——自 2013 年以來在 Estadio Azteca 不敗。開幕戰能否打破過去從未在主場開幕戰贏球的魔咒（5 敗 2 和），是全國關注的焦點。"
+    },
+    "away": {
+      "name": "南非",
+      "flag": "https://flagcdn.com/w80/za.png",
+      "fifaRank": 59,
+      "form": ["L", "W", "D", "L", "D"],
+      "keyPlayers": [
+        {"name": "Percy Tau", "role": "進攻核心", "stat": "Al Ahly，南非最佳球員"},
+        {"name": "Ronwen Williams", "role": "門將隊長", "stat": "Mamelodi Sundowns，防線領袖"}
+      ],
+      "strength": "體能條件、團隊速度",
+      "weakness": "技術差距、大賽經驗有限",
+      "webSummary": "南非在 2010 年主辦世界盃後再次重返會內賽。Percy Tau 是球隊最具威脅的攻擊手，但整體實力與世界頂級仍有明顯差距。"
+    }
+  },
+  "story": {
+    "title": "Guadalajara 的狂歡：墨西哥 2-0 開幕戰勝南非",
+    "narrative": "2026 年世界盃的第一場比賽，在 Guadalajara 的 Estadio Banorte 舉行。這是墨西哥第三次主辦世界盃——前兩次他們在主場開幕戰都沒贏過。這一次，他們不想再等下去了。\n\n全場超過 5 萬名球迷身穿綠色球衣，將球場變成了一片沸騰的綠色海洋。墨西哥從第一分鐘就展現了與過去不同的決心——不是傳統的防守反擊，而是主動壓迫、快速傳導、持續進攻。\n\n第 23 分鐘，Lozano 在右路加速擺脫防守後傳中，Jimenez 在門前冷靜地將球送入網底——1-0。整個 Guadalajara 都在震動。\n\n下半場南非試圖反撲，但墨西哥的防線在 Ochoa 的指揮下穩如泰山。第 67 分鐘，一次流暢的團隊配合後， Alvarez 禁區外遠射破門——2-0，比賽再無懸念。\n\n終場哨響，墨西哥終於打破了自己的開幕戰魔咒。整個國家的世界盃熱情，從這一刻正式點燃。",
+    "dramaticMoment": "Jimenez 在第 23 分鐘的進球——墨西哥世界盃歷史上的全新一頁。",
+    "turningPoint": "第 23 分鐘的進球讓全場氣氛徹底點燃，南非被迫提前壓上進攻。",
+    "quote": "「我們等這一刻等了很久。這是屬於墨西哥的夜晚。」——墨西哥總教練 Lozano"
+  },
+  "oddsDeepDive": "墨西哥讓 1 球，大小球 2.5。主勝賠率適中，2-0 的結果讓上盤過關。主場優勢在盤口上已有反映，但墨西哥實際表現符合預期。",
+  "boxscoreSummary": "墨西哥控球率 60.5%，16 次射門 4 次射正。南非控球率 39.5%，3 次射門 2 次射正。"
+}

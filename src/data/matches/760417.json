@@ -1,0 +1,69 @@
+{
+  "match": {
+    "id": "760417",
+    "homeTeam": "美國",
+    "awayTeam": "巴拉圭",
+    "homeScore": 4,
+    "awayScore": 1,
+    "group": "D",
+    "venue": "SoFi Stadium, Los Angeles, California",
+    "date": "2026-06-12",
+    "matchday": 2,
+    "status": "finished",
+    "highlights": "地主國火力展示！美國 4-1 大勝巴拉圭"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 60,
+      "homeWinPct": 55,
+      "drawPct": 25,
+      "awayWinPct": 20,
+      "predictedScore": "2-1",
+      "overUnder": "over 2.5",
+      "analysis": "美國做為地主國，在 Pochettino 帶領下展現了全新的戰術體系。巴拉圭南美傳統防守球隊，但實力不如美國。",
+      "keyFactor": "Pochettino 的高位壓迫 vs 巴拉圭的防守組織"
+    },
+    "postMatchReview": "美國 4-1 大勝，比數甚至不足以反映場面優勢。Pulisic 一人主導比賽，Balogun 展現了美國稀缺的中鋒實力。Pochettino 的戰術改造正在收割成果。",
+    "accuracy": "partial"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "美國",
+      "flag": "https://flagcdn.com/w80/us.png",
+      "fifaRank": 17,
+      "form": ["W", "L", "D", "W", "L"],
+      "keyPlayers": [
+        {"name": "Christian Pulisic", "role": "隊長核心", "stat": "AC Milan，84 場 33 球"},
+        {"name": "Folarin Balogun", "role": "中鋒希望", "stat": "Monaco，美國稀缺的中鋒類型"},
+        {"name": "Weston McKennie", "role": "中場能量", "stat": "Juventus，全能中場"},
+        {"name": "Antonee Robinson", "role": "進攻邊衛", "stat": "Fulham，美職聯最佳左後衛"}
+      ],
+      "strength": "體能優越、前鋒深度提升、主場優勢",
+      "weakness": "後防穩定度不足、大賽經驗有限",
+      "webSummary": "美國做為 2026 世界盃的共同主辦國，在阿根廷教頭 Pochettino 的帶領下展現了前所未有的戰術成熟度。Pulisic 依然是球隊的靈魂人物，但 Balogun 的加入解決了美國長久以來的「中鋒荒」。這支美國隊的目標很明確：突破 2002 年以來的八強門檻。小組賽抽籤運氣不錯，D 組的對手包括澳洲、土耳其和巴拉圭。"
+    },
+    "away": {
+      "name": "巴拉圭",
+      "flag": "https://flagcdn.com/w80/py.png",
+      "fifaRank": 52,
+      "form": ["L", "D", "W", "L", "D"],
+      "keyPlayers": [
+        {"name": "Miguel Almiron", "role": "進攻核心", "stat": "Newcastle，邊路突破"},
+        {"name": "Julio Enciso", "role": "年輕中場", "stat": "Brighton，天才少年"}
+      ],
+      "strength": "防守組織、身體對抗",
+      "weakness": "整體天賦不足、進攻創造力有限",
+      "webSummary": "巴拉圭是南美足球的傳統防守型球隊，以硬朗的球風著稱。但近年實力下滑，資格賽驚險晉級。Almiron 是進攻端唯一的亮點，整體陣容深度無法與美國相比。"
+    }
+  },
+  "story": {
+    "title": "主場球迷的狂歡：美國 4-1 震撼南美勁旅",
+    "narrative": "SoFi 球場，超過 7 萬名球迷，星條旗在加州的夕陽下飄揚。這是美國足球期待已久的時刻——在自己的土地上，向世界證明他們不是來湊熱鬧的。\n\n開賽第 12 分鐘，Pulisic 在左路標誌性的內切射門，球直掛遠角——1-0。整個球場的聲浪幾乎要把屋頂掀翻。第 28 分鐘，McKennie 的頭槌將比分擴大為 2-0。上半場結束前 Balogun 再補一刀——3-0，比賽已無懸念。\n\n巴拉圭在下半場靠點球扳回一城，但美國隨即由替補上場的 Pepi 再進一球，將比分鎖定在 4-1。\n\n這場比賽的意義不僅是三分。它向整個 D 組傳達了一個訊息：這支美國隊在主場是很難被打敗的。Pochettino 的戰術體系——高位壓迫、快速轉換、邊路進攻——在小組賽階段看來相當有效。",
+    "dramaticMoment": "Pulisic 在第 12 分鐘的內切破門——主場球迷的歡呼聲震耳欲聾。",
+    "turningPoint": "美國隊前 30 分鐘的三叉戟攻勢讓巴拉圭措手不及。",
+    "quote": "「我們想在這裡做一些特別的事。」——Christian Pulisic"
+  },
+  "oddsDeepDive": "賽前美國讓 0.5/1 球，賠率適中。4-1 的結果讓主隊支持者順利過盤。地主國加成在盤口上有所反映，但美國實際表現甚至超出了最樂觀的預期。",
+  "boxscoreSummary": "美國全場控球率 58%，14 次射門 8 次射正，4 顆進球。巴拉圭控球率 42%，7 次射門 3 次射正。"
+}

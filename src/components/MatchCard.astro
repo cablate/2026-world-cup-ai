@@ -1,0 +1,166 @@
+---
+import RingGauge from "./RingGauge.astro";
+
+export interface MatchPrediction {
+  winner: string;
+  confidence: number;
+  homeWinPct: number;
+  drawPct: number;
+  awayWinPct: number;
+  predictedScore: string;
+  overUnder: string;
+  analysis: string;
+  keyFactor: string;
+}
+
+export interface OddsInfo {
+  provider: string;
+  homeOdds: number;
+  drawOdds: number;
+  awayOdds: number;
+  spread: string;
+  overUnder: string;
+  impliedHomeWinPct: number;
+  valueGap: number;
+  verdict: string;
+}
+
+export interface Props {
+  id: string;
+  homeTeam: string;
+  awayTeam: string;
+  group: string;
+  venue: string;
+  kickoff: string;
+  status: string;
+  prediction: MatchPrediction;
+  oddsAnalysis: OddsInfo;
+  featured?: boolean;
+}
+
+const {
+  id, homeTeam, awayTeam, group, venue, kickoff, status, prediction, oddsAnalysis, featured
+} = Astro.props;
+
+const isScheduled = status === "scheduled";
+const isLive = status === "live";
+const isFinished = status === "finished";
+const isFeatured = !!featured;
+
+const statusText = isScheduled ? "未開賽" : isLive ? "進行中" : "已結束";
+const statusColors = isScheduled
+  ? "bg-draw-bg text-draw border-draw/20"
+  : isLive
+  ? "bg-win-bg text-win border-win/20"
+  : "bg-bg-hover text-text-muted border-border";
+
+const gaugeSize = isFeatured ? "lg" : "sm";
+const confidenceColor = prediction.confidence >= 70
+  ? "text-win"
+  : prediction.confidence >= 50
+  ? "text-draw"
+  : "text-text-muted";
+---
+
+<article class={`group relative rounded-2xl border transition-all duration-300 overflow-hidden ${
+  isFeatured
+    ? "bg-gradient-to-br from-bg-elevated to-bg-surface border-border-accent hover:border-accent/40 hover:shadow-[0_0_30px_-5px_rgba(0,212,255,0.08)]"
+    : "bg-bg-surface border-border hover:border-border-light hover:shadow-[0_4px_20px_-8px_rgba(0,0,0,0.5)]"
+}`}>
+  <!-- Top gradient edge -->
+  <div class={`h-0.5 ${isFeatured ? "bg-gradient-to-r from-accent via-accent/60 to-accent/20" : "bg-gradient-to-r from-accent/60 via-accent/20 to-transparent"}`}></div>
+
+  <a href={`/matches/${id}`} class="block p-4 sm:p-5 no-underline text-inherit hover:no-underline">
+    <!-- Top row: group + status + confidence -->
+    <div class="flex items-center justify-between mb-3">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center h-5 px-2.5 rounded text-xs font-bold font-mono tracking-wide bg-accent/10 text-accent border border-accent/20">
+          Group {group}
+        </span>
+        <span class={`inline-flex items-center h-5 px-2.5 rounded text-xs font-semibold border ${statusColors}`}>
+          {statusText}
+        </span>
+      </div>
+      <div class={`flex items-center gap-1.5 ${isFeatured ? 'hidden sm:flex' : ''}`}>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted">
+          <path d="M12 2l2.4 7.2L22 9.6l-5.6 4.8 1.6 7.2L12 17.6 6 21.6l1.6-7.2L2 9.6l7.6-.4L12 2z"/>
+        </svg>
+        <span class={`text-xs font-mono font-semibold ${confidenceColor}`}>{prediction.confidence}%</span>
+      </div>
+    </div>
+
+    <!-- Teams row -->
+    <div class="flex items-center justify-between gap-2 mb-3">
+      <div class="flex-1 min-w-0 max-w-[38%]">
+        <span class={`block font-heading font-bold truncate ${isFeatured ? 'text-xl sm:text-2xl' : 'text-base sm:text-xl'}`}>
+          {homeTeam}
+        </span>
+      </div>
+      <div class="flex-shrink-0 flex flex-col items-center gap-0.5 px-1">
+        {isScheduled && <span class="text-[9px] text-text-muted font-mono font-semibold tracking-tight leading-none mb-0.5">預測</span>}
+        <span class={`font-heading font-extrabold tracking-tight ${isFeatured ? 'text-2xl sm:text-4xl' : 'text-xl sm:text-2xl'} ${
+          prediction.winner === "home" ? "text-accent" : prediction.winner === "away" ? "text-win" : "text-draw"
+        }`}>
+          {prediction.predictedScore}
+        </span>
+      </div>
+      <div class="flex-1 min-w-0 text-right max-w-[38%]">
+        <span class={`block font-heading font-bold truncate ${isFeatured ? 'text-xl sm:text-2xl' : 'text-base sm:text-xl'}`}>
+          {awayTeam}
+        </span>
+      </div>
+    </div>
+
+    <!-- Ring gauge (featured only) or Prediction bar -->
+    {isFeatured && (
+      <div class="flex justify-center my-4">
+        <RingGauge
+          homeWinPct={prediction.homeWinPct}
+          drawPct={prediction.drawPct}
+          awayWinPct={prediction.awayWinPct}
+          size="lg"
+        />
+      </div>
+    )}
+
+    <!-- Analysis text -->
+    {isFeatured && (
+      <p class="text-base text-text-secondary leading-relaxed mb-3 line-clamp-3">
+        {prediction.analysis}
+      </p>
+    )}
+
+    <!-- Key factor -->
+    <div class="flex items-start gap-2 py-2 px-3 rounded-lg bg-accent/10 border border-accent/25">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-accent flex-shrink-0 mt-0.5">
+        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </svg>
+      <span class="text-sm text-text-secondary leading-relaxed">{prediction.keyFactor}</span>
+    </div>
+
+    <!-- Footer: venue + conf for non-featured -->
+    {!isFeatured && (
+      <div class="flex items-center justify-between mt-3 pt-3 border-t border-border">
+        <div class="flex items-center gap-1.5 text-xs text-text-muted">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span class="truncate max-w-[160px]">{venue.split(",")[0]}</span>
+        </div>
+        <div class="flex items-center gap-1.5 text-xs text-text-muted">
+          <span class="font-mono font-semibold" class:list={confidenceColor}>{prediction.predictedScore}</span>
+        </div>
+      </div>
+    )}
+  </a>
+
+  <!-- Featured hover arrow -->
+  {isFeatured && (
+    <div class="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-accent">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </div>
+  )}
+</article>

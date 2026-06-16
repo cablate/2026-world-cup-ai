@@ -1,0 +1,226 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import MatchCard from "../components/MatchCard.astro";
+import StandingsTable from "../components/StandingsTable.astro";
+import RingGauge from "../components/RingGauge.astro";
+import matchesByDate from "../data/matches-by-date.json";
+import todayMatches from "../data/today-matches.json";
+import standingsData from "../data/standings.json";
+
+const { dates, matches } = matchesByDate;
+const { matchday, headline, matches: todayMatchesList } = todayMatches;
+
+// Today is June 16 (latest date)
+const today = "2026-06-16";
+const pastDates = dates.filter(d => d < today);
+
+// Featured match: Argentina vs Algeria (today's top match, use today-matches.json for prediction data)
+const featured = todayMatchesList.find(m => m.id === "760433") || todayMatchesList[0];
+const otherToday = todayMatchesList.filter(m => m.id !== featured?.id);
+
+// Date display helper
+function formatDate(d: string): string {
+  const dateObj = new Date(d + "T12:00:00Z");
+  const month = dateObj.getMonth() + 1;
+  const day = dateObj.getDate();
+  const weekdays = ["日", "一", "二", "三", "四", "五", "六"];
+  const wd = weekdays[dateObj.getDay()];
+  return `${month}月${day}日 (${wd})`;
+}
+
+function matchdayLabel(d: string): string {
+  for (const [dateStr, matchList] of Object.entries(matches)) {
+    if (dateStr === d && matchList.length > 0) {
+      return `Matchday ${matchList[0].matchday}`;
+    }
+  }
+  return "";
+}
+---
+
+<Base title="賽程總覽" matchday={matchday}>
+  <Header slot="header" matchday={matchday} />
+
+  <!-- HERO SECTION -->
+  <section class="relative overflow-hidden rounded-2xl mt-4 mb-10 min-h-[380px] sm:min-h-[520px] flex items-center">
+    <img
+      src="/hero-bg.jpg"
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover"
+      aria-hidden="true"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-bg-deep/95 via-bg-deep/70 to-bg-deep/40"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-bg-deep via-transparent to-transparent"></div>
+
+    <div class="relative z-10 w-full px-4 sm:px-10 py-6 sm:py-12">
+      <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-16">
+        <div class="flex-1 text-center lg:text-left w-full">
+          <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-accent/15 border border-accent/20 text-accent text-[10px] sm:text-[11px] font-semibold uppercase tracking-widest mb-3 sm:mb-4">
+            <span class="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span>
+            今日焦點
+          </div>
+          <h1 class="font-heading font-extrabold text-3xl sm:text-5xl lg:text-6xl text-text-primary tracking-tighter leading-none mb-2 sm:mb-3">
+            <span class="block">{featured.homeTeam}</span>
+            <span class="block text-accent mt-0.5 sm:mt-1 text-2xl sm:text-5xl lg:text-6xl">vs</span>
+            <span class="block mt-0.5 sm:mt-1">{featured.awayTeam}</span>
+          </h1>
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 mt-3 sm:mt-4 mb-3 sm:mb-5">
+            <span class="inline-flex items-center gap-1.5 text-[11px] sm:text-xs text-text-secondary font-medium">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="sm:w-[14px] sm:h-[14px]"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Group {featured.group}
+            </span>
+            <span class="w-1 h-1 rounded-full bg-border hidden sm:inline-block"></span>
+            <span class="inline-flex items-center gap-1.5 text-[11px] sm:text-xs text-text-secondary font-medium">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="sm:w-[14px] sm:h-[14px]"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+              {featured.venue.split(",")[0]}
+            </span>
+          </div>
+          <p class="text-xs sm:text-base text-text-secondary leading-relaxed max-w-lg mx-auto lg:mx-0 mb-4 sm:mb-6 hidden sm:block">
+            Argentina 首戰登場，Messi 最後一屆世界盃的起點。
+          </p>
+          <a
+            href={`/matches/${featured.id}`}
+            class="inline-flex items-center gap-2 h-9 sm:h-10 px-4 sm:px-5 rounded-full bg-accent text-bg-deep text-xs sm:text-sm font-bold hover:bg-accent/90 transition-all duration-200 active:scale-[0.98]"
+          >
+            查看分析
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="sm:w-[16px] sm:h-[16px]"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="flex-shrink-0 flex flex-col items-center gap-2">
+          <div class="relative scale-[0.75] sm:scale-100 origin-center">
+            <div class="absolute inset-0 bg-accent/10 rounded-full blur-2xl scale-150"></div>
+            <RingGauge homeWinPct={featured.prediction.homeWinPct} drawPct={featured.prediction.drawPct} awayWinPct={featured.prediction.awayWinPct} size="lg" />
+          </div>
+          <span class="text-[11px] text-text-muted font-heading font-semibold tracking-wide">AI 預測主隊勝率</span>
+          <div class="flex items-center gap-2 text-[10px] text-text-muted/70">
+            <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-accent"></span>主</span>
+            <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-draw"></span>和</span>
+            <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-win"></span>客</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODAY'S OTHER MATCHES -->
+  {otherToday.length > 0 && (
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="font-heading font-bold text-lg text-text-primary tracking-tight">{formatDate(today)} 其他賽事</h2>
+        <span class="text-xs text-text-muted font-mono">Matchday {matchday}</span>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-4">
+        {otherToday.map(m => (
+          <MatchCard
+            id={m.id}
+            homeTeam={m.homeTeam}
+            awayTeam={m.awayTeam}
+            group={m.group}
+            venue={m.venue}
+            kickoff=""
+            status={m.status}
+            prediction={m.prediction}
+            oddsAnalysis={m.oddsAnalysis}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- DIVIDER -->
+  <div class="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-10"></div>
+
+  <!-- PAST DATES TIMELINE -->
+  <section class="mb-12">
+    <h2 class="font-heading font-bold text-lg text-text-primary tracking-tight mb-6">過往賽果</h2>
+
+    {pastDates.slice().reverse().map(dateStr => {
+      const dayMatches = matches[dateStr] || [];
+      if (dayMatches.length === 0) return null;
+      const md = matchdayLabel(dateStr);
+      return (
+        <div class="mb-8 last:mb-0">
+          {/* Date header */}
+          <div class="flex items-center gap-3 mb-4">
+            <div class="flex items-center justify-center w-8 h-8 rounded-full bg-accent/10 border border-accent/20">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-accent"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div>
+              <span class="font-heading font-bold text-base text-text-primary">{formatDate(dateStr)}</span>
+              {md && <span class="ml-2 text-[11px] text-text-muted font-mono">{md}</span>}
+            </div>
+          </div>
+
+          {/* Match cards */}
+          <div class="grid sm:grid-cols-2 gap-3">
+            {dayMatches.map(m => (
+              <div class="group relative">
+                <a
+                  href={`/matches/${m.id}`}
+                  class="block rounded-xl border border-border bg-bg-surface hover:border-border-light hover:shadow-[0_4px_20px_-8px_rgba(0,0,0,0.5)] transition-all duration-200 overflow-hidden no-underline text-inherit"
+                >
+                  <div class="h-0.5 bg-gradient-to-r from-accent/40 via-accent/10 to-transparent"></div>
+                  <div class="p-3.5 sm:p-4">
+                    <div class="flex items-center justify-between mb-2">
+                      <div class="flex items-center gap-1.5">
+                        <span class="text-xs font-mono font-semibold px-1.5 py-0.5 rounded bg-bg-hover text-text-muted">{m.group}</span>
+                        <span class="text-xs text-text-muted">
+                          {m.status === "finished" ? "FT" : "Scheduled"}
+                        </span>
+                      </div>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted/50 group-hover:text-text-muted/80 transition-colors">
+                        <path d="M9 18l6-6-6-6"/>
+                      </svg>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <span class="flex-1 font-heading font-bold text-base truncate">{m.homeTeam}</span>
+                      <span class={`font-heading font-extrabold text-xl ${m.status === "finished" ? "text-text-primary" : "text-text-muted"} font-mono`}>
+                        {m.homeScore}
+                      </span>
+                      <span class="text-text-muted/70 text-sm font-heading font-bold">:</span>
+                      <span class={`font-heading font-extrabold text-xl ${m.status === "finished" ? "text-text-primary" : "text-text-muted"} font-mono`}>
+                        {m.awayScore}
+                      </span>
+                      <span class="flex-1 font-heading font-bold text-base truncate text-right">{m.awayTeam}</span>
+                    </div>
+                    <div class="flex items-center gap-1.5 mt-1.5">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted/70"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                      <span class="text-xs text-text-muted truncate">{m.venue.split(",")[0]}</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    })}
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-12"></div>
+
+  <!-- STANDINGS -->
+  <section class="mb-8">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="font-heading font-bold text-lg text-text-primary tracking-tight">小組排名</h2>
+      <a
+        href="/standings"
+        class="inline-flex items-center gap-1.5 text-xs font-medium text-accent hover:opacity-80 transition-opacity"
+      >
+        完整排名
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="relative">
+      <div class="absolute -bottom-10 -right-10 w-64 h-64 bg-accent/3 rounded-full blur-3xl"></div>
+      <div class="relative">
+        <StandingsTable groups={standingsData.groups} />
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>

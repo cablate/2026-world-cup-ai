@@ -1,0 +1,69 @@
+{
+  "match": {
+    "id": "760432",
+    "homeTeam": "法國",
+    "awayTeam": "塞內加爾",
+    "homeScore": 0,
+    "awayScore": 0,
+    "group": "I",
+    "venue": "MetLife Stadium, East Rutherford, New Jersey",
+    "date": "2026-06-16",
+    "matchday": 6,
+    "status": "scheduled",
+    "highlights": "上屆亞軍法國亮相，Mbappe 隊長時代正式開啟"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 65,
+      "homeWinPct": 62,
+      "drawPct": 23,
+      "awayWinPct": 15,
+      "predictedScore": "2-1",
+      "overUnder": "over 2.5",
+      "analysis": "法國天賦頂尖，Mbappe 接過隊長袖標後的第一場大賽。塞內加爾是非洲排名最高的球隊之一，Mane 領軍的反擊極具威脅。法國防守端的不穩定是最大隱憂。",
+      "keyFactor": "Mbappe 的邊路破壞力 vs 塞內加爾的防守紀律"
+    },
+    "postMatchReview": "比賽尚未進行",
+    "accuracy": "pending"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "法國",
+      "flag": "https://flagcdn.com/w80/fr.png",
+      "fifaRank": 3,
+      "form": ["W", "D", "W", "L", "W"],
+      "keyPlayers": [
+        {"name": "Kylian Mbappe", "role": "隊長王牌", "stat": "56 國家隊進球，2025 金球獎候選"},
+        {"name": "Ousmane Dembele", "role": "邊路爆點", "stat": "2025 金球獎得主，PSG 核心"},
+        {"name": "William Saliba", "role": "後防核心", "stat": "Arsenal 後防領袖"}
+      ],
+      "strength": "邊路速度、陣容深度、世界盃大賽經驗",
+      "weakness": "防守專注度、後場出球穩定性",
+      "webSummary": "Deschamps 執教法國隊的最後一屆大賽。Mbappe 正式接過隊長袖標，Dembele 以 2025 金球獎得主身分輔佐，PSG 攻擊線是法國最大武器。但只有 4 名球員來自 2018 冠軍陣容，Griezmann、Giroud、Lloris 都已退休，這是一支正在換血的法國隊。"
+    },
+    "away": {
+      "name": "塞內加爾",
+      "flag": "https://flagcdn.com/w80/sn.png",
+      "fifaRank": 19,
+      "form": ["W", "D", "L", "W", "W"],
+      "keyPlayers": [
+        {"name": "Sadio Mane", "role": "隊長王牌", "stat": "2022 非洲盃冠軍隊長"},
+        {"name": "Kalidou Koulibaly", "role": "後防領袖", "stat": "防守指揮官"},
+        {"name": "Ismaila Sarr", "role": "速度邊鋒", "stat": "Marseille，反擊利器"}
+      ],
+      "strength": "身體對抗、反擊速度、Mane 的領袖氣質",
+      "weakness": "控球能力有限、面對頂級防守時創造力不足",
+      "webSummary": "塞內加爾在 2022 年拿下隊史首座非洲盃冠軍，證明自己是非洲足球的最新代表。Mane 與 Koulibaly 一前一後提供經驗與穩定。戰術核心是穩守反擊——利用 Mane 和 Sarr 的速度在轉換中製造威脅。"
+    }
+  },
+  "story": {
+    "title": "Deschamps 告別戰的序曲：法國 vs 塞內加爾",
+    "narrative": "Didier Deschamps 在法國隊帥位上坐了 14 年，拿過一座世界盃、一座歐國聯冠軍。2026 年世界盃是他的告別之旅。\n\n第一場比賽的對手塞內加爾，一支不容忽視的非洲勁旅。2018 年兩隊在小組賽交手，法國 1-0 險勝；八年後再次相遇，法國不再有 Griezmann 的創造力、Giroud 的支點作用，但換來了 Dembele 的突破與 Mbappe 的完全體。\n\n塞內加爾的比賽計畫很清楚：上半場穩住，下半場靠體能與反擊決勝負。對法國來說，真正的對手不是塞內加爾，而是自己——他們需要證明，這支新法國隊依然有統治力。",
+    "dramaticMoment": "Mbappe 戴上隊長袖標走出球員通道的那一刻，法國足球的新時代就開始了。",
+    "turningPoint": "下半場體能下滑階段——塞內加爾的戰術就是拖到最後 30 分鐘決勝負。",
+    "quote": null
+  },
+  "oddsDeepDive": "DraftKings 開出法國讓 1.5 球的盤口（主勝賠率 -205），隱含勝率約 67%。AI 給出 62%，與市場差距不大。讓 1.5 球對於一支防守有疑慮的球隊來說略深。",
+  "boxscoreSummary": "比賽尚未開始。法國（FIFA #3）在紐澤西迎戰塞內加爾（FIFA #19）。"
+}

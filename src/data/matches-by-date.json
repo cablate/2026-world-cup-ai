@@ -1,0 +1,233 @@
+{
+  "dates": [
+    "2026-06-11",
+    "2026-06-12",
+    "2026-06-13",
+    "2026-06-14",
+    "2026-06-15",
+    "2026-06-16"
+  ],
+  "matches": {
+    "2026-06-11": [
+      {
+        "id": "760415",
+        "homeTeam": "墨西哥",
+        "awayTeam": "南非",
+        "homeScore": 2,
+        "awayScore": 0,
+        "group": "A",
+        "venue": "Estadio Banorte, Guadalajara",
+        "status": "finished",
+        "matchday": 1
+      },
+      {
+        "id": "760414",
+        "homeTeam": "韓國",
+        "awayTeam": "捷克",
+        "homeScore": 2,
+        "awayScore": 1,
+        "group": "A",
+        "venue": "Estadio Akron, Guadalajara",
+        "status": "finished",
+        "matchday": 1
+      }
+    ],
+    "2026-06-12": [
+      {
+        "id": "760416",
+        "homeTeam": "加拿大",
+        "awayTeam": "波士尼亞",
+        "homeScore": 1,
+        "awayScore": 1,
+        "group": "B",
+        "venue": "BMO Field, Toronto",
+        "status": "finished",
+        "matchday": 2
+      },
+      {
+        "id": "760417",
+        "homeTeam": "美國",
+        "awayTeam": "巴拉圭",
+        "homeScore": 4,
+        "awayScore": 1,
+        "group": "D",
+        "venue": "SoFi Stadium, Los Angeles",
+        "status": "finished",
+        "matchday": 2
+      }
+    ],
+    "2026-06-13": [
+      {
+        "id": "760420",
+        "homeTeam": "卡達",
+        "awayTeam": "瑞士",
+        "homeScore": 1,
+        "awayScore": 1,
+        "group": "B",
+        "venue": "Levi's Stadium, Santa Clara",
+        "status": "finished",
+        "matchday": 3
+      },
+      {
+        "id": "760419",
+        "homeTeam": "巴西",
+        "awayTeam": "摩洛哥",
+        "homeScore": 1,
+        "awayScore": 1,
+        "group": "C",
+        "venue": "MetLife Stadium, New Jersey",
+        "status": "finished",
+        "matchday": 3
+      },
+      {
+        "id": "760418",
+        "homeTeam": "海地",
+        "awayTeam": "蘇格蘭",
+        "homeScore": 0,
+        "awayScore": 1,
+        "group": "C",
+        "venue": "Gillette Stadium, Boston",
+        "status": "finished",
+        "matchday": 3
+      }
+    ],
+    "2026-06-14": [
+      {
+        "id": "760421",
+        "homeTeam": "澳洲",
+        "awayTeam": "土耳其",
+        "homeScore": 2,
+        "awayScore": 0,
+        "group": "D",
+        "venue": "BC Place, Vancouver",
+        "status": "finished",
+        "matchday": 4
+      },
+      {
+        "id": "760422",
+        "homeTeam": "德國",
+        "awayTeam": "庫拉索",
+        "homeScore": 7,
+        "awayScore": 1,
+        "group": "E",
+        "venue": "NRG Stadium, Houston",
+        "status": "finished",
+        "matchday": 4
+      },
+      {
+        "id": "760425",
+        "homeTeam": "荷蘭",
+        "awayTeam": "日本",
+        "homeScore": 2,
+        "awayScore": 2,
+        "group": "F",
+        "venue": "AT&T Stadium, Dallas",
+        "status": "finished",
+        "matchday": 4
+      },
+      {
+        "id": "760423",
+        "homeTeam": "象牙海岸",
+        "awayTeam": "厄瓜多",
+        "homeScore": 1,
+        "awayScore": 0,
+        "group": "E",
+        "venue": "Lincoln Financial Field, Philadelphia",
+        "status": "finished",
+        "matchday": 4
+      },
+      {
+        "id": "760424",
+        "homeTeam": "瑞典",
+        "awayTeam": "突尼西亞",
+        "homeScore": 5,
+        "awayScore": 1,
+        "group": "F",
+        "venue": "Estadio BBVA, Monterrey",
+        "status": "finished",
+        "matchday": 4
+      }
+    ],
+    "2026-06-15": [
+      {
+        "id": "760428",
+        "homeTeam": "西班牙",
+        "awayTeam": "維德角",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "H",
+        "venue": "Mercedes-Benz Stadium, Atlanta",
+        "status": "finished",
+        "matchday": 5
+      },
+      {
+        "id": "760426",
+        "homeTeam": "比利時",
+        "awayTeam": "埃及",
+        "homeScore": 1,
+        "awayScore": 1,
+        "group": "G",
+        "venue": "Lumen Field, Seattle",
+        "status": "finished",
+        "matchday": 5
+      },
+      {
+        "id": "760429",
+        "homeTeam": "沙烏地阿拉伯",
+        "awayTeam": "烏拉圭",
+        "homeScore": 1,
+        "awayScore": 1,
+        "group": "H",
+        "venue": "Hard Rock Stadium, Miami",
+        "status": "finished",
+        "matchday": 5
+      },
+      {
+        "id": "760427",
+        "homeTeam": "伊朗",
+        "awayTeam": "紐西蘭",
+        "homeScore": 2,
+        "awayScore": 2,
+        "group": "G",
+        "venue": "SoFi Stadium, Los Angeles",
+        "status": "finished",
+        "matchday": 5
+      }
+    ],
+    "2026-06-16": [
+      {
+        "id": "760432",
+        "homeTeam": "法國",
+        "awayTeam": "塞內加爾",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "I",
+        "venue": "MetLife Stadium, New Jersey",
+        "status": "scheduled",
+        "matchday": 6
+      },
+      {
+        "id": "760430",
+        "homeTeam": "伊拉克",
+        "awayTeam": "挪威",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "I",
+        "venue": "Gillette Stadium, Boston",
+        "status": "scheduled",
+        "matchday": 6
+      },
+      {
+        "id": "760433",
+        "homeTeam": "阿根廷",
+        "awayTeam": "阿爾及利亞",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "J",
+        "venue": "GEHA Field at Arrowhead Stadium, Kansas City",
+        "status": "scheduled",
+        "matchday": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "match": {
+    "id": "760428",
+    "homeTeam": "西班牙",
+    "awayTeam": "維德角",
+    "homeScore": 0,
+    "awayScore": 0,
+    "group": "H",
+    "venue": "Mercedes-Benz Stadium, Atlanta, Georgia",
+    "date": "2026-06-15",
+    "matchday": 5,
+    "status": "finished",
+    "highlights": "本屆最大冷門！歐洲冠軍西班牙遭維德角 0-0 逼平"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 82,
+      "homeWinPct": 78,
+      "drawPct": 15,
+      "awayWinPct": 7,
+      "predictedScore": "3-0",
+      "overUnder": "over 2.5",
+      "analysis": "西班牙 FIFA 排名第 2，歐洲冠軍，控球戰術成熟。維德角是小國奇蹟，防守紀律嚴明但天賦差距明顯。",
+      "keyFactor": "西班牙的控球能否轉化為進球"
+    },
+    "postMatchReview": "西班牙全場 74% 控球率、27 次射門僅 7 次射正，維德角的鐵桶陣 + 門將神撲讓歐洲冠軍踢了一場無比沮喪的比賽。這是本屆世界盃開賽以來的最大冷門。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "西班牙",
+      "flag": "https://flagcdn.com/w80/es.png",
+      "fifaRank": 2,
+      "form": ["W", "D", "W", "W", "D"],
+      "keyPlayers": [
+        {"name": "Pedri", "role": "中場大腦", "stat": "Barcelona，傳球視野頂級"},
+        {"name": "Rodri", "role": "防守樞紐", "stat": "Man City，歐洲盃冠軍核心"},
+        {"name": "Gavi", "role": "中場鬥士", "stat": "Barcelona，拼勁與技術兼具"},
+        {"name": "Unai Simon", "role": "門將", "stat": "Atheltic Bilbao，歐洲盃冠軍門將"}
+      ],
+      "strength": "控球主導、中場控制力、戰術成熟度",
+      "weakness": "面對鐵桶陣缺乏破解手段、缺少頂級終結者",
+      "webSummary": "西班牙是現任歐洲冠軍，FIFA 排名第 2，以傳控戰術聞名於世。Pedri、Gavi、Rodri 的中場組合被認為是當今足壇最好的中場配置之一。但西班牙長久以來的問題——控球在腳但缺少能打破僵局的超級前鋒——依然是最大弱點。2022 年對摩洛哥的 PK 戰失利已經證明，傳控不是萬能的。"
+    },
+    "away": {
+      "name": "維德角",
+      "flag": "https://flagcdn.com/w80/cv.png",
+      "fifaRank": 64,
+      "form": ["D", "W", "L", "D", "W"],
+      "keyPlayers": [
+        {"name": "Ryan Mendes", "role": "隊長邊鋒", "stat": "隊長，反擊箭頭"},
+        {"name": "Vozinha", "role": "門將", "stat": "全場 7 次撲救，比賽最佳"}
+      ],
+      "strength": "防守組織、團隊紀律、門將表現",
+      "weakness": "進攻創造力有限、持球能力不足",
+      "webSummary": "維德角是非洲西海岸的一個島國，人口僅 50 萬。他們能夠打進世界盃會內賽已經是國家足球史上最偉大的成就。球隊沒有大牌球星，但防守紀律嚴明，團隊默契極佳。他們非常清楚自己的定位：先求不失球，再看能不能偷到一分。"
+    }
+  },
+  "story": {
+    "title": "小島奇蹟：維德角如何讓歐洲冠軍絕望",
+    "narrative": "沒有人看好維德角。開賽前，賠率顯示西班牙勝率高達 85%。維德角全國人口不到 50 萬，連一座符合標準的國際球場都沒有。\n\n但足球的魅力就在這裡。\n\n從第一分鐘開始，維德角的防線就展現了令人驚訝的組織性。他們沒有盲目地壓上或退縮，而是維持著緊湊的 4-4-2 防線，讓西班牙的傳球只能橫向移動，無法穿透。上半場西班牙控球率超過 75%，但最佳的機會來自維德角的反擊——第 22 分鐘，Ryan Mendes 的遠射讓全場球迷倒吸一口涼氣。\n\n下半場西班牙加強了攻勢。Pedri 與 Gavi 不斷在中路嘗試滲透，但維德角的防線像是用鋼筋水泥澆築的。第 67 分鐘，Pedri 在禁區外一記刁鑽的弧線球——維德角門將 Vozinha 指尖托出橫樑。那是全場最接近進球的一刻。\n\n終場哨響，0-0。西班牙球員低著頭走進球員通道。維德角的球員們跪在草皮上，有人哭了。這不僅是一分，這是一個島國在世界足球版圖上刻下的印記。",
+    "dramaticMoment": "第 67 分鐘，Vozinha 撲出 Pedri 的弧線球——指尖托出橫樑的瞬間，整個維德角替補席炸裂。",
+    "turningPoint": "第 15 分鐘的 VAR 改判取消點球後，西班牙的士氣明顯受影響。",
+    "quote": "「我們不是來觀光的。我們來這裡創造歷史。」——維德角門將 Vozinha（全場最佳）"
+  },
+  "oddsDeepDive": "賽前西班牙讓 2.5 球的深盤，賠率 -1000 顯示市場近乎認定西班牙會輕鬆取勝。結果 0-0 讓所有押西班牙穿盤的賭盤全數墜機。這也是足球博彩最好的教材：沒有什麼是確定的。維德角受讓 2.5 球，下盤幸運過關。",
+  "boxscoreSummary": "西班牙控球率 74.3%，27 次射門 7 次射正，11 次角球。維德角控球率 25.7%，6 次射門 1 次射正，門將 Vozinha 7 次撲救。"
+}

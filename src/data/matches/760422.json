@@ -1,0 +1,69 @@
+{
+  "match": {
+    "id": "760422",
+    "homeTeam": "德國",
+    "awayTeam": "庫拉索",
+    "homeScore": 7,
+    "awayScore": 1,
+    "group": "E",
+    "venue": "NRG Stadium, Houston, Texas",
+    "date": "2026-06-14",
+    "matchday": 4,
+    "status": "finished",
+    "highlights": "德國火力全開！7-1 大屠殺創本屆目前最大比分"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 85,
+      "homeWinPct": 80,
+      "drawPct": 12,
+      "awayWinPct": 8,
+      "predictedScore": "4-0",
+      "overUnder": "over 2.5",
+      "analysis": "德國世界排名第 10，庫拉索排名第 76，實力差距懸殊。德國在 Nagelsmann 帶領下重建，Musiala 與 Wirtz 的雙核創造力是最大武器。",
+      "keyFactor": "德國年輕天賦的火力展示"
+    },
+    "postMatchReview": "德國 7-1 庫拉索，比預期更殘忍的屠殺。Musiala 與 Wirtz 完全統治比賽，德國的高位壓迫讓庫拉索連半場都過不了。Nagelsmann 的體系在小組賽階段展現了恐怖的破壞力。",
+    "accuracy": "partial"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "德國",
+      "flag": "https://flagcdn.com/w80/de.png",
+      "fifaRank": 10,
+      "form": ["W", "L", "W", "D", "W"],
+      "keyPlayers": [
+        {"name": "Jamal Musiala", "role": "進攻魔術師", "stat": "Bayern Munich，盤帶天才"},
+        {"name": "Florian Wirtz", "role": "創造核心", "stat": "Bayer Leverkusen，德甲最佳"},
+        {"name": "Kai Havertz", "role": "前場支點", "stat": "Arsenal 主力前鋒"},
+        {"name": "Manuel Neuer", "role": "傳奇門將", "stat": "40 歲復出，第 5 屆世界盃"}
+      ],
+      "strength": "年輕天賦、高位壓迫、中場創造力",
+      "weakness": "缺乏純終結者、防守反擊脆弱（對弱隊不易暴露）",
+      "webSummary": "德國在經歷 2018 與 2022 連續兩屆小組賽出局的黑暗期後，Julian Nagelsmann 的年輕化重建正在開花結果。Musiala 與 Wirtz 組成的中場雙核是歐洲最令人興奮的進攻組合之一。Neuer 以 40 歲之齡復出征戰第五屆世界盃，為防線提供了經驗值。首戰對庫拉索是重建成果的第一次正式驗收。"
+    },
+    "away": {
+      "name": "庫拉索",
+      "flag": "https://flagcdn.com/w80/cw.png",
+      "fifaRank": 76,
+      "form": ["L", "D", "L", "W", "L"],
+      "keyPlayers": [
+        {"name": "Leandro Bacuna", "role": "中場核心", "stat": "Groningen，荷甲經驗"},
+        {"name": "Rangelo Janga", "role": "前鋒", "stat": "Astana，隊史進球紀錄"}
+      ],
+      "strength": "自由心態、無壓力",
+      "weakness": "各層面實力差距明顯、缺乏大賽經驗",
+      "webSummary": "庫拉索這個加勒比海小國能夠站上世界盃舞台本身就是奇蹟。全國人口僅 15 萬，足球基礎設施有限，能踢會內賽已經超額完成任務。對他們來說，每一場比賽都是學習經驗，每一個進球都是歷史。"
+    }
+  },
+  "story": {
+    "title": "德國的暴力美學覺醒：7-1 屠殺庫拉索",
+    "narrative": "七顆進球。七個不同的進球者。德國在休士頓 NRG 球場用一場 7-1 的屠殺，向全世界宣告：那支令人畏懼的德國隊回來了。\n\n比賽在開賽第 8 分鐘就失去了懸念。Musiala 在禁區邊緣的標誌性盤帶突破，閃過三名防守球員後低射遠角——1-0。接下來的 82 分鐘變成了一場屠殺秀。Wirtz 的傳球視野、Havertz 的跑位、空間、替補上場的球員們的饑渴感——每一個環節都在碾壓對手。\n\n庫拉索唯一的高光時刻來自第 63 分鐘的自由球直接破門——這是他們國家在世界盃會內賽的第一顆進球。當球飛進球門上角時，整個庫拉索替補席激動地抱在一起。對他們來說，1-7 的比數很難看，但那一顆進球將永遠載入國家史冊。\n\n德國需要這場勝利，但更重要的是他們展現出的比賽方式。Nagelsmann 的高位壓迫體系在小組賽階段對弱隊極具統治力。真正的考驗在淘汰賽。",
+    "dramaticMoment": "庫拉索在第 63 分鐘的自由球破門——全國第一顆世界盃進球，替補席上的眼淚說明了一切。",
+    "turningPoint": "第 8 分鐘 Musiala 的進球——在那之後比賽就結束了。",
+    "quote": "「我們來這裡不只是為了參與。」——庫拉索總教練 Bicentini"
+  },
+  "oddsDeepDive": "賽前盤口開出德國讓 2.5 球，大小球 3.5。德國打出了 7-1，輕鬆穿盤。這種實力懸殊的比賽，盤口的參考價值有限——真正的問題不是德國會不會贏，而是他們想贏多少。",
+  "boxscoreSummary": "德國全場控球率 68%，28 次射門 15 次射正，7 顆進球來自 7 名不同球員。庫拉索僅 4 次射門但打進漂亮的一球。"
+}

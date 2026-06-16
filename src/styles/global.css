@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@import "@fontsource/plus-jakarta-sans/400.css";
+@import "@fontsource/plus-jakarta-sans/500.css";
+@import "@fontsource/plus-jakarta-sans/600.css";
+@import "@fontsource/plus-jakarta-sans/700.css";
+@import "@fontsource/plus-jakarta-sans/800.css";
+@import "@fontsource/noto-sans-tc/400.css";
+@import "@fontsource/noto-sans-tc/500.css";
+@import "@fontsource/noto-sans-tc/700.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/600.css";
+@import "@fontsource/jetbrains-mono/700.css";
+
+@theme {
+  /* Backgrounds */
+  --color-bg-deep: #070b14;
+  --color-bg-surface: #111a2e;
+  --color-bg-elevated: #1a2548;
+  --color-bg-hover: #1f2d52;
+  --color-bg-inset: #0a0f1a;
+
+  /* Borders */
+  --color-border: #253454;
+  --color-border-light: #314a6e;
+  --color-border-accent: #00d4ff44;
+
+  /* Accent */
+  --color-accent: #00d4ff;
+  --color-accent-dim: #0088cc;
+  --color-accent-glow: #00d4ff20;
+
+  /* Semantic */
+  --color-win: #34d399;
+  --color-win-bg: #34d39918;
+  --color-draw: #facc15;
+  --color-draw-bg: #facc1518;
+  --color-loss: #f87171;
+  --color-loss-bg: #f8717118;
+
+  /* Text */
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #b0c4de;
+  --color-text-muted: #68788e;
+  --color-text-accent: #00d4ff;
+
+  /* Fonts */
+  --font-heading: "Plus Jakarta Sans", "Noto Sans TC", "PingFang TC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-body: "Noto Sans TC", "PingFang TC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: var(--font-body);
+    background: var(--color-bg-deep);
+    color: var(--color-text-primary);
+    line-height: 1.7;
+    font-size: 16px;
+    overflow-x: hidden;
+    max-width: 100vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-bg-deep);
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 99px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-border-light);
+  }
+}

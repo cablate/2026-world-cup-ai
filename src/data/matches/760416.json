@@ -1,0 +1,91 @@
+{
+  "match": {
+    "id": "760416",
+    "homeTeam": "加拿大",
+    "awayTeam": "波士尼亞",
+    "homeScore": 1,
+    "awayScore": 1,
+    "group": "B",
+    "venue": "BMO Field, Toronto, Canada",
+    "date": "2026-06-12",
+    "matchday": 2,
+    "status": "finished",
+    "highlights": "加拿大主場 1-1 戰平波士尼亞，Davies 助攻 David"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 52,
+      "homeWinPct": 48,
+      "drawPct": 30,
+      "awayWinPct": 22,
+      "predictedScore": "2-1",
+      "overUnder": "over 2.5",
+      "analysis": "加拿大 FIFA 排名 48，地主國之一，Davies 的個人能力是最大武器。波士尼亞排名 57，Dzeko 與 Pjanic 的老將核心經驗豐富。雙方實力接近，平局是最可能的結果。加拿大在主場球迷面前有額外的動力，但大賽經驗不足是隱憂。",
+      "keyFactor": "Alphonso Davies 的邊路衝擊力 vs 波士尼亞老將防線的速度"
+    },
+    "postMatchReview": "加拿大 1-1 波士尼亞，Davies 助攻 David 頭槌破門的配合展現了北美的天賦。但 Dzeko 用經驗扳平的進球提醒所有人：老將的價值在於關鍵時刻的冷靜。對加拿大來說，主場拿到一分不是最差的結果，但他們知道要從小組晉級必須做得更好。",
+    "accuracy": "pending"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "加拿大",
+      "flag": "https://flagcdn.com/w80/ca.png",
+      "fifaRank": 48,
+      "keyPlayers": [
+        {
+          "name": "Alphonso Davies",
+          "role": "邊路超跑",
+          "stat": "Bayern Munich，世界級邊衛"
+        },
+        {
+          "name": "Jonathan David",
+          "role": "前鋒核心",
+          "stat": "Lille，加拿大隊史進球王"
+        },
+        {
+          "name": "Stephen Eustaquio",
+          "role": "中場節拍器",
+          "stat": "Porto，攻守轉換樞紐"
+        }
+      ],
+      "strength": "Davies 的邊路衝擊力、David 的終結能力、主場優勢",
+      "weakness": "大賽經驗不足、防守定位球、整體陣容深度",
+      "webSummary": "加拿大在 Alphonso Davies 的帶領下重返世界盃，這是自 1986 年以來的第二次。Davies 在 Bayern Munich 證明了自己是世界上最全面的邊後衛之一，他的速度與盤帶是加拿大進攻的發動機。Jonathan David 在法甲 Lille 持續穩定產出進球。加拿大做為共同主辦國，在小組賽有著主場加持——BMO Field 的滿場球迷是他們的第 12 人。目標：小組出線就是歷史突破。"
+    },
+    "away": {
+      "name": "波士尼亞",
+      "flag": "https://flagcdn.com/w80/ba.png",
+      "fifaRank": 57,
+      "keyPlayers": [
+        {
+          "name": "Edin Dzeko",
+          "role": "傳奇前鋒",
+          "stat": "Fenerbahce，隊史 65 球進球王"
+        },
+        {
+          "name": "Miralem Pjanic",
+          "role": "中場指揮官",
+          "stat": "Sharjah，退休前最後一屆"
+        },
+        {
+          "name": "Sead Kolasinac",
+          "role": "後防悍將",
+          "stat": "Atalanta，體能出眾"
+        }
+      ],
+      "strength": "Dzeko 的經驗、中場創造力、團隊凝聚力",
+      "weakness": "陣容老化、防守速度不足、板凳深度有限",
+      "webSummary": "波士尼亞依靠 Dzeko 與 Pjanic 這批黃金世代再次打入世界盃，但兩位核心都已超過 35 歲。Dzeko 在國家隊 65 球的紀錄短時間內難以被打破，他的空中能力和禁區內的嗅覺依然是世界級。這批老將很清楚這是最後一屆世界盃，每一場比賽都是告別。波士尼亞的戰術核心很簡單：有球給 Pjanic 組織，沒球全員防守，進攻找 Dzeko。"
+    }
+  },
+  "story": {
+    "title": "天賦 vs 經驗：加拿大 1-1 波士尼亞",
+    "narrative": "多倫多的 BMO Field，超過三萬名加拿大球迷將球場染成了一片紅色。這是加拿大睽違 40 年後的第一場世界盃主場比賽，氣氛熱烈得不像是一場小組賽。\n\nDavies 顯然是最受關注的那個人。開賽第 8 分鐘，他就在左路展現了為什麼 Bayern Munich 會將他視為非賣品——一次加速擺脫防守後的傳中，精準找到禁區內的 Jonathan David。David 的頭槌力量十足，波士尼亞門將只能從網中撿球。1-0。整個 BMO Field 幾乎要炸開。\n\n但波士尼亞的老將們沒有慌張。Dzeko 在第 34 分鐘接到 Pjanic 的角球，在人群中用一種幾乎不可能的角度將球碰進球門——1-1。這名前鋒在 38 歲的年紀，用他最擅長的方式告訴加拿大的年輕人：世界盃不只是靠速度就能贏的。\n\n下半場雙方都有機會，但誰也無法再次改寫比分。1-1 的平局對雙方來說都不是最滿意的結果，但在小組賽的漫長戰役中，各拿一分不是世界末日。",
+    "dramaticMoment": "David 在第 8 分鐘的頭槌破門——Davies 的傳中與 David 的跑位完美配合。",
+    "turningPoint": "Dzeko 在第 34 分鐘的扳平進球——老將用經驗澆熄了地主隊的氣勢。",
+    "quote": "「我們在這裡不只是為了參與。我們想證明加拿大足球已經不一樣了。」——Alphonso Davies"
+  },
+  "oddsDeepDive": "賽前開出平手盤，雙方賠率接近。1-1 的結果讓押和局的賭注獲得約 3.40 倍的回報。大小球 2.5 剛好開小。兩支實力接近的球隊交手，平局是市場和 AI 都預期到的結果。",
+  "boxscoreSummary": "加拿大控球率 55%，8 次射門 4 次射正。波士尼亞控球率 45%，6 次射門 3 次射正。進場人數 32,847。"
+}

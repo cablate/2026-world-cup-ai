@@ -1,0 +1,73 @@
+---
+export interface StoryData {
+  title: string;
+  narrative: string;
+  dramaticMoment: string;
+  turningPoint: string;
+  quote?: string;
+}
+
+export interface Props {
+  story: StoryData;
+}
+
+const { story } = Astro.props;
+const paragraphs = story.narrative.split("\n\n").filter(Boolean);
+---
+
+<div class="rounded-xl border border-border bg-bg-surface overflow-hidden">
+  <!-- Header with accent line -->
+  <div class="h-1 bg-gradient-to-r from-accent via-accent/50 to-transparent"></div>
+
+  <div class="p-6 sm:p-8">
+    <h3 class="font-heading font-bold text-xl sm:text-2xl text-text-primary leading-tight tracking-tight mb-5">
+      {story.title}
+    </h3>
+
+    <div class="space-y-4 mb-6">
+      {paragraphs.map(p => (
+        <p class="text-base sm:text-lg text-text-secondary leading-relaxed tracking-wide">{p}</p>
+      ))}
+    </div>
+
+    <div class="space-y-3">
+      <!-- Dramatic Moment -->
+      <div class="flex gap-3 p-4 rounded-xl bg-draw-bg border border-draw/20">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-draw flex-shrink-0 mt-0.5">
+          <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+        <div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-draw block mb-1">關鍵時刻</span>
+          <span class="text-sm text-text-secondary">{story.dramaticMoment}</span>
+        </div>
+      </div>
+
+      <!-- Turning Point -->
+      <div class="flex gap-3 p-4 rounded-xl bg-accent/5 border border-accent/20">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-accent flex-shrink-0 mt-0.5">
+          <path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+        </svg>
+        <div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-accent block mb-1">比賽轉折</span>
+          <span class="text-sm text-text-secondary">{story.turningPoint}</span>
+        </div>
+      </div>
+
+      <!-- Quote -->
+      {story.quote && (
+        <div class="flex gap-3 p-4 rounded-xl bg-bg-inset border border-border">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted flex-shrink-0 mt-0.5">
+            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21z"/>
+            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+          </svg>
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-text-muted block mb-1">金句</span>
+            <blockquote class="text-sm text-text-primary italic font-medium border-l-2 border-accent pl-3 leading-relaxed">
+              {story.quote}
+            </blockquote>
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</div>

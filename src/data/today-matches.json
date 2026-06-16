@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-16",
+  "matchday": 6,
+  "stage": "Group Stage",
+  "headline": "Messi 最後一舞正式開場！阿根廷 vs 阿爾及利亞 — 衛冕冠軍 France 同時亮相",
+  "matches": [
+    {
+      "id": "760433",
+      "homeTeam": "阿根廷",
+      "awayTeam": "阿爾及利亞",
+      "group": "J",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
+      "kickoff": "2026-06-16T21:00Z",
+      "status": "scheduled",
+      "prediction": {
+        "winner": "home",
+        "confidence": 68,
+        "homeWinPct": 65,
+        "drawPct": 22,
+        "awayWinPct": 13,
+        "predictedScore": "2-0",
+        "overUnder": "under 2.5",
+        "analysis": "阿根廷世界排名第一，衛冕冠軍班底仍在，但主力老化是隱憂。阿爾及利亞防守嚴密，資格賽不敗晉級。",
+        "keyFactor": "阿根廷能否在上半場打破僵局"
+      },
+      "oddsAnalysis": {
+        "provider": "DraftKings",
+        "homeOdds": 1.43,
+        "drawOdds": 4.50,
+        "awayOdds": 7.00,
+        "spread": "-1.5",
+        "overUnder": "2.5",
+        "impliedHomeWinPct": 70,
+        "valueGap": -5,
+        "verdict": "市場對衛冕冠軍信心充足，但讓 1.5 球略深"
+      }
+    },
+    {
+      "id": "760432",
+      "homeTeam": "法國",
+      "awayTeam": "塞內加爾",
+      "group": "I",
+      "venue": "MetLife Stadium, East Rutherford, New Jersey",
+      "kickoff": "2026-06-16T16:00Z",
+      "status": "scheduled",
+      "prediction": {
+        "winner": "home",
+        "confidence": 65,
+        "homeWinPct": 62,
+        "drawPct": 23,
+        "awayWinPct": 15,
+        "predictedScore": "2-1",
+        "overUnder": "over 2.5",
+        "analysis": "法國天賦頂尖，Mbappe 隊長時代首戰。塞內加爾非洲最強之一，反擊有威脅。",
+        "keyFactor": "Mbappe vs 塞內加爾防線的速度對決"
+      },
+      "oddsAnalysis": {
+        "provider": "DraftKings",
+        "homeOdds": 1.49,
+        "drawOdds": 4.00,
+        "awayOdds": 5.50,
+        "spread": "-1.5",
+        "overUnder": "2.5",
+        "impliedHomeWinPct": 67,
+        "valueGap": -5,
+        "verdict": "法國被合理定價，防守不穩讓讓球盤風險偏高"
+      }
+    },
+    {
+      "id": "760430",
+      "homeTeam": "伊拉克",
+      "awayTeam": "挪威",
+      "group": "I",
+      "venue": "Gillette Stadium, Foxborough, Massachusetts",
+      "kickoff": "2026-06-16T13:00Z",
+      "status": "scheduled",
+      "prediction": {
+        "winner": "away",
+        "confidence": 72,
+        "homeWinPct": 12,
+        "drawPct": 18,
+        "awayWinPct": 70,
+        "predictedScore": "0-3",
+        "overUnder": "over 2.5",
+        "analysis": "Haaland 世界盃首秀，挪威攻擊線明顯優於伊拉克。伊拉克首次世界盃經驗不足。",
+        "keyFactor": "Haaland 的終結能力——Man City 神鋒的世界盃首秀"
+      },
+      "oddsAnalysis": {
+        "provider": "DraftKings",
+        "homeOdds": 13.00,
+        "drawOdds": 6.50,
+        "awayOdds": 1.21,
+        "spread": "1.5",
+        "overUnder": "2.5",
+        "impliedHomeWinPct": 7.7,
+        "valueGap": 4.3,
+        "verdict": "市場極度看好挪威，賠率 1.21 無投注價值但反映實力差距"
+      }
+    }
+  ]
+}

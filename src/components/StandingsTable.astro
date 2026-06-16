@@ -1,0 +1,86 @@
+---
+export interface TeamStanding {
+  name: string;
+  flag: string;
+  gp: number;
+  w: number;
+  d: number;
+  l: number;
+  gf: number;
+  ga: number;
+  gd: number;
+  pts: number;
+  status: string;
+}
+
+export interface GroupData {
+  name: string;
+  teams: TeamStanding[];
+  analysis: string;
+}
+
+export interface Props {
+  groups: GroupData[];
+}
+
+const { groups } = Astro.props;
+const activeGroups = groups.filter(g => g.teams.length > 0);
+---
+
+<div class="grid gap-8">
+  {activeGroups.map(group => {
+    const sorted = [...group.teams].sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+    return (
+      <section>
+        <h2 class="font-heading font-bold text-lg text-accent mb-3 tracking-tight">
+          Group {group.name}
+        </h2>
+        <div class="overflow-x-auto max-w-full rounded-xl border border-border bg-bg-surface">
+          <table class="w-full text-[10px] sm:text-sm">
+            <thead>
+              <tr class="border-b border-border">
+                {["#", "隊伍", "賽", "勝", "和", "負", "得", "失", "差", "積分"].map(h => (
+                  <th class="px-1.5 sm:px-3 py-2 sm:py-3 text-[9px] sm:text-xs font-semibold text-text-muted uppercase tracking-wider text-center first:text-left">{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {sorted.map((team, i) => (
+                <tr class={`border-b border-border/50 last:border-0 transition-colors hover:bg-bg-hover/50 ${team.status === "eliminated" ? "opacity-40" : ""}`}>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center text-text-muted font-mono text-[9px] sm:text-xs">{i + 1}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5">
+                    <div class="flex items-center gap-1.5 sm:gap-2.5">
+                      <img src={team.flag} alt={team.name} width="16" height="12" class="sm:w-[20px] sm:h-[15px] rounded-sm object-cover" loading="lazy" />
+                      <span class="font-medium text-text-primary text-[10px] sm:text-sm truncate max-w-[60px] sm:max-w-none">{team.name}</span>
+                      {team.status === "clinched" && (
+                        <span class="inline-flex items-center h-3 sm:h-4 px-1 sm:px-1.5 rounded text-[8px] sm:text-[10px] font-bold bg-win-bg text-win border border-win/20 whitespace-nowrap">晉級</span>
+                      )}
+                      {team.status === "eliminated" && (
+                        <span class="inline-flex items-center h-3 sm:h-4 px-1 sm:px-1.5 rounded text-[8px] sm:text-[10px] font-bold bg-loss-bg text-loss border border-loss/20 whitespace-nowrap">淘汰</span>
+                      )}
+                    </div>
+                  </td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs text-text-secondary">{team.gp}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs text-win">{team.w}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs text-draw">{team.d}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs text-loss">{team.l}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs text-text-secondary">{team.gf}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs text-text-secondary">{team.ga}</td>
+                  <td class={`px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-mono text-[9px] sm:text-xs font-semibold ${
+                    team.gd > 0 ? "text-win" : team.gd < 0 ? "text-loss" : "text-text-muted"
+                  }`}>{team.gd > 0 ? "+" : ""}{team.gd}</td>
+                  <td class="px-1.5 sm:px-3 py-2 sm:py-2.5 text-center font-heading font-bold text-sm sm:text-lg text-text-primary">{team.pts}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {group.analysis && (
+          <p class="mt-2 text-xs text-text-muted leading-relaxed px-3 py-2 rounded-lg bg-bg-inset border border-border">
+            {group.analysis}
+          </p>
+        )}
+      </section>
+    );
+  })}
+</div>

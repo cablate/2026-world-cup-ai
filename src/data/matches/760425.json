@@ -1,0 +1,70 @@
+{
+  "match": {
+    "id": "760425",
+    "homeTeam": "荷蘭",
+    "awayTeam": "日本",
+    "homeScore": 2,
+    "awayScore": 2,
+    "group": "F",
+    "venue": "AT&T Stadium, Arlington, Texas",
+    "date": "2026-06-14",
+    "matchday": 4,
+    "status": "finished",
+    "highlights": "亞洲王者再現！日本兩度落後兩度扳平，2-2 逼平荷蘭"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 62,
+      "homeWinPct": 58,
+      "drawPct": 25,
+      "awayWinPct": 17,
+      "predictedScore": "2-1",
+      "overUnder": "over 2.5",
+      "analysis": "荷蘭 FIFA 排名第 8，防守組織頂級但前鋒是軟肋。日本是亞洲最強，集團紀律與技術兼備。",
+      "keyFactor": "Van Dijk 領銜的防線能否擋住日本的快速傳切"
+    },
+    "postMatchReview": "荷蘭 2-2 日本——荷蘭的防守漏洞完全暴露，日本展現了世界盃常客的韌性。兩度落後兩度扳平，日本足球的底蘊令人尊敬。",
+    "accuracy": "partial"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "荷蘭",
+      "flag": "https://flagcdn.com/w80/nl.png",
+      "fifaRank": 8,
+      "form": ["W", "D", "L", "W", "D"],
+      "keyPlayers": [
+        {"name": "Virgil van Dijk", "role": "後防領袖", "stat": "Liverpool 隊長，世界頂級中衛"},
+        {"name": "Frenkie de Jong", "role": "中場指揮官", "stat": "Barcelona，傷癒回歸"},
+        {"name": "Cody Gakpo", "role": "前場多面手", "stat": "Liverpool，進攻利器"}
+      ],
+      "strength": "後防組織、戰術紀律、Van Dijk 的領導力",
+      "weakness": "缺乏頂級前鋒（自 Van Persie 後）、傷兵潮嚴重",
+      "webSummary": "荷蘭帶著 2022 年對阿根廷的 PK 遺憾來到北美，復仇動機強烈。但傷病問題嚴重——Xavi Simons、de Ligt、Schouten 都因傷缺陣。Frenkie de Jong 的狀態是荷蘭能走多遠的關鍵。防守是荷蘭的傳統強項，但前鋒線缺乏頂級終結者的老問題依然無解。"
+    },
+    "away": {
+      "name": "日本",
+      "flag": "https://flagcdn.com/w80/jp.png",
+      "fifaRank": 18,
+      "form": ["W", "D", "W", "L", "D"],
+      "keyPlayers": [
+        {"name": "Wataru Endo", "role": "防守中場", "stat": "Liverpool 隊長，亞洲最強防守中場"},
+        {"name": "Takefusa Kubo", "role": "進攻核心", "stat": "Real Sociedad，技術頂尖"},
+        {"name": "Kaoru Mitoma", "role": "邊路魔術師", "stat": "Brighton，盤帶過人機器"},
+        {"name": "Ritsu Doan", "role": "超級替補", "stat": "Freiburg，2022 年對德國進球"}
+      ],
+      "strength": "團隊紀律、技術水平、戰術執行力",
+      "weakness": "身體對抗能力、缺乏世界級前鋒",
+      "webSummary": "日本足球已經連續多屆世界盃證明自己是亞洲最強者。2022 年在卡達接連逆轉德國和西班牙的表現震驚世界。Moriyasu 的戰術體系以紀律性和團隊配合為基礎，球員的技術水平普遍高於亞洲平均。Endo 在 Liverpool 的經驗為中場提供了寶貴的穩定性。"
+    }
+  },
+  "story": {
+    "title": "日本魂：兩度落後兩度扳平，2-2 逼平荷蘭",
+    "narrative": "日本足球有一種特質，很難用數據量化——你可以稱之為「日本魂」。\n\nAT&T 球場，攝氏 32 度，德州午後的炎熱對雙方都是考驗。荷蘭在第 15 分鐘就由 Gakpo 禁區內的冷靜射門取得領先。但日本沒有慌張——他們按照自己的節奏，耐心地傳導，等待機會。\n\n第 38 分鐘，機會來了。Mitoma 在左路一次漂亮的過人後傳中，Kubo 在禁區邊緣不停球直接抽射——球貼著草皮鑽進遠角。1-1。\n\n下半場荷蘭再次領先——一次定位球進攻中 Van Dijk 的頭槌讓荷蘭球迷看到了勝利的曙光。然而日本再次展現了他們的韌性。第 78 分鐘，替補上場的 Doan 在禁區混戰中搶點破門——又是他，2022 年對德國進球的那個人。\n\n2-2。比賽結束。荷蘭總教練 Koeman 的臉色說明了一切——作為一支號稱「防守強權」的球隊，兩度領先卻無法守住勝利，這是不可接受的。而日本再度證明：他們有實力在任何對手面前搶分。",
+    "dramaticMoment": "第 78 分鐘 Doan 的搶點破門——又是這個男人，大賽替補殺手。",
+    "turningPoint": "日本下半場開局的戰術調整——加強中場壓迫，不給 de Jong 組織的空間。",
+    "quote": "「兩度落後兩度追平，這不是運氣。這是這支球隊的信念。」——日本總教練 Moriyasu"
+  },
+  "oddsDeepDive": "荷蘭讓 0.5/1 球，大小球 2.5。2-2 的結果讓下盤（日本受讓）過關。日本在 2022 年就展現了「以下克上」的能力，市場依然低估了這支亞洲代表的韌性。",
+  "boxscoreSummary": "荷蘭控球率 55%，18 次射門 7 次射正。日本控球率 45%，12 次射門 5 次射正。"
+}

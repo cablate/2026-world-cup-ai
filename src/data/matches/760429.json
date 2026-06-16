@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": "760429",
+    "homeTeam": "沙烏地阿拉伯", "awayTeam": "烏拉圭",
+    "homeScore": 1, "awayScore": 1,
+    "group": "H", "venue": "Hard Rock Stadium, Miami Gardens, Florida",
+    "date": "2026-06-15", "matchday": 5, "status": "finished",
+    "highlights": "沙烏地再現爆冷體質！1-1 逼平烏拉圭"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "away", "confidence": 60, "homeWinPct": 18, "drawPct": 25, "awayWinPct": 57,
+      "predictedScore": "0-2", "overUnder": "under 2.5",
+      "analysis": "烏拉圭 FIFA 排名 13，Bielsa 的高強度壓迫體系。沙烏地排名 53，Mancini 改造中。烏拉圭實力明顯佔優，但沙烏地在 2022 年爆冷阿根廷的經驗讓他們有底氣。",
+      "keyFactor": "Valverde 的中場引擎 vs 沙烏地的防線紀律"
+    },
+    "postMatchReview": "烏拉圭 1-1 沙烏地——Bielsa 的球隊浪費了 Valverde 的遠射領先，被沙烏地的定位球扳平。烏拉圭 67% 的控球率無法轉化為第二顆進球。沙烏地再次證明了他們的爆冷基因。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "沙烏地阿拉伯", "flag": "https://flagcdn.com/w80/sa.png", "fifaRank": 53,
+      "keyPlayers": [
+        {"name": "Salem Al-Dawsari", "role": "隊長王牌", "stat": "Al Hilal，2022 年對阿根廷進球"},
+        {"name": "Feras Al-Brikan", "role": "前鋒", "stat": "Al Ahli，速度型射手"},
+        {"name": "Mohamed Al-Owais", "role": "門將", "stat": "Al Hilal，2022 年英雄"}
+      ],
+      "strength": "團隊防守、反擊速度、Mancini 的戰術改造",
+      "weakness": "控球能力、個人技術差距、面對高位壓迫的出球",
+      "webSummary": "沙烏地在 2022 年世界盃小組賽爆冷擊敗最終冠軍阿根廷震驚全球，那是隊史最偉大的一場勝利。此後義大利名帥 Roberto Mancini 接手改造球隊，試圖在穩守反擊的基礎上增加更多的控制力。FIFA 排名 53 未能反映他們的爆冷潛力——這支球隊有能力在任何一天讓強隊難堪。H 組有西班牙和烏拉圭，沙烏地的目標是爭取小組第三。"
+    },
+    "away": {
+      "name": "烏拉圭", "flag": "https://flagcdn.com/w80/uy.png", "fifaRank": 13,
+      "keyPlayers": [
+        {"name": "Federico Valverde", "role": "中場引擎", "stat": "Real Madrid，全能中場"},
+        {"name": "Ronald Araujo", "role": "後防鐵閘", "stat": "Barcelona，世界級中衛"},
+        {"name": "Darwin Nunez", "role": "前鋒", "stat": "Liverpool，速度與力量"}
+      ],
+      "strength": "體能壓迫、戰術執行力、Valverde 的全能性",
+      "weakness": "控球穩定性、破密集防守的能力",
+      "webSummary": "烏拉圭在狂人教練 Marcelo Bielsa 的帶領下，踢著全世界體能消耗最大的足球——高位壓迫、快速轉換、不惜體力的奔跑。FIFA 排名 13 驗證了他們的實力。Valverde 是這支球隊的心臟，Araujo 則是防線的基石。但 Bielsa 的體系有一個老問題：當對手擺出鐵桶陣時，烏拉圭的控球缺乏滲透力。H 組有西班牙、沙烏地和 Cape Verde，烏拉圭的目標是在這個實力分散的小組中脫穎而出。"
+    }
+  },
+  "story": {
+    "title": "Mancini 的改造初現：沙烏地 1-1 逼平烏拉圭",
+    "narrative": "Miami 的 Hard Rock 球場之夜。烏拉圭的球迷高唱著歌，期待 Bielsa 的球隊用體能碾壓對手。畢竟——沙烏地阿拉伯，FIFA 排名 53，有什麼好怕的？\n\n但他們可能忘了 2022 年卡達發生的事。\n\n烏拉圭在第 19 分鐘由 Valverde 取得領先——一記禁區外的雷霆遠射，完全展現了這名 Real Madrid 中場的實力。球在飛行中幾乎沒有旋轉，直掛死角。1-0。\n\n按照劇本，接下來應該是一面倒的屠殺。但沙烏地在 Mancini 的組織下展現了令人驚訝的穩定性。他們沒有因為失球而慌亂——沒有壓上、沒有暴露空間、沒有讓烏拉圭的第二次射門出現。\n\n第 36 分鐘，沙烏地最好的機會來了。一次定位球進攻——Al-Dawsari 的精準傳中繞過烏拉圭防線，Al-Brikan 在遠柱頭槌破門。1-1。整個沙烏地替補席沸騰了。\n\n下半場烏拉圭全力壓上，控球率高達 67%，但他們的射門大多來自禁區外的勉強起腳。Araujo 甚至被推上鋒線充當前鋒，但沙烏地的防線在 Mancini 的體系下穩如磐石。\n\n終場哨響，1-1。對烏拉圭來說這是失去的兩分，但對沙烏地來說——在 2022 年爆冷阿根廷之後，他們再次證明沙特足球不是笑話。",
+    "dramaticMoment": "Al-Brikan 的頭槌扳平——沙烏地再次在強隊面前展現了爆冷基因。",
+    "turningPoint": "沙烏地上半場扳平——讓 Bielsa 的中場調整從「怎樣贏更多」變成了「怎樣重新領先」。",
+    "quote": "「Mancini 帶來了紀律。我們不再是 2022 年那支只靠運氣的球隊了。」——沙烏地隊長 Al-Dawsari"
+  },
+  "oddsDeepDive": "烏拉圭讓 1 球，賠率約 1.55。1-1 的結果讓下盤（沙烏地受讓）全贏。烏拉圭在 Bielsa 體系的效率再次受到質疑——67% 的控球率卻只進了 1 球，這不是 Bielsa 足球該有的效率。沙烏地在 Mancini 的改造下，防守組織明顯比 2022 年更有紀律性。",
+  "boxscoreSummary": "沙烏地控球率 33%，5 次射門 2 次射正。烏拉圭控球率 67%，16 次射門 6 次射正。進場人數 57,284。"
+}

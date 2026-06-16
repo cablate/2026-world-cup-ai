@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": "760423",
+    "homeTeam": "象牙海岸", "awayTeam": "厄瓜多",
+    "homeScore": 1, "awayScore": 0,
+    "group": "E", "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania",
+    "date": "2026-06-14", "matchday": 4, "status": "finished",
+    "highlights": "Kessie 世界波！象牙海岸 1-0 厄瓜多"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 50, "homeWinPct": 45, "drawPct": 30, "awayWinPct": 25,
+      "predictedScore": "1-1", "overUnder": "under 2.5",
+      "analysis": "象牙海岸 FIFA 排名 38，非洲傳統強權。厄瓜多排名 31，年輕有活力。雙方實力接近，誰贏都不意外。中場對抗將是決定勝負的關鍵區域。",
+      "keyFactor": "中場對抗——Kessie 的體能 vs Caicedo 的技術"
+    },
+    "postMatchReview": "象牙海岸 1-0 厄瓜多，Kessie 的超級遠射決定了比賽。厄瓜多有多次扳平機會但缺乏門前一擊的效率。象牙海岸在 E 組取得關鍵三分，與德國並列領先。",
+    "accuracy": "partial"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "象牙海岸", "flag": "https://flagcdn.com/w80/ci.png", "fifaRank": 38,
+      "keyPlayers": [
+        {"name": "Franck Kessie", "role": "中場重炮", "stat": "Al Ahli，體能與遠射兼具"},
+        {"name": "Sebastien Haller", "role": "前鋒支點", "stat": "Borussia Dortmund，空中威脅"},
+        {"name": "Wilfried Zaha", "role": "邊路爆破", "stat": "Galatasaray，盤帶能力出眾"}
+      ],
+      "strength": "身體素質、個人能力、Kessie 的中場統治力",
+      "weakness": "戰術紀律、整體配合默契不如歐洲強隊",
+      "webSummary": "象牙海岸是非洲足球的傳統強權，曾在 2023 年拿下非洲盃冠軍。FIFA 排名 38 未能完全反映他們的實力——這批球員在歐洲頂級聯賽踢球的人數眾多。Kessie 與 Haller 是進攻端的關鍵人物，Zaha 則在邊路提供突破能力。E 組有德國、厄瓜多和庫拉索，象牙海岸的目標是與德國競爭小組第一。"
+    },
+    "away": {
+      "name": "厄瓜多", "flag": "https://flagcdn.com/w80/ec.png", "fifaRank": 31,
+      "keyPlayers": [
+        {"name": "Moises Caicedo", "role": "中場核心", "stat": "Chelsea，破億身價南美天才"},
+        {"name": "Pervis Estupinan", "role": "邊路發動機", "stat": "Brighton，攻守兼備"},
+        {"name": "Enner Valencia", "role": "老將前鋒", "stat": "Internacional，隊史進球王"}
+      ],
+      "strength": "年輕活力、中場潛力、體能條件",
+      "weakness": "大賽經驗不足、關鍵時刻把握度",
+      "webSummary": "厄瓜多是南美足壇的新興勢力，Caicedo 以破億英鎊轉會費加盟 Chelsea 證明了這批球員的潛力。FIFA 排名 31 在南美洲已是中堅力量。這支厄瓜多的特點是年輕、體能好、反擊速度快，但經驗不足讓她們在關鍵比賽中經常無法將優勢轉化為勝利。E 組的競爭激烈，每場比賽都是決賽。"
+    }
+  },
+  "story": {
+    "title": "一腳定江山：Kessie 的雷霆遠射助象牙海岸取勝",
+    "narrative": "費城的夜晚，E 組兩支非歐洲球隊正面交鋒。比賽從第一分鐘就充滿了身體對抗——這不是一場技術流的比賽，而是一場關於力量與意志的較量。\n\n上半場雙方各有機會但都未能把握。Caicedo 在 Chelseay 的搭檔—象牙海岸的 Kessie，與他上演了多次精彩的中場對決。兩人的風格截然不同——Caicedo 用技術和視野，Kessie 用體能和力量。\n\n第 67 分鐘，比賽迎來決定性的一刻。Kessie 在禁區外接到隊友的橫傳，他觀察到厄瓜多門將站位稍微靠前——沒有猶豫，直接起腳。球像砲彈一樣飛向球門，在門將反應過來之前已經撞進網內。1-0。\n\n落後的厄瓜多發動了猛烈反撲，Estupinan 在左路不斷衝擊，Valencia 也在禁區內製造了幾次險情。但象牙海岸的防線在壓力下展現了令人驚訝的紀律性，將 1-0 的比分守到了最後。\n\n對象牙海岸來說，這是小組賽最重要的三分——在德國 7-1 大勝庫拉索的同一輪，他們也拿到了應該拿的勝利。",
+    "dramaticMoment": "Kessie 第 67 分鐘的禁區外世界波——力量與技術的完美結合。",
+    "turningPoint": "Kessie 的遠射打破了場上的僵局——在那之前，比賽正在朝 0-0 的方向發展。",
+    "quote": null
+  },
+  "oddsDeepDive": "賽前開出平手盤，賠率接近。1-0 的結果讓押主隊的賭注小有斬獲。大小球 2.5 開小，符合市場預期。兩支實力接近的球隊交手，小比分是最可能的結果。",
+  "boxscoreSummary": "象牙海岸控球率 46%，9 次射門 4 次射正。厄瓜多控球率 54%，10 次射門 3 次射正。"
+}

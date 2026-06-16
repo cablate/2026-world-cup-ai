@@ -1,0 +1,703 @@
+{
+  "date": "2026-06-16",
+  "matchday": 6,
+  "stage": "Group Stage",
+  "groups": [
+    {
+      "name": "A",
+      "teams": [
+        {
+          "name": "South Korea",
+          "flag": "https://flagcdn.com/w80/kr.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Mexico",
+          "flag": "https://flagcdn.com/w80/mx.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 2,
+          "ga": 0,
+          "gd": 2,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Czechia",
+          "flag": "https://flagcdn.com/w80/cz.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "South Africa",
+          "flag": "https://flagcdn.com/w80/za.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 0,
+          "ga": 2,
+          "gd": -2,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": ""
+    },
+    {
+      "name": "B",
+      "teams": [
+        {
+          "name": "Canada",
+          "flag": "https://flagcdn.com/w80/ca.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Qatar",
+          "flag": "https://flagcdn.com/w80/qa.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Switzerland",
+          "flag": "https://flagcdn.com/w80/ch.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Bosnia",
+          "flag": "https://flagcdn.com/w80/ba.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        }
+      ],
+      "analysis": ""
+    },
+    {
+      "name": "C",
+      "teams": [
+        {
+          "name": "Scotland",
+          "flag": "https://flagcdn.com/w80/gb-sct.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Brazil",
+          "flag": "https://flagcdn.com/w80/br.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Morocco",
+          "flag": "https://flagcdn.com/w80/ma.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Haiti",
+          "flag": "https://flagcdn.com/w80/ht.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": ""
+    },
+    {
+      "name": "D",
+      "teams": [
+        {
+          "name": "United States",
+          "flag": "https://flagcdn.com/w80/us.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Australia",
+          "flag": "https://flagcdn.com/w80/au.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 2,
+          "ga": 0,
+          "gd": 2,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Paraguay",
+          "flag": "https://flagcdn.com/w80/py.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Turkey",
+          "flag": "https://flagcdn.com/w80/tr.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 0,
+          "ga": 2,
+          "gd": -2,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": ""
+    },
+    {
+      "name": "E",
+      "teams": [
+        {
+          "name": "Germany",
+          "flag": "https://flagcdn.com/w80/de.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Ivory Coast",
+          "flag": "https://flagcdn.com/w80/ci.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Curacao",
+          "flag": "https://flagcdn.com/w80/cw.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Ecuador",
+          "flag": "https://flagcdn.com/w80/ec.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": ""
+    },
+    {
+      "name": "F",
+      "teams": [
+        {
+          "name": "Sweden",
+          "flag": "https://flagcdn.com/w80/se.png",
+          "gp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gf": 5,
+          "ga": 1,
+          "gd": 4,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "Netherlands",
+          "flag": "https://flagcdn.com/w80/nl.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Japan",
+          "flag": "https://flagcdn.com/w80/jp.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "Tunisia",
+          "flag": "https://flagcdn.com/w80/tn.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 5,
+          "gd": -4,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": ""
+    },
+    {
+      "name": "G",
+      "teams": [
+        {
+          "name": "Belgium",
+          "flag": "https://flagcdn.com/w80/be.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Egypt",
+          "flag": "https://flagcdn.com/w80/eg.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Iran",
+          "flag": "https://flagcdn.com/w80/ir.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "New Zealand",
+          "flag": "https://flagcdn.com/w80/nz.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": "G 組首輪全部戰平。"
+    },
+    {
+      "name": "H",
+      "teams": [
+        {
+          "name": "Spain",
+          "flag": "https://flagcdn.com/w80/es.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Cape Verde",
+          "flag": "https://flagcdn.com/w80/cv.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Uruguay",
+          "flag": "https://flagcdn.com/w80/uy.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Saudi Arabia",
+          "flag": "https://flagcdn.com/w80/sa.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": "H 組首輪冷門頻傳，Spain 0-0 Cape Verde。"
+    },
+    {
+      "name": "I",
+      "teams": [
+        {
+          "name": "France",
+          "flag": "https://flagcdn.com/w80/fr.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Senegal",
+          "flag": "https://flagcdn.com/w80/sn.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Iraq",
+          "flag": "https://flagcdn.com/w80/iq.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Norway",
+          "flag": "https://flagcdn.com/w80/no.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": "I 組 France 將出戰 Senegal。"
+    },
+    {
+      "name": "J",
+      "teams": [
+        {
+          "name": "Argentina",
+          "flag": "https://flagcdn.com/w80/ar.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Algeria",
+          "flag": "https://flagcdn.com/w80/dz.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Austria",
+          "flag": "https://flagcdn.com/w80/at.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Jordan",
+          "flag": "https://flagcdn.com/w80/jo.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": "J 組 Argentina 是最被看好的球隊。"
+    },
+    {
+      "name": "K",
+      "teams": [
+        {
+          "name": "Portugal",
+          "flag": "https://flagcdn.com/w80/pt.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Congo DR",
+          "flag": "https://flagcdn.com/w80/cd.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Ghana",
+          "flag": "https://flagcdn.com/w80/gh.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Panama",
+          "flag": "https://flagcdn.com/w80/pa.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": "K 組首輪 Portugal vs Congo DR。"
+    },
+    {
+      "name": "L",
+      "teams": [
+        {
+          "name": "Croatia",
+          "flag": "https://flagcdn.com/w80/hr.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "England",
+          "flag": "https://flagcdn.com/w80/gb-eng.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Colombia",
+          "flag": "https://flagcdn.com/w80/co.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "Uzbekistan",
+          "flag": "https://flagcdn.com/w80/uz.png",
+          "gp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0,
+          "status": "alive"
+        }
+      ],
+      "analysis": "L 組上半屆四強重賽 Croatia vs England。"
+    }
+  ]
+}

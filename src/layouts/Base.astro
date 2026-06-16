@@ -1,0 +1,30 @@
+---
+import "../styles/global.css";
+
+export interface Props {
+  title: string;
+  description?: string;
+  matchday?: number;
+}
+
+const { title, description, matchday } = Astro.props;
+const pageTitle = matchday ? `${title} — Matchday ${matchday}` : title;
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description || "2026 年世界盃 AI 每日預測與分析"} />
+    <title>{pageTitle} | 2026 AI World Cup</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="flex flex-col min-h-[100dvh] overflow-x-hidden">
+    <slot name="header" />
+    <main class="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+      <slot />
+    </main>
+    <slot name="footer" />
+  </body>
+</html>

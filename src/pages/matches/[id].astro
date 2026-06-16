@@ -1,0 +1,165 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import RingGauge from "../../components/RingGauge.astro";
+import TeamAnalysis from "../../components/TeamAnalysis.astro";
+import StorySection from "../../components/StorySection.astro";
+import OddsAnalysis from "../../components/OddsAnalysis.astro";
+
+import path from "path";
+import fs from "fs";
+
+export async function getStaticPaths() {
+  const matchesDir = path.resolve("src/data/matches");
+  const files = fs.readdirSync(matchesDir).filter(f => f.endsWith(".json"));
+  return files.map(f => {
+    const id = f.replace(".json", "");
+    const data = JSON.parse(fs.readFileSync(path.join(matchesDir, f), "utf-8"));
+    return { params: { id }, props: data };
+  });
+}
+
+const d = Astro.props;
+const m = d.match;
+const pred = d.prediction;
+const analysis = d.teamAnalysis;
+const isFinished = m.status === "finished";
+const isLive = m.status === "live";
+const statusText = isFinished ? "已結束" : isLive ? "進行中" : "即將開賽";
+const statusColor = isFinished ? "bg-bg-hover text-text-muted" : isLive ? "bg-win-bg text-win" : "bg-draw-bg text-draw";
+---
+
+<Base title={`${m.homeTeam} vs ${m.awayTeam}`}>
+  <Header slot="header" />
+
+  <!-- Breadcrumb -->
+  <div class="flex items-center gap-2 text-xs text-text-muted mb-6 mt-2">
+    <a href="/" class="text-accent hover:opacity-80 transition-opacity">今日賽程</a>
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted/50">
+      <path d="M9 18l6-6-6-6"/>
+    </svg>
+    <span>Group {m.group}</span>
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted/50">
+      <path d="M9 18l6-6-6-6"/>
+    </svg>
+    <span class="text-text-secondary">{m.homeTeam} vs {m.awayTeam}</span>
+  </div>
+
+  <!-- Scoreboard hero -->
+  <div class="relative overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-bg-elevated via-bg-surface to-bg-deep p-4 sm:p-10 mb-8">
+    <!-- Accent decoration -->
+    <div class="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-accent via-accent/50 to-transparent"></div>
+
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-10">
+      <!-- Home team -->
+      <div class="flex flex-col items-center sm:items-end flex-1 min-w-0 order-2 sm:order-1">
+        <span class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-widest text-text-muted mb-0.5 sm:mb-1">主隊</span>
+        <span class="font-heading font-extrabold text-lg sm:text-3xl text-text-primary truncate max-w-full">{m.homeTeam}</span>
+      </div>
+
+      <!-- Score/Status -->
+      <div class="flex flex-col items-center gap-1 sm:gap-2 flex-shrink-0 order-1 sm:order-2">
+        <div class="flex items-center gap-3 sm:gap-4">
+          <span class="font-heading font-extrabold text-4xl sm:text-6xl text-accent tracking-tight">{m.homeScore}</span>
+          <span class="text-lg sm:text-xl text-text-muted font-heading font-bold">:</span>
+          <span class="font-heading font-extrabold text-4xl sm:text-6xl text-win tracking-tight">{m.awayScore}</span>
+        </div>
+        <span class={`inline-flex items-center h-5 sm:h-6 px-2 sm:px-3 rounded-full text-[10px] sm:text-xs font-semibold ${statusColor}`}>
+          {statusText}
+        </span>
+        <span class="text-[10px] sm:text-xs text-text-muted text-center px-2">{m.venue}</span>
+      </div>
+
+      <!-- Away team -->
+      <div class="flex flex-col items-center sm:items-start flex-1 min-w-0 order-3">
+        <span class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-widest text-text-muted mb-0.5 sm:mb-1">客隊</span>
+        <span class="font-heading font-extrabold text-lg sm:text-3xl text-text-primary truncate max-w-full">{m.awayTeam}</span>
+      </div>
+    </div>
+
+    <!-- Highlights banner -->
+    {m.highlights && (
+      <div class="mt-4 sm:mt-6 mx-auto max-w-xl text-center px-2">
+        <div class="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-draw-bg border border-draw/20">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-draw sm:w-[14px] sm:h-[14px]">
+            <path d="M12 2l2.4 7.2L22 9.6l-5.6 4.8 1.6 7.2L12 17.6 6 21.6l1.6-7.2L2 9.6l7.6-.4L12 2z"/>
+          </svg>
+          <span class="text-xs sm:text-sm font-medium text-draw">{m.highlights}</span>
+        </div>
+      </div>
+    )}
+  </div>
+
+  <!-- Prediction review section -->
+  <section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+      <h2 class="font-heading font-bold text-lg text-text-primary">預測覆盤</h2>
+      <span class={`text-[11px] font-semibold px-2.5 py-0.5 rounded-full border ${
+        pred.accuracy === "correct"
+          ? "bg-win-bg text-win border-win/20"
+          : pred.accuracy === "partial"
+          ? "bg-draw-bg text-draw border-draw/20"
+          : "bg-loss-bg text-loss border-loss/20"
+      }`}>
+        {pred.accuracy === "correct" ? "正確" : pred.accuracy === "partial" ? "部分正確" : "失準"}
+      </span>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-4">
+      <!-- Pre-match prediction -->
+      <div class="rounded-xl border border-border bg-bg-surface p-5">
+        <h3 class="text-[11px] font-semibold uppercase tracking-widest text-text-muted mb-4">賽前預測</h3>
+        <div class="flex justify-center mb-4">
+          <RingGauge
+            homeWinPct={pred.preMatchPrediction.homeWinPct}
+            drawPct={pred.preMatchPrediction.drawPct}
+            awayWinPct={pred.preMatchPrediction.awayWinPct}
+            size="md"
+          />
+        </div>
+        <div class="space-y-2">
+          {[
+            { label: "預測比數", value: pred.preMatchPrediction.predictedScore },
+            { label: "預測勝隊", value: pred.preMatchPrediction.winner === "home" ? m.homeTeam : pred.preMatchPrediction.winner === "away" ? m.awayTeam : "平局" },
+            { label: "大小球", value: pred.preMatchPrediction.overUnder },
+          ].map(item => (
+            <div class="flex justify-between items-center text-sm py-1.5 border-b border-border/50 last:border-0">
+              <span class="text-text-muted">{item.label}</span>
+              <span class="font-semibold text-text-primary font-mono">{item.value}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Post-match review -->
+      <div class="rounded-xl border border-border bg-bg-surface p-5">
+        <h3 class="text-[11px] font-semibold uppercase tracking-widest text-text-muted mb-4">賽後檢討</h3>
+        <p class="text-sm text-text-secondary leading-relaxed">{pred.postMatchReview}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Analysis -->
+  <section class="mb-10">
+    <h2 class="font-heading font-bold text-lg text-text-primary mb-5">隊伍分析</h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <TeamAnalysis team={analysis.home} side="home" />
+      <TeamAnalysis team={analysis.away} side="away" />
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="mb-10">
+    <h2 class="font-heading font-bold text-lg text-text-primary mb-5">比賽故事</h2>
+    <StorySection story={d.story} />
+  </section>
+
+  <!-- Odds & Stats -->
+  <section class="mb-10">
+    <h2 class="font-heading font-bold text-lg text-text-primary mb-5">數據與賠率</h2>
+    <OddsAnalysis oddsDeepDive={d.oddsDeepDive} boxscoreSummary={d.boxscoreSummary} />
+  </section>
+
+  <Footer slot="footer" />
+</Base>

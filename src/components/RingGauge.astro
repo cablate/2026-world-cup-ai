@@ -1,0 +1,88 @@
+---
+export interface Props {
+  homeWinPct: number;
+  drawPct: number;
+  awayWinPct: number;
+  size?: "sm" | "md" | "lg";
+}
+
+const { homeWinPct, drawPct, awayWinPct, size = "md" } = Astro.props;
+
+const dim = size === "sm" ? 64 : size === "lg" ? 140 : 96;
+const stroke = size === "sm" ? 4 : size === "lg" ? 8 : 6;
+const radius = (dim - stroke) / 2;
+const circ = 2 * Math.PI * radius;
+const center = dim / 2;
+
+// Arc lengths for each segment (ordered: home, draw, away)
+// SVG stroke-dasharray uses: offset, length
+const homeLen = (homeWinPct / 100) * circ;
+const drawLen = (drawPct / 100) * circ;
+const awayLen = (awayWinPct / 100) * circ;
+
+// Positions: home from top (0 deg), draw after home, away after draw
+// SVG arc starts at 3 o'clock and goes clockwise
+// We want to start from 12 o'clock (-90 deg)
+const startOffset = -circ * 0.25; // rotate to start at top
+const homeOffset = startOffset;
+const drawOffset = homeOffset + homeLen;
+const awayOffset = drawOffset + drawLen;
+
+const fontSize = size === "sm" ? 11 : size === "lg" ? 22 : 15;
+const labelSize = size === "sm" ? 7 : size === "lg" ? 11 : 9;
+---
+
+<svg width={dim} height={dim} viewBox={`0 0 ${dim} ${dim}`} class="ring-gauge">
+  <!-- Background ring -->
+  <circle cx={center} cy={center} r={radius} fill="none" stroke="currentColor" stroke-width={stroke} class="text-border opacity-50" />
+
+  <!-- Home (accent) -->
+  <circle
+    cx={center} cy={center} r={radius}
+    fill="none"
+    stroke="currentColor"
+    stroke-width={stroke}
+    stroke-linecap="round"
+    class="text-accent"
+    stroke-dasharray={`${homeLen} ${circ - homeLen}`}
+    stroke-dashoffset={homeOffset}
+    transform={`rotate(-90 ${center} ${center})`}
+    style="transition: stroke-dasharray 0.6s ease"
+  />
+
+  <!-- Draw (amber) -->
+  <circle
+    cx={center} cy={center} r={radius}
+    fill="none"
+    stroke="currentColor"
+    stroke-width={stroke}
+    stroke-linecap="round"
+    class="text-draw"
+    stroke-dasharray={`${drawLen} ${circ - drawLen}`}
+    stroke-dashoffset={drawOffset}
+    transform={`rotate(-90 ${center} ${center})`}
+    style="transition: stroke-dasharray 0.6s ease"
+  />
+
+  <!-- Away (win-green) -->
+  <circle
+    cx={center} cy={center} r={radius}
+    fill="none"
+    stroke="currentColor"
+    stroke-width={stroke}
+    stroke-linecap="round"
+    class="text-win"
+    stroke-dasharray={`${awayLen} ${circ - awayLen}`}
+    stroke-dashoffset={awayOffset}
+    transform={`rotate(-90 ${center} ${center})`}
+    style="transition: stroke-dasharray 0.6s ease"
+  />
+
+  <!-- Center text -->
+  <text x={center} y={center - fontSize * 0.15} text-anchor="middle" fill="currentColor" font-size={fontSize} font-weight="700" font-family="'JetBrains Mono', monospace" class="text-text-primary">
+    {homeWinPct}%
+  </text>
+  <text x={center} y={center + fontSize * 0.45} text-anchor="middle" fill="currentColor" font-size={labelSize} class="text-text-muted">
+    主勝
+  </text>
+</svg>

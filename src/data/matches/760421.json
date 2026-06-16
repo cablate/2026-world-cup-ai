@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": "760421",
+    "homeTeam": "澳洲", "awayTeam": "土耳其",
+    "homeScore": 2, "awayScore": 0,
+    "group": "D", "venue": "BC Place, Vancouver, Canada",
+    "date": "2026-06-14", "matchday": 4, "status": "finished",
+    "highlights": "控球不等於贏球！澳洲 2-0 反擊教科書擊敗土耳其"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "away", "confidence": 52, "homeWinPct": 25, "drawPct": 28, "awayWinPct": 47,
+      "predictedScore": "0-1", "overUnder": "under 2.5",
+      "analysis": "土耳其 FIFA 排名 28，中場天賦優於澳洲。澳洲排名 39，務實反擊足球。土耳其的主導控球不一定能轉化為進球，而澳洲的反擊效率不容小覷。",
+      "keyFactor": "Calhanoglu 的創造力 vs 澳洲的防守紀律"
+    },
+    "postMatchReview": "澳洲 2-0 土耳其——精彩的戰術示範。土耳其控球 60% 卻輸了 0-2，澳洲靠一次反擊一次定位球高效取勝。土耳其的防守紀律問題再次浮現。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "澳洲", "flag": "https://flagcdn.com/w80/au.png", "fifaRank": 39,
+      "keyPlayers": [
+        {"name": "Nestory Irankunda", "role": "年輕飛翼", "stat": "Bayern Munich，18 歲身價 800 萬"},
+        {"name": "Mathew Ryan", "role": "門將隊長", "stat": "AZ Alkmaar，116 場國家隊經驗"},
+        {"name": "Harry Souttar", "role": "後防高塔", "stat": "Leicester City，198 公分空中優勢"}
+      ],
+      "strength": "體能對抗、定位球、防守組織紀律",
+      "weakness": "技術層面、控球能力、創造力依賴反擊",
+      "webSummary": "澳洲以務實的防守反擊足球著稱，體能出色且定位球戰術成熟。FIFA 排名 39 在亞洲已是頂尖，但在世界盃層級仍是挑戰者角色。Irankunda 是 Bayern Munich 從澳洲挖走的超級天才，他的邊路速度是澳洲反擊的最大武器。澳洲在小組賽的策略非常明確：對強隊穩守，對實力接近的對手靠反擊與定位球決勝負。"
+    },
+    "away": {
+      "name": "土耳其", "flag": "https://flagcdn.com/w80/tr.png", "fifaRank": 28,
+      "keyPlayers": [
+        {"name": "Hakan Calhanoglu", "role": "中場指揮官", "stat": "Inter Milan，自由球專家"},
+        {"name": "Kenan Yildiz", "role": "新星前鋒", "stat": "Juventus，19 歲天才"},
+        {"name": "Merih Demiral", "role": "後防悍將", "stat": "Al Ahli，身體對抗型"}
+      ],
+      "strength": "中場創造力、Calhanoglu 的關鍵傳球、年輕天賦",
+      "weakness": "防守紀律、情緒管理、穩定性不足",
+      "webSummary": "土耳其擁有 Calhanoglu 領銜的技術型中場，以及 Yildiz 這樣的超新星。但這支球隊的長期問題從未解決——他們可以逼平強隊，也可以莫名其妙地輸給弱旅。D 組的對手有地主國美國和務實的澳洲，土耳其需要在小組賽展現出與天賦匹配的穩定性，否則又會是一次令人失望的世界盃之旅。"
+    }
+  },
+  "story": {
+    "title": "反擊教科書：澳洲 2-0 土耳其的戰術完勝",
+    "narrative": "Vancouver 的 BC Place，土耳其從第一分鐘就掌握了控球權。Calhanoglu 在中場悠閒地分球、組織、調度——一切看起來都在他們的掌控之中。\n\n但澳洲不在意控球率。他們在意的是：當你有球的時候，你能拿我們怎麼辦？\n\n土耳其的答案是什麼也辦不到。他們全場控球率將近 60%，但在澳洲禁區內的觸球次數屈指可數。澳洲的防線保持著完美的緊湊度——每個土耳其球員拿球時，都會發現自己至少被兩名澳洲球員包圍。\n\n第 34 分鐘，澳洲的耐心得到了回報。一次乾淨俐落的斷球後，Irankunda 在右路接球——土耳其的防線還沒來得及回位，這名 18 歲的 Bayern 天才已經甩開防守者，低傳中路。前鋒輕鬆推射破門。1-0。\n\n下半場土耳其加強了攻勢，但反而露出了更多防守空檔。第 72 分鐘，澳洲在一次角球進攻中，Souttar 用他 198 公分的身高優勢頭槌破門——2-0。\n\n終場哨響，土耳其球員的表情寫滿了茫然。他們控球 60%，傳球次數是澳洲的兩倍，但輸了 0-2。對澳洲來說，這是一場教科書級的戰術執行。對土耳其來說，這是一個痛苦但必要的教訓——控球不會自動贏得比賽。",
+    "dramaticMoment": "Irankunda 第 34 分鐘的高速突破——18 歲天才在世界盃的第一次閃光。",
+    "turningPoint": "澳洲的進球來得比預期早——土耳其被迫更積極壓上，露出更多防守空檔。",
+    "quote": "「我們不介意讓對手控球。我們介意的是他們在我們的禁區拿到球。」——澳洲總教練 Popovic"
+  },
+  "oddsDeepDive": "土耳其讓 0.5 球（賠率約 1.75），市場看好土耳其取勝。2-0 的結果是冷門——土耳其不但沒贏，還輸了兩個。這場比賽是足球博弈的經典教材：控球率、傳球次數、射門數這些「漂亮數據」不等於贏球。澳洲的團隊防守 + 反擊效率，在實際創造的得分機會上遠優於土耳其。",
+  "boxscoreSummary": "澳洲控球率 40%，7 次射門 4 次射正，傳球成功率 68%。土耳其控球率 60%，13 次射門 4 次射正，傳球成功率 84%。進場人數 38,421。"
+}

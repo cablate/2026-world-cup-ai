@@ -1,0 +1,20 @@
+{
+  "name": "2026-world-cup-content",
+  "version": "1.0.0",
+  "description": "2026 世界盃 AI 每日預測 + 故事短文 — Astro 靜態站",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "generate": "echo 'TODO: run AI generation pipeline, write data files, then astro build'"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/noto-sans-tc": "^5.2.9",
+    "@fontsource/plus-jakarta-sans": "^5.2.8",
+    "@tailwindcss/vite": "^4.3.1",
+    "astro": "^6.4.7",
+    "tailwindcss": "^4.3.1"
+  }
+}

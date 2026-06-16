@@ -1,0 +1,37 @@
+---
+export interface Props {
+  matchday?: number;
+}
+
+const { matchday } = Astro.props;
+---
+
+<header class="fixed top-0 left-0 right-0 z-50 bg-bg-deep/90 backdrop-blur-xl border-b border-border">
+  <!-- Subtle accent glow line -->
+  <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/20 to-transparent"></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-1.5 sm:gap-2.5 no-underline hover:opacity-80 transition-opacity">
+      <!-- Football icon as SVG -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-accent sm:w-[22px] sm:h-[22px]">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07" />
+        <circle cx="12" cy="12" r="4" />
+      </svg>
+      <span class="font-heading font-bold text-sm sm:text-base text-text-primary tracking-tight">AI World Cup</span>
+    </a>
+
+    <nav class="flex items-center gap-2 sm:gap-6">
+      <a href="/" class="text-xs sm:text-sm font-medium text-text-secondary hover:text-text-primary transition-colors no-underline whitespace-nowrap">
+        今日賽程
+      </a>
+      <a href="/standings" class="text-xs sm:text-sm font-medium text-text-secondary hover:text-text-primary transition-colors no-underline whitespace-nowrap">
+        排名
+      </a>
+      {matchday && (
+        <span class="hidden sm:inline-flex items-center h-6 px-2.5 rounded-full bg-accent/10 text-accent text-xs font-semibold font-mono tracking-wide">
+          MD {matchday}
+        </span>
+      )}
+    </nav>
+  </div>
+</header>

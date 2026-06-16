@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": "760420",
+    "homeTeam": "卡達", "awayTeam": "瑞士",
+    "homeScore": 1, "awayScore": 1,
+    "group": "B", "venue": "Levi's Stadium, Santa Clara, California",
+    "date": "2026-06-13", "matchday": 3, "status": "finished",
+    "highlights": "四年脫胎換骨！卡達 1-1 逼平瑞士證明自己"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "away", "confidence": 55, "homeWinPct": 20, "drawPct": 28, "awayWinPct": 52,
+      "predictedScore": "0-2", "overUnder": "under 2.5",
+      "analysis": "瑞士 FIFA 排名 16，大賽經驗豐富，Xhaka 領軍的中場控制力佳。卡達排名 46，2022 年主辦時三戰全敗後徹底重建。瑞士實力明顯佔優，但卡達的進步幅度可能被市場低估。",
+      "keyFactor": "Xhaka 的中場控制 vs 卡達的團隊防守紀律"
+    },
+    "postMatchReview": "卡達 1-1 瑞士——四年來的重建在一場比賽中得到了驗證。Afif 的弧線球進球證明了卡達不只是會防守。瑞士雖然掌握場面優勢，但缺乏破密集防守的手段再次暴露。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "卡達", "flag": "https://flagcdn.com/w80/qa.png", "fifaRank": 46,
+      "keyPlayers": [
+        {"name": "Akram Afif", "role": "進攻核心", "stat": "Al Sadd，亞洲盃 MVP"},
+        {"name": "Almoez Ali", "role": "前鋒", "stat": "Al Sadd，亞洲盃金靴"},
+        {"name": "Bassam Al-Rawi", "role": "後防領袖", "stat": "Al Ahli，定位球威脅"}
+      ],
+      "strength": "團隊默契、亞洲盃冠軍經驗、四年的體系磨合",
+      "weakness": "頂級賽事強度適應、個人能力天花板",
+      "webSummary": "2022 年主辦世界盃三戰全敗的慘痛經驗，讓卡達足球進行了徹底的改革。他們沒有原地踏步——聘請外籍教練改造戰術體系、增加球員旅歐經驗、在亞洲盃證明自己。Afif 與 Ali 的進攻組合在亞洲層級無解，但在世界盃能否複製是最大考驗。B 組有瑞士、加拿大和 Bosnia，對卡達來說不是不可能出線的分組。"
+    },
+    "away": {
+      "name": "瑞士", "flag": "https://flagcdn.com/w80/ch.png", "fifaRank": 16,
+      "keyPlayers": [
+        {"name": "Granit Xhaka", "role": "中場指揮官", "stat": "Bayer Leverkusen，德甲冠軍"},
+        {"name": "Manuel Akanji", "role": "後防領袖", "stat": "Man City，歐冠冠軍"},
+        {"name": "Breel Embolo", "role": "前鋒支點", "stat": "Monaco，速度與力量"}
+      ],
+      "strength": "戰術紀律、團隊防守、大賽穩定性",
+      "weakness": "缺乏世界級前鋒、破密集防守能力不足",
+      "webSummary": "瑞士是世界盃最穩定的球隊之一——過去五屆大賽四次打進淘汰賽。FIFA 排名 16 絕非偶然，Xhaka 與 Akanji 構建的中軸線極具經驗。但「瑞士軍刀」缺乏一名真正的頂級前鋒是長期以來的軟肋——Embolo 有速度有力量，但進球穩定性不足。面對卡達這種鐵桶陣，瑞士的進攻效率將受到考驗。"
+    }
+  },
+  "story": {
+    "title": "救贖之夜：卡達 1-1 瑞士，四年重建的成果",
+    "narrative": "2022 年卡達世界盃，地主國在小組賽三戰全敗，被譏為「史上最弱主辦國」。那是卡達足球最黑暗的時刻。\n\n四年後，同一個國家的同一批球員，站在加州的 Levi's Stadium，面對 FIFA 排名第 16 的瑞士。沒有人看好他們。賠率顯示瑞士勝率超過 55%，卡達贏球的賠率高達 5.50。\n\n比賽的走向一開始確實如市場預期。瑞士在上半場第 32 分鐘取得領先——Xhaka 在禁區外的遠射打在卡達後衛身上折射入網，帶有運氣成分，但領先就是領先。\n\n但這支卡達不一樣了。他們沒有像 2022 年那樣崩盤。下半場開始後，卡達明顯加強了中場壓迫，不讓 Xhaka 從容組織。第 67 分鐘，Afif 在禁區邊緣接到隊友的橫傳，他沒有停球，直接起腳——一記弧線球越過瑞士門將的指尖，精準鑽進球門上角。1-1。\n\n終場哨響時，卡達球員跪在草皮上——不是因為累，是因為情緒。四年來的一切努力，從亞洲盃冠軍到世界盃的每一堂訓練課，都在這 90 分鐘裡得到了回報。",
+    "dramaticMoment": "Afif 第 67 分鐘的弧線球破門——那不僅是一顆進球，是整個國家的救贖。",
+    "turningPoint": "卡達下半場的戰術調整——增加中場人數壓迫 Xhaka，切斷瑞士的攻勢發動機。",
+    "quote": "「我們這四年來一直在等待這個時刻。證明我們不配被嘲笑。」——卡達總教練 Marquez"
+  },
+  "oddsDeepDive": "瑞士讓 0.5/1 球（賠率約 1.65），市場合理看好瑞士取勝。1-1 的結果讓下盤（卡達受讓 +0.75）全贏。這是典型的「強隊讓球淺盤卻贏不了」的案例——市場對瑞士的定價合理，但忽略了一件事：卡達已經不是四年前那支球隊了。",
+  "boxscoreSummary": "卡達控球率 42%，7 次射門 3 次射正。瑞士控球率 58%，12 次射門 5 次射正。進場人數 51,248。"
+}

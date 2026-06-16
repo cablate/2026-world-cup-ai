@@ -1,0 +1,70 @@
+{
+  "match": {
+    "id": "760419",
+    "homeTeam": "巴西",
+    "awayTeam": "摩洛哥",
+    "homeScore": 1,
+    "awayScore": 1,
+    "group": "C",
+    "venue": "MetLife Stadium, East Rutherford, New Jersey",
+    "date": "2026-06-13",
+    "matchday": 3,
+    "status": "finished",
+    "highlights": "巴西首戰受阻，摩洛哥展現四強實力 1-1 逼平森巴軍團"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 70,
+      "homeWinPct": 65,
+      "drawPct": 22,
+      "awayWinPct": 13,
+      "predictedScore": "2-0",
+      "overUnder": "under 2.5",
+      "analysis": "巴西 FIFA 排名第 6，Ancelotti 首位外籍教練。摩洛哥是 2022 年大黑馬，防守組織頂級。",
+      "keyFactor": "Vinicius Jr 能否突破摩洛哥的嚴密防線"
+    },
+    "postMatchReview": "巴西 1-1 摩洛哥——摩洛哥再次證明 2022 年絕非偶然。Vinicius Jr 在國家隊依然找不到進球感覺（對強隊 0 球 0 助攻的紀錄持續中），巴西的進攻顯得雜亂無章。",
+    "accuracy": "incorrect"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "巴西",
+      "flag": "https://flagcdn.com/w80/br.png",
+      "fifaRank": 6,
+      "form": ["D", "W", "L", "W", "D"],
+      "keyPlayers": [
+        {"name": "Vinicius Jr", "role": "邊路爆點", "stat": "Real Madrid，但在國家隊表現掙扎"},
+        {"name": "Neymar", "role": "傳奇 10 號", "stat": "34 歲，隊史進球王，爭議性入選"},
+        {"name": "Rodrygo", "role": "多面手", "stat": "Real Madrid，鋒線全能"},
+        {"name": "Raphinha", "role": "邊鋒", "stat": "Barcelona，突破能力出眾"}
+      ],
+      "strength": "進攻天賦、邊路速度、歷史底蘊",
+      "weakness": "防守組織、戰術穩定性、Neymar 健康疑慮",
+      "webSummary": "巴西在義大利名帥 Carlo Ancelotti 的帶領下迎來首位外籍總教練。資格賽表現跌撞，僅以第 5 名晉級——但巴西人喜歡提醒你：2002 年他們也是跌撞晉級，最後拿了冠軍。Vinicius Jr 在皇馬是世界級，但在巴西隊始終無法複製俱樂部的表現（對強隊 0 球 0 助攻），這是 Ancelotti 必須解決的難題。"
+    },
+    "away": {
+      "name": "摩洛哥",
+      "flag": "https://flagcdn.com/w80/ma.png",
+      "fifaRank": 12,
+      "form": ["D", "W", "D", "W", "L"],
+      "keyPlayers": [
+        {"name": "Achraf Hakimi", "role": "邊衛發動機", "stat": "PSG，世界最佳右後衛之一"},
+        {"name": "Hakim Ziyech", "role": "創造核心", "stat": "Galatasaray，自由球專家"},
+        {"name": "Sofyan Amrabat", "role": "防守屏障", "stat": "Fenerbahce，2022 年大放異彩"}
+      ],
+      "strength": "防守組織、反擊速度、團隊凝聚力",
+      "weakness": "持球進攻能力不足、板凳深度有限",
+      "webSummary": "摩洛哥在 2022 年世界盃上創造了非洲足球的歷史——成為第一支打進四強的非洲球隊。那屆比賽中他們的防守組織讓全球驚艷（僅失一球，還是烏龍球）。Hakimi 與 Ziyech 是進攻端的關鍵人物，但真正讓摩洛哥強大的是他們的團隊防守。這支摩洛哥依然是任何強隊都不想在淘汰賽遇到的對手。"
+    }
+  },
+  "story": {
+    "title": "摩洛哥魔法再現：1-1 逼平五星巴西",
+    "narrative": "2022 年卡達世界盃，摩洛哥讓全世界跌破眼鏡。他們淘汰了比利時、西班牙、葡萄牙——三支歐洲頂級強權。當時很多人說那是「偶然」。\n\n2026 年 6 月 13 日，紐澤西的 MetLife 球場，摩洛哥再次證明：那不是偶然。\n\n巴西在上半場由 Raphinha 率先破門——一次漂亮的邊路配合後的低射遠角。但摩洛哥沒有慌張。他們維持著那套令人窒息的防守體系——防線緊湊、中場回收、邊後衛緊貼巴西的邊鋒。Vinicius Jr 整場比賽被 Hakimi 和雙人包夾守得毫無脾氣。\n\n下半場第 67 分鐘，摩洛哥的耐心得到了回報。Ziyech 的角球精準找到後點的 El Yamiq，一記強力頭槌——巴西門將只能目送球進網。1-1。\n\n終場哨響時，巴西球員的表情寫滿了沮喪——他們對摩洛哥的防守完全束手無策。而摩洛哥再次證明，他們是世界上防守最好的球隊之一。",
+    "dramaticMoment": "Ziyech 在第 67 分鐘的精準角球助攻 El Yamiq 頭槌破網——摩洛哥替補席集體衝入場內。",
+    "turningPoint": "上半場巴西進球後未能迅速擴大比分，讓摩洛哥站穩了腳步。",
+    "quote": "「我們不是黑馬，我們是來競爭的。」——摩洛哥總教練 Regragui"
+  },
+  "oddsDeepDive": "巴西讓 0.5/1 球，大小球 2.5。1-1 的結果讓下盤（摩洛哥受讓）順利過關。市場過去低估摩洛哥的實力已經不是第一次了——2022 年對比利時和西班牙的比賽也是同樣的劇本。",
+  "boxscoreSummary": "巴西控球率 61%，12 次射門 5 次射正。摩洛哥控球率 39%，8 次射門 3 次射正。"
+}

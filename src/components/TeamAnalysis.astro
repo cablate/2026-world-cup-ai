@@ -1,0 +1,94 @@
+---
+export interface KeyPlayer {
+  name: string;
+  role: string;
+  stat: string;
+}
+
+export interface TeamData {
+  name: string;
+  flag: string;
+  fifaRank: number;
+  form: string[];
+  keyPlayers: KeyPlayer[];
+  strength: string;
+  weakness: string;
+  webSummary: string;
+}
+
+export interface Props {
+  team: TeamData;
+  side: "home" | "away";
+}
+
+const { team, side } = Astro.props;
+
+const formMap: Record<string, string> = { W: "勝", D: "平", L: "負" };
+const formColors: Record<string, string> = {
+  W: "bg-win-bg text-win border-win/20",
+  D: "bg-draw-bg text-draw border-draw/20",
+  L: "bg-loss-bg text-loss border-loss/20",
+};
+---
+
+<div class="rounded-xl border border-border bg-bg-surface p-5">
+  <!-- Header -->
+  <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center gap-3">
+      <span class="text-[11px] font-semibold uppercase tracking-wider text-text-muted">
+        {side === "home" ? "主隊" : "客隊"}
+      </span>
+      <span class="font-heading font-bold text-xl text-text-primary">{team.name}</span>
+      <span class="text-xs font-mono font-semibold text-text-muted bg-bg-hover px-2 py-0.5 rounded">
+        FIFA #{team.fifaRank}
+      </span>
+    </div>
+    <div class="flex gap-1">
+      {(team.form || []).map(f => (
+        <span class={`inline-flex items-center justify-center w-6 h-6 rounded text-[10px] font-bold border ${formColors[f] || "bg-bg-inset text-text-muted border-border"}`}
+              title={formMap[f] || f}>
+          {f}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <!-- Key Players -->
+  <div class="mb-4">
+    <h4 class="text-[11px] font-semibold uppercase tracking-wider text-text-muted mb-2">關鍵球員</h4>
+    <div class="space-y-1.5">
+      {(team.keyPlayers || []).map(p => (
+        <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 text-sm">
+          <span class="font-medium text-text-primary">{p.name}</span>
+          <div class="flex items-center gap-2 text-xs">
+            <span class="text-text-muted whitespace-nowrap">{p.role}</span>
+            <span class="text-accent font-mono">{p.stat}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Strengths/Weaknesses -->
+  <div class="grid grid-cols-2 gap-2 mb-4">
+    <div class="p-2.5 sm:p-3 rounded-lg bg-win-bg border border-win/20">
+      <span class="block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-win mb-0.5">優勢</span>
+      <span class="text-[11px] sm:text-xs text-win/90 leading-relaxed">{team.strength}</span>
+    </div>
+    <div class="p-2.5 sm:p-3 rounded-lg bg-loss-bg border border-loss/20">
+      <span class="block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-loss mb-0.5">劣勢</span>
+      <span class="text-[11px] sm:text-xs text-loss/90 leading-relaxed">{team.weakness}</span>
+    </div>
+  </div>
+
+  <!-- Web Summary -->
+  <div class="p-3 rounded-lg bg-bg-inset border border-border">
+    <h4 class="text-[11px] font-semibold uppercase tracking-wider text-text-muted mb-1.5 flex items-center gap-1.5">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+      </svg>
+      外電分析
+    </h4>
+    <p class="text-sm text-text-secondary leading-relaxed tracking-wide">{team.webSummary}</p>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+{
+  "match": {
+    "id": "760424",
+    "homeTeam": "瑞典", "awayTeam": "突尼西亞",
+    "homeScore": 5, "awayScore": 1,
+    "group": "F", "venue": "Estadio BBVA, Monterrey, Mexico",
+    "date": "2026-06-14", "matchday": 4, "status": "finished",
+    "highlights": "Isak 帽子戲法！瑞典 5-1 火力全開"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 60, "homeWinPct": 55, "drawPct": 25, "awayWinPct": 20,
+      "predictedScore": "2-0", "overUnder": "over 2.5",
+      "analysis": "瑞典 FIFA 排名 27，Isak 領軍的攻擊線具備頂級破壞力。突尼西亞排名 29，防守穩健但缺乏創造力。瑞典有能力大勝但需要 Isak 發揮。",
+      "keyFactor": "Alexander Isak 的終結能力——Newcastle 前鋒能否在國家隊複製俱樂部表現"
+    },
+    "postMatchReview": "瑞典 5-1 突尼西亞，比預期更殘忍的屠殺。Isak 的帽子戲法（左腳、右腳、頭槌）證明了他是世界級前鋒。突尼西亞的防守在他面前形同虛設。",
+    "accuracy": "partial"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "瑞典", "flag": "https://flagcdn.com/w80/se.png", "fifaRank": 27,
+      "keyPlayers": [
+        {"name": "Alexander Isak", "role": "前鋒核心", "stat": "Newcastle，身價破億，帽子戲法"},
+        {"name": "Dejan Kulusevski", "role": "邊路發動機", "stat": "Tottenham，突破與傳中"},
+        {"name": "Victor Lindelof", "role": "後防領袖", "stat": "Man Utd，經驗豐富中衛"}
+      ],
+      "strength": "Isak 的終結能力、北歐體能優勢、邊路速度",
+      "weakness": "中場創造力、防守專注度偶爾斷線",
+      "webSummary": "瑞典在 Alexander Isak 的帶領下展現了北歐足球的力量與速度。Isak 在 Newcastle 已經證明自己是英超頂級射手——2025-26 賽季各賽事進球超過 25 顆。他的全面性（左右腳都能進球、頭槌能力佳、速度快）讓瑞典的進攻變得難以預測。Kulusevski 在邊路的突破為 Isak 創造了大量空間。F 組有荷蘭和日本，瑞典要出線需要在小組賽累積足夠的淨勝球。"
+    },
+    "away": {
+      "name": "突尼西亞", "flag": "https://flagcdn.com/w80/tn.png", "fifaRank": 29,
+      "keyPlayers": [
+        {"name": "Wahbi Khazri", "role": "隊長核心", "stat": "Montpellier，創造型中場"},
+        {"name": "Ellyes Skhiri", "role": "防守中場", "stat": "Eintracht Frankfurt，德甲經驗"}
+      ],
+      "strength": "防守組織、團隊紀律、體能條件",
+      "weakness": "進球能力嚴重不足、缺乏頂級球星",
+      "webSummary": "突尼西亞是非洲足球的傳統代表，以防守穩健著稱。FIFA 排名 29 在非洲已是頂尖。但長期以來缺乏穩定的進球來源是最大軟肋——近五場國際賽有三場被零封。面對瑞典的高大防線和快速反擊，突尼西亞的防守將面臨嚴峻考驗。"
+    }
+  },
+  "story": {
+    "title": "Isak 的完美帽子戲法：瑞典 5-1 大勝突尼西亞",
+    "narrative": "Alexander Isak 在賽前接受訪問時說了一句話：「我想要在世界盃上證明，我不只是英超射手，我是世界級前鋒。」\n\n他花了 64 分鐘證明這句話。\n\n第 12 分鐘——左腳。Kulusevski 在右路突破後倒三角傳中，Isak 不停球直接推射遠角。1-0。\n\n第 37 分鐘——右腳。瑞典一次快速反擊，Isak 在禁區邊緣接球後橫向帶了兩步，右腳抽射上角。2-0。\n\n第 64 分鐘——頭槌。Lindelof 的長傳精準找到禁區內的 Isak，他高高躍起，將球砸進球門。4-1（中間瑞典還進了一球）。帽子戲法完成。\n\nIsak 被換下場時，全場瑞典球迷起立鼓掌。這不是一場普通的帽子戲法——他用了三種完全不同的方式進球，證明了他是多麼全面的終結者。\n\n突尼西亞唯一的進球來自下半場一次漂亮的團隊配合，但瑞典馬上在 5 分鐘後再次進球，徹底摧毀了他們的反撲氣勢。終場 5-1——瑞典在 F 組取得了一場至關重要的淨勝球大補丸。",
+    "dramaticMoment": "Isak 的第 64 分鐘頭槌完成帽子戲法——三種方式、三顆進球。",
+    "turningPoint": "瑞典前 37 分鐘的兩顆進球讓突尼西亞的保守戰術完全失效。",
+    "quote": "「我來這裡就是要證明這件事。」——Alexander Isak（帽子戲法後）"
+  },
+  "oddsDeepDive": "瑞典讓 0.5 球（賠率約 1.80），市場雖然看好瑞典但沒料到會是屠殺。5-1 的結果遠超出市場預期，上盤輕鬆穿盤。Isak 的帽子戲法不僅讓瑞典拿到三分，還賺進了大量的淨勝球——在可能與荷蘭、日本比較分的小組中，這可能至關重要。",
+  "boxscoreSummary": "瑞典控球率 52%，17 次射門 9 次射正。突尼西亞控球率 48%，8 次射門 3 次射正。Isak 個人 3 進球。"
+}

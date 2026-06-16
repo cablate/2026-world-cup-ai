@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import StandingsTable from "../components/StandingsTable.astro";
+import standingsData from "../data/standings.json";
+
+const { date, matchday, stage, groups } = standingsData;
+---
+
+<Base title="小組排名" matchday={matchday}>
+  <Header slot="header" matchday={matchday} />
+
+  <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-8 mt-2">
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-widest text-text-muted mb-1">{stage}</p>
+      <h1 class="font-heading font-extrabold text-3xl sm:text-4xl text-text-primary tracking-tight leading-none">
+        小組排名
+      </h1>
+    </div>
+    <div class="flex items-center gap-3 text-sm text-text-muted">
+      <span class="font-mono text-accent font-semibold">{date}</span>
+      <span class="w-px h-4 bg-border"></span>
+      <span class="font-medium">更新至 Matchday {matchday}</span>
+    </div>
+  </div>
+
+  <StandingsTable groups={groups} />
+
+  <Footer slot="footer" />
+</Base>

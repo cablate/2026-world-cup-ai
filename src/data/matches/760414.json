@@ -1,0 +1,58 @@
+{
+  "match": {
+    "id": "760414",
+    "homeTeam": "韓國",
+    "awayTeam": "捷克",
+    "homeScore": 2,
+    "awayScore": 1,
+    "group": "A",
+    "venue": "Estadio Akron, Guadalajara, Mexico",
+    "date": "2026-06-11",
+    "matchday": 1,
+    "status": "finished",
+    "highlights": "韓國 2-1 捷克，Son 一傳一射領軍取勝"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 55, "homeWinPct": 52, "drawPct": 28, "awayWinPct": 20,
+      "predictedScore": "2-1", "overUnder": "over 2.5",
+      "analysis": "韓國 FIFA 排名 23，亞洲頂尖，擁有 Son Heung-min 與 Kim Min-jae 兩位世界級球星。捷克排名 40，東歐傳統勁旅，戰術紀律嚴明但缺乏頂級天賦。關鍵在於 Son 的個人能力能否在關鍵時刻打破平衡。",
+      "keyFactor": "Son Heung-min 的邊路創造力 vs 捷克防線的紀律性"
+    },
+    "postMatchReview": "韓國 2-1 捷克，比數完全反映場面差距。Son 貢獻一進球一助攻，證明了為什麼他是亞洲足球的旗幟人物。韓國在 A 組取得重要的三分開局。",
+    "accuracy": "correct"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "韓國", "flag": "https://flagcdn.com/w80/kr.png", "fifaRank": 23,
+      "keyPlayers": [
+        {"name": "Son Heung-min", "role": "隊長王牌", "stat": "Tottenham，117 場國家隊 48 球"},
+        {"name": "Kim Min-jae", "role": "後防領袖", "stat": "Bayern Munich，世界級中衛"},
+        {"name": "Hwang Hee-chan", "role": "鋒線箭頭", "stat": "Wolves，英超經驗豐富"}
+      ],
+      "strength": "反擊速度、Son 的個人能力、Kim 領銜的防線穩定度",
+      "weakness": "中場控制力不足、面對鐵桶陣時創造力有限",
+      "webSummary": "韓國在 Tottenham 球星 Son Heung-min 的帶領下，連續多屆世界盃證明自己是亞洲最穩定的足球力量。FIFA 排名 23 為亞洲頂尖，但真正的實力來自旅歐球員的素質——Kim Min-jae 在 Bayern Munich 站穩主力，Hwang Hee-chan 在英超 Wolves 有穩定出賽。A 組除了墨西哥外實力接近，韓國有很好的出線機會。本屆是 Son 最後一屆世界盃的可能性很高，全隊有為隊長拚一次的動力。"
+    },
+    "away": {
+      "name": "捷克", "flag": "https://flagcdn.com/w80/cz.png", "fifaRank": 40,
+      "keyPlayers": [
+        {"name": "Patrik Schick", "role": "主力前鋒", "stat": "Bayer Leverkusen，2020 歐洲盃驚奇"},
+        {"name": "Tomas Soucek", "role": "中場屏障", "stat": "West Ham，空中對抗頂級"},
+        {"name": "Vladimir Coufal", "role": "邊路經驗", "stat": "West Ham，防守穩健"}
+      ],
+      "strength": "戰術紀律、空中優勢、定位球威脅",
+      "weakness": "缺乏爆發力、進攻創造力依賴 Schick 狀態",
+      "webSummary": "捷克是東歐傳統勁旅，曾在小組賽給不少強隊製造過麻煩。Bayer Leverkusen 的 Schick 是進攻端的主要威脅，West Ham 雙星 Soucek 與 Coufal 提供了硬度與經驗。但整體而言，捷克陣容的天花板不高，在小組賽階段需要靠團隊防守與定位球來搶分。"
+    }
+  },
+  "story": {
+    "title": "Son 的領袖之夜：韓國 2-1 擊敗捷克",
+    "narrative": "Guadalajara 的 Estadio Akron，超過四萬名觀眾見證了亞洲足球的實力。韓國在小組賽的第一場比賽就展現了他們與過去不同的成熟度。\n\n開賽階段捷克試圖用身體對抗打亂韓國的節奏，Soucek 在中場的纏鬥確實讓韓國一度難以組織攻勢。但第 17 分鐘，Son Heung-min 在左路接到隊友的長傳，停球、內切、起腳——一氣呵成。球劃出一道弧線越過捷克門將的指尖，撞進遠角。1-0。\n\n領先後的韓國踢得更加從容。第 38 分鐘，Son 在反擊中送出精準直塞，Hwang Hee-chan 禁區內冷靜推射遠角——2-0。韓國在上半場就奠定了勝局。\n\n捷克在下半場全力反撲，Schick 在第 72 分鐘的頭槌為捷克追回一球，讓比賽一度出現懸念。但韓國的防線在 Kim Min-jae 的指揮下穩住了陣腳，將 2-1 的比分保持到終場。\n\n對韓國來說，這是一場完美的開局——不僅拿到三分，還展現了他們在小組賽最需要的特質：在實力接近的比賽中把握住關鍵機會。",
+    "dramaticMoment": "Son 在第 17 分鐘的內切破門——從停球到射門的節奏變化讓防守球員完全跟不上。",
+    "turningPoint": "韓國上半場的兩顆進球徹底改變了比賽的劇本，捷克被迫放棄穩守策略提前壓上。",
+    "quote": null
+  },
+  "oddsDeepDive": "賽前韓國讓 0.5 球，賠率約 1.85，市場定價合理反映兩隊實力接近。韓國 2-1 獲勝讓主勝投注驚險過關。大小球開 2.5，三顆進球的結果讓大球支持者收穫回報。兩隊在世界排名上差距不大（#23 vs #40），但場上展現的個人能力差距比排名數字更大。",
+  "boxscoreSummary": "韓國控球率 48%，10 次射門 5 次射正，傳球成功率 82%。捷克控球率 52%，8 次射門 3 次射正。韓國在反擊中的效率是勝負關鍵。"
+}

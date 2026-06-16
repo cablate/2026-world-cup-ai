@@ -1,0 +1,70 @@
+{
+  "match": {
+    "id": "760433",
+    "homeTeam": "阿根廷",
+    "awayTeam": "阿爾及利亞",
+    "homeScore": 0,
+    "awayScore": 0,
+    "group": "J",
+    "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
+    "date": "2026-06-16",
+    "matchday": 6,
+    "status": "scheduled",
+    "highlights": "Messi 第六屆世界盃首戰，阿根廷尋求衛冕開門紅"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 68,
+      "homeWinPct": 65,
+      "drawPct": 22,
+      "awayWinPct": 13,
+      "predictedScore": "2-0",
+      "overUnder": "under 2.5",
+      "analysis": "阿根廷 FIFA 排名第一，衛冕冠軍氣勢正盛。但主力陣容老化，7 名球員超過 30 歲，體能調配是小組賽關鍵。阿爾及利亞防守組織嚴密，資格賽不敗晉級，反擊線上 Mahrez 經驗豐富。這場的劇本很可能是阿根廷控球壓迫、Algeria 伺機反擊。",
+      "keyFactor": "阿根廷能否在上半場打破僵局——越早進球比賽越容易進入他們熟悉的節奏"
+    },
+    "postMatchReview": "比賽尚未進行",
+    "accuracy": "pending"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "阿根廷",
+      "flag": "https://flagcdn.com/w80/ar.png",
+      "fifaRank": 1,
+      "form": ["W", "W", "W", "D", "W"],
+      "keyPlayers": [
+        {"name": "Lionel Messi", "role": "傳奇前鋒", "stat": "第 6 屆世界盃，隊史出賽與進球紀錄保持人"},
+        {"name": "Enzo Fernandez", "role": "中場大腦", "stat": "Chelsea 中場核心，2022 最佳年輕球員"},
+        {"name": "Julian Alvarez", "role": "鋒線尖刀", "stat": "2022 世界盃冠軍功臣，Man City 主力"},
+        {"name": "Emiliano Martinez", "role": "守護神", "stat": "Aston Villa 門將，PK 大戰專家"}
+      ],
+      "strength": "冠軍經驗、戰術體系成熟、Messi 的關鍵時刻能力",
+      "weakness": "主力老化、缺乏頂級邊鋒、替補深度不如 2022",
+      "webSummary": "2022 年在卡達捧起隊史第三座世界盃後，阿根廷帶著「衛冕冠軍」的頭銜來到北美。Messi 在 38 歲的年紀征戰第六屆世界盃，17 名 2022 冠軍成員仍在陣中，經驗值是全賽事最高。資格賽南美區 38 分強勢晉級，接連拿下美洲盃與 Finalissima。最大的變數不在戰術，而是體能——這批冠軍班底能否在高強度賽會制中撐到最後。"
+    },
+    "away": {
+      "name": "阿爾及利亞",
+      "flag": "https://flagcdn.com/w80/dz.png",
+      "fifaRank": 30,
+      "form": ["D", "W", "W", "D", "L"],
+      "keyPlayers": [
+        {"name": "Riyad Mahrez", "role": "隊長邊鋒", "stat": "Al Ahli，2019 非洲盃冠軍功臣"},
+        {"name": "Islam Slimani", "role": "隊史進球王", "stat": "國家隊 46 進球"},
+        {"name": "Ramy Bensebaini", "role": "後防核心", "stat": "Borussia Dortmund 主力中衛"}
+      ],
+      "strength": "防守組織嚴密、反擊執行力佳、團隊紀律好",
+      "weakness": "面對高位壓迫時出球困難、整體天賦不如頂級強隊",
+      "webSummary": "阿爾及利亞是非洲足球的傳統強權，2019 年奪下非洲盃冠軍，資格賽以不敗之姿晉級會內賽。Mahrez 仍是球隊最可靠的進攻發動機，Slimani 則以 46 顆國家隊進球穩坐隊史進球王。防守是這支球隊的立足之本——他們在小組賽階段的策略很明確：先求不敗，再求突破。"
+    }
+  },
+  "story": {
+    "title": "Messi 最後一舞的起點：阿根廷 vs 阿爾及利亞",
+    "narrative": "2026 年 6 月 16 日，Kansas City 的 Arrowhead 球場。Lionel Messi 穿著阿根廷藍白條紋球衣，踏入他第六屆世界盃的賽場。38 歲的他走過 2022 年在卡達的巔峰，已經拿過所有榮耀——世界盃、美洲盃、八座金球獎。但每一次踏上這個舞台，依然讓人屏息。\n\n對手阿爾及利亞不是來陪榜的。這支北非勁旅資格賽未嘗敗績，防守組織有紀律，反擊線上有 Mahrez 這樣的頂級執行者。他們會在 Arrowhead 球場擺出紮實的防守陣型，等待阿根廷後場的任何一次失誤。\n\n阿根廷的挑戰不在於天賦——他們依然是這項賽事最有深度的球隊之一。真正的問題是：這批 2022 年的冠軍班底，經過四年之後，還能不能維持同樣的高強度？7 名主力超過 30 歲，體能調配將是整個賽會的關鍵。\n\n比賽的勝負很可能在前 30 分鐘決定。如果阿根廷能早早進球，比賽就會進入他們熟悉的控球節奏。如果被阿爾及利亞拖進泥巴戰，一切都很難說。",
+    "dramaticMoment": "比賽尚未開始。但 Messi 踏入 Arrowhead 球場的那一刻，本身就是歷史。",
+    "turningPoint": "開賽前 30 分鐘——阿根廷若能早早進球，比賽將進入他們熟悉的控球節奏。若久攻不下，阿爾及利亞的信心將隨時間增長。",
+    "quote": null
+  },
+  "oddsDeepDive": "DraftKings 開出阿根廷讓 1.5 球的盤口，主勝賠率 -230（隱含勝率约 70%）。這個定價與 AI 分析的 65% 接近，市場對衛冕冠軍的信心充足。有趣的是大小球開 2.5——考慮阿根廷近期偏向控制節奏而非大比分屠殺，加上 Algeria 防守為主的戰術，2.5 小可能是更有吸引力的選擇。",
+  "boxscoreSummary": "比賽尚未開始。阿根廷（FIFA #1）將在堪薩斯城迎戰阿爾及利亞（FIFA #30）。"
+}
