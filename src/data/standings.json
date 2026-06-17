@@ -544,26 +544,26 @@
         {
           "name": "奧地利",
           "flag": "https://flagcdn.com/w80/at.png",
-          "gp": 0,
-          "w": 0,
+          "gp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3,
           "status": "alive"
         },
         {
           "name": "約旦",
           "flag": "https://flagcdn.com/w80/jo.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
           "pts": 0,
           "status": "alive"
         },
@@ -581,7 +581,7 @@
           "status": "alive"
         }
       ],
-      "analysis": "J 組阿根廷首戰強勢 3-0 取勝，Messi 狀態火熱。"
+      "analysis": "J 組 Argentina 與 Austria 首戰雙雙取勝，下輪 Argentina vs Austria 將是決定性的對決。"
     },
     {
       "name": "K",

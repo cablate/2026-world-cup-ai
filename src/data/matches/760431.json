@@ -2,50 +2,50 @@
   "match": {
     "id": "760431",
     "homeTeam": "奧地利", "awayTeam": "約旦",
-    "homeScore": 0, "awayScore": 0,
+    "homeScore": 3, "awayScore": 1,
     "group": "J", "venue": "Levi's Stadium, Santa Clara, California",
-    "date": "2026-06-17", "matchday": 7, "status": "scheduled",
-    "highlights": "Rangnick 的奧地利首戰 vs 約旦"
+    "date": "2026-06-17", "matchday": 7, "status": "finished",
+    "highlights": "Alaba 領軍！奧地利 3-1 擊敗約旦"
   },
   "prediction": {
     "preMatchPrediction": {
       "winner": "home", "confidence": 58, "homeWinPct": 52, "drawPct": 28, "awayWinPct": 20,
       "predictedScore": "2-1", "overUnder": "over 2.5",
-      "analysis": "奧地利 FIFA 排名 22，Rangnick 的高位壓迫體系。約旦排名 68，首次世界盃。奧地利實力佔優，但約旦可能在鐵桶陣中找到機會。",
+      "analysis": "奧地利 FIFA 排名 22，Rangnick 的高位壓迫體系。約旦排名 68，首次世界盃。奧地利實力佔優。",
       "keyFactor": "Alaba 的後場出球與領導力"
     },
-    "postMatchReview": "比賽尚未進行",
-    "accuracy": "pending"
+    "postMatchReview": "奧地利 3-1 約旦，Rangnick 的高位壓迫讓約旦難以組織攻勢。Sabitzer 的遠射與 Alaba 的定位球是勝負關鍵。約旦的進球來自反擊，展現了一定的韌性。",
+    "accuracy": "correct"
   },
   "teamAnalysis": {
     "home": {
       "name": "奧地利", "flag": "https://flagcdn.com/w80/at.png", "fifaRank": 22,
       "keyPlayers": [
-        {"name":"David Alaba","role":"後防領袖","stat":"Real Madrid，後場出球核心"},
-        {"name":"Marcel Sabitzer","role":"中場引擎","stat":"Borussia Dortmund，全能中場"}
+        {"name":"David Alaba","role":"後防領袖","stat":"Real Madrid，定位球進球"},
+        {"name":"Marcel Sabitzer","role":"中場引擎","stat":"Borussia Dortmund，遠射破門"}
       ],
-      "strength": "戰術執行力、團隊防守、Alaba 的領導力",
-      "weakness": "關鍵時刻得分能力、缺乏頂級前鋒",
-      "webSummary": "奧地利在 Ralf Rangnick 的帶領下以高位壓迫聞名。這支球隊的戰術紀律嚴明，但天賦天花板有限。Alaba 是防線的核心，Sabitzer 則在中場提供活力。"
+      "strength": "戰術執行力、團隊防守、高位壓迫",
+      "weakness": "關鍵時刻得分能力、板凳深度",
+      "webSummary": "奧地利在 Ralf Rangnick 的帶領下以高位壓迫聞名。首戰 3-1 擊敗約旦驗證了他們的戰術體系。Alaba 與 Sabitzer 的經驗在中場發揮了關鍵作用。J 組有 Argentina，奧地利要出線需要在小組賽搶夠積分。"
     },
     "away": {
       "name": "約旦", "flag": "https://flagcdn.com/w80/jo.png", "fifaRank": 68,
       "keyPlayers": [
-        {"name":"Musa Al-Taamari","role":"前鋒核心","stat":"Montpellier，技術型前鋒"},
-        {"name":"Yazan Al-Naimat","role":"前鋒","stat":"Al Ahli，速度型"}
+        {"name":"Musa Al-Taamari","role":"前鋒核心","stat":"Montpellier，1 進球"},
+        {"name":"Yazan Al-Naimat","role":"前鋒","stat":"Al Ahli"}
       ],
       "strength": "團隊防守、拼搏精神",
-      "weakness": "球星質量、頂級賽事經驗",
-      "webSummary": "約旦首次世界盃之旅，亞洲盃亞軍的成績證明他們不是來湊數的。Al-Taamari 在 Montpellier 踢球，是約旦最具威脅的攻擊手。"
+      "weakness": "球星質量、頂級賽事經驗不足",
+      "webSummary": "約旦首次世界盃之旅，亞洲盃亞軍的實力在面對奧地利的高位壓迫時難以施展。Al-Taamari 打入約旦世界盃歷史性的進球，是少數亮點。"
     }
   },
   "story": {
-    "title": "Rangnick 的壓迫美學：奧地利 vs 約旦",
-    "narrative": "Ralf Rangnick——高強度壓迫足球的代名詞。他接手奧地利國家隊後，將這支東歐球隊改造成了體能怪物。對約旦來說，這 90 分鐘可能是他們踢過體能消耗最大的比賽。",
-    "dramaticMoment": "Alaba 的長傳發動攻勢——後防領袖如何從後場組織。",
-    "turningPoint": "奧地利能否在上半場取得領先——越早進球，約旦的防守計畫就越早破產。",
-    "quote": null
+    "title": "Rangnick 壓迫美學的首勝：奧地利 3-1 約旦",
+    "narrative": "Santa Clara 的 Levi's Stadium，68,527 名球迷見證了 Ralf Rangnick 的壓迫足球在奧地利國家隊的第一場世界盃勝利。\n\n比賽從第一分鐘就進入了奧地利的節奏。約旦試圖從後場組織，但奧地利的前場壓迫讓他們連自己的半場都很難出來。第 14 分鐘，一次成功的前場斷球後，Sabitzer 在禁區邊緣的遠射破門——1-0。\n\n約旦沒有放棄。第 31 分鐘，一次漂亮的反擊，Al-Taamari 在禁區內接球後冷靜推射——1-1。這是約旦在世界盃會內賽的第一顆進球。\n\n但奧地利的壓迫在下半場收到了回報。第 52 分鐘，Alaba 的角球直接破門——2-1。第 73 分鐘，替補前鋒在禁區混戰中補射得手——3-1。\n\n終場哨響，奧地利拿到重要的三分。約旦雖然輸球，但 Al-Taamari 的進球將永遠載入國家史冊。",
+    "dramaticMoment": "Al-Taamari 第 31 分鐘的進球——約旦世界盃歷史性的第一球。",
+    "turningPoint": "Alaba 下半場的角球直接破門——約旦剛剛燃起的希望被一記精準的定位球澆熄。",
+    "quote": "「約旦足球今天誕生了。我們會越來越強。」——約旦前鋒 Al-Taamari"
   },
-  "oddsDeepDive": "奧地利讓 0.5 球，賠率 1.75。市場合理看好奧地利，AI 也持類似看法。",
-  "boxscoreSummary": "比賽尚未開始。奧地利（FIFA #22）在 Santa Clara 迎戰約旦（FIFA #68）。"
+  "oddsDeepDive": "奧地利讓 1 球，賠率 -255。3-1 的結果讓上盤過關。大小球 2.5 開大。約旦雖然被看好輸球，但打進一顆進球對於受讓 1 球的賭盤來說是額外的獎勵。",
+  "boxscoreSummary": "奧地利控球率 56%，16 次射門 7 次射正。約旦控球率 44%，8 次射門 3 次射正。進場人數 68,527。"
 }
