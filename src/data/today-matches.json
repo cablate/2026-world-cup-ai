@@ -1,100 +1,91 @@
 {
-  "date": "2026-06-16",
-  "matchday": 6,
+  "date": "2026-06-17",
+  "matchday": 7,
   "stage": "Group Stage",
-  "headline": "Messi 最後一舞正式開場！阿根廷 vs 阿爾及利亞 — 衛冕冠軍 France 同時亮相",
+  "headline": "上屆四強重賽！英格蘭 vs 克羅埃西亞 — Portugal 同時登場",
   "matches": [
     {
-      "id": "760433",
-      "homeTeam": "阿根廷",
-      "awayTeam": "阿爾及利亞",
+      "id": "760437",
+      "homeTeam": "英格蘭",
+      "awayTeam": "克羅埃西亞",
+      "group": "L",
+      "venue": "AT&T Stadium, Arlington, Texas",
+      "kickoff": "2026-06-17T21:00Z",
+      "status": "scheduled",
+      "prediction": {
+        "winner": "away", "confidence": 55, "homeWinPct": 30, "drawPct": 28, "awayWinPct": 42,
+        "predictedScore": "1-2", "overUnder": "over 2.5",
+        "analysis": "英格蘭 FIFA 排名第 4，Tuchel 帳下的黃金世代。克羅埃西亞排名 11，Modric 最後一屆。雙方實力接近，克羅埃西亞的大賽經驗可能在關鍵時刻發揮作用。",
+        "keyFactor": "Bellingham 的中場活力 vs Modric 的經驗智慧"
+      },
+      "oddsAnalysis": {
+        "provider": "DraftKings", "homeOdds": 2.10, "drawOdds": 3.40, "awayOdds": 3.50,
+        "spread": "-0.5", "overUnder": "2.5",
+        "impliedHomeWinPct": 47.6, "valueGap": -17.6,
+        "verdict": "市場看好英格蘭讓 0.5 球，但 AI 分析認為兩隊實力接近，平局或克羅埃西亞取勝都有可能"
+      }
+    },
+    {
+      "id": "760435",
+      "homeTeam": "葡萄牙",
+      "awayTeam": "剛果民主共和國",
+      "group": "K",
+      "venue": "NRG Stadium, Houston, Texas",
+      "kickoff": "2026-06-17T19:00Z",
+      "status": "scheduled",
+      "prediction": {
+        "winner": "home", "confidence": 75, "homeWinPct": 70, "drawPct": 20, "awayWinPct": 10,
+        "predictedScore": "3-0", "overUnder": "over 2.5",
+        "analysis": "葡萄牙 FIFA 排名第 5，陣容深度史上最佳。Congo DR 排名 61，實力差距明顯。葡萄牙的中場控制力將完全主導比賽。",
+        "keyFactor": "Vitinha 與 Bruno Fernandes 的中場創造力"
+      },
+      "oddsAnalysis": {
+        "provider": "DraftKings", "homeOdds": 1.30, "drawOdds": 5.00, "awayOdds": 8.50,
+        "spread": "-1.5", "overUnder": "2.5",
+        "impliedHomeWinPct": 76.9, "valueGap": -6.9,
+        "verdict": "市場高度看好葡萄牙，賠率 1.30 幾無投注價值"
+      }
+    },
+    {
+      "id": "760431",
+      "homeTeam": "奧地利",
+      "awayTeam": "約旦",
       "group": "J",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
-      "kickoff": "2026-06-16T21:00Z",
+      "venue": "Levi's Stadium, Santa Clara, California",
+      "kickoff": "2026-06-17T16:00Z",
       "status": "scheduled",
       "prediction": {
-        "winner": "home",
-        "confidence": 68,
-        "homeWinPct": 65,
-        "drawPct": 22,
-        "awayWinPct": 13,
-        "predictedScore": "2-0",
-        "overUnder": "under 2.5",
-        "analysis": "阿根廷世界排名第一，衛冕冠軍班底仍在，但主力老化是隱憂。阿爾及利亞防守嚴密，資格賽不敗晉級。",
-        "keyFactor": "阿根廷能否在上半場打破僵局"
+        "winner": "home", "confidence": 58, "homeWinPct": 52, "drawPct": 28, "awayWinPct": 20,
+        "predictedScore": "2-1", "overUnder": "over 2.5",
+        "analysis": "奧地利 FIFA 排名 22，Rangnick 的高位壓迫。約旦排名 68，首次世界盃。奧地利實力佔優但面對鐵桶陣可能遇到困難。",
+        "keyFactor": "David Alaba 的後場出球 vs 約旦的前場壓迫"
       },
       "oddsAnalysis": {
-        "provider": "DraftKings",
-        "homeOdds": 1.43,
-        "drawOdds": 4.50,
-        "awayOdds": 7.00,
-        "spread": "-1.5",
-        "overUnder": "2.5",
-        "impliedHomeWinPct": 70,
-        "valueGap": -5,
-        "verdict": "市場對衛冕冠軍信心充足，但讓 1.5 球略深"
+        "provider": "DraftKings", "homeOdds": 1.75, "drawOdds": 3.50, "awayOdds": 4.50,
+        "spread": "-0.5", "overUnder": "2.5",
+        "impliedHomeWinPct": 57.1, "valueGap": -5.1,
+        "verdict": "AI 與市場看法接近，奧地利小讓合理"
       }
     },
     {
-      "id": "760432",
-      "homeTeam": "法國",
-      "awayTeam": "塞內加爾",
-      "group": "I",
-      "venue": "MetLife Stadium, East Rutherford, New Jersey",
-      "kickoff": "2026-06-16T16:00Z",
+      "id": "760434",
+      "homeTeam": "迦納",
+      "awayTeam": "巴拿馬",
+      "group": "L",
+      "venue": "BMO Field, Toronto, Canada",
+      "kickoff": "2026-06-17T23:00Z",
       "status": "scheduled",
       "prediction": {
-        "winner": "home",
-        "confidence": 65,
-        "homeWinPct": 62,
-        "drawPct": 23,
-        "awayWinPct": 15,
-        "predictedScore": "2-1",
-        "overUnder": "over 2.5",
-        "analysis": "法國天賦頂尖，Mbappe 隊長時代首戰。塞內加爾非洲最強之一，反擊有威脅。",
-        "keyFactor": "Mbappe vs 塞內加爾防線的速度對決"
+        "winner": "home", "confidence": 60, "homeWinPct": 55, "drawPct": 25, "awayWinPct": 20,
+        "predictedScore": "2-1", "overUnder": "over 2.5",
+        "analysis": "迦納 FIFA 排名 35，非洲傳統勁旅。巴拿馬排名 44，實力接近。迦納的個人能力略佔優勢。",
+        "keyFactor": "Mohammed Kudus 的中場創造力"
       },
       "oddsAnalysis": {
-        "provider": "DraftKings",
-        "homeOdds": 1.49,
-        "drawOdds": 4.00,
-        "awayOdds": 5.50,
-        "spread": "-1.5",
-        "overUnder": "2.5",
-        "impliedHomeWinPct": 67,
-        "valueGap": -5,
-        "verdict": "法國被合理定價，防守不穩讓讓球盤風險偏高"
-      }
-    },
-    {
-      "id": "760430",
-      "homeTeam": "伊拉克",
-      "awayTeam": "挪威",
-      "group": "I",
-      "venue": "Gillette Stadium, Foxborough, Massachusetts",
-      "kickoff": "2026-06-16T13:00Z",
-      "status": "scheduled",
-      "prediction": {
-        "winner": "away",
-        "confidence": 72,
-        "homeWinPct": 12,
-        "drawPct": 18,
-        "awayWinPct": 70,
-        "predictedScore": "0-3",
-        "overUnder": "over 2.5",
-        "analysis": "Haaland 世界盃首秀，挪威攻擊線明顯優於伊拉克。伊拉克首次世界盃經驗不足。",
-        "keyFactor": "Haaland 的終結能力——Man City 神鋒的世界盃首秀"
-      },
-      "oddsAnalysis": {
-        "provider": "DraftKings",
-        "homeOdds": 13.00,
-        "drawOdds": 6.50,
-        "awayOdds": 1.21,
-        "spread": "1.5",
-        "overUnder": "2.5",
-        "impliedHomeWinPct": 7.7,
-        "valueGap": 4.3,
-        "verdict": "市場極度看好挪威，賠率 1.21 無投注價值但反映實力差距"
+        "provider": "DraftKings", "homeOdds": 1.95, "drawOdds": 3.40, "awayOdds": 3.80,
+        "spread": "-0.5", "overUnder": "2.5",
+        "impliedHomeWinPct": 51.3, "valueGap": 3.7,
+        "verdict": "迦納略被市場看好，AI 認為迦納佔優但差距有限"
       }
     }
   ]

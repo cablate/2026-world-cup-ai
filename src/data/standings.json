@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-16",
-  "matchday": 6,
+  "date": "2026-06-17",
+  "matchday": 7,
   "stage": "Group Stage",
   "groups": [
     {
       "name": "A",
       "teams": [
         {
-          "name": "South Korea",
+          "name": "韓國",
           "flag": "https://flagcdn.com/w80/kr.png",
           "gp": 1,
           "w": 1,
@@ -20,7 +20,7 @@
           "status": "alive"
         },
         {
-          "name": "Mexico",
+          "name": "墨西哥",
           "flag": "https://flagcdn.com/w80/mx.png",
           "gp": 1,
           "w": 1,
@@ -33,7 +33,7 @@
           "status": "alive"
         },
         {
-          "name": "Czechia",
+          "name": "捷克",
           "flag": "https://flagcdn.com/w80/cz.png",
           "gp": 1,
           "w": 0,
@@ -46,7 +46,7 @@
           "status": "alive"
         },
         {
-          "name": "South Africa",
+          "name": "南非",
           "flag": "https://flagcdn.com/w80/za.png",
           "gp": 1,
           "w": 0,
@@ -65,7 +65,7 @@
       "name": "B",
       "teams": [
         {
-          "name": "Canada",
+          "name": "加拿大",
           "flag": "https://flagcdn.com/w80/ca.png",
           "gp": 1,
           "w": 0,
@@ -78,7 +78,7 @@
           "status": "alive"
         },
         {
-          "name": "Qatar",
+          "name": "卡達",
           "flag": "https://flagcdn.com/w80/qa.png",
           "gp": 1,
           "w": 0,
@@ -91,7 +91,7 @@
           "status": "alive"
         },
         {
-          "name": "Switzerland",
+          "name": "瑞士",
           "flag": "https://flagcdn.com/w80/ch.png",
           "gp": 1,
           "w": 0,
@@ -104,7 +104,7 @@
           "status": "alive"
         },
         {
-          "name": "Bosnia",
+          "name": "波士尼亞",
           "flag": "https://flagcdn.com/w80/ba.png",
           "gp": 1,
           "w": 0,
@@ -123,7 +123,7 @@
       "name": "C",
       "teams": [
         {
-          "name": "Scotland",
+          "name": "蘇格蘭",
           "flag": "https://flagcdn.com/w80/gb-sct.png",
           "gp": 1,
           "w": 1,
@@ -136,7 +136,7 @@
           "status": "alive"
         },
         {
-          "name": "Brazil",
+          "name": "巴西",
           "flag": "https://flagcdn.com/w80/br.png",
           "gp": 1,
           "w": 0,
@@ -149,7 +149,7 @@
           "status": "alive"
         },
         {
-          "name": "Morocco",
+          "name": "摩洛哥",
           "flag": "https://flagcdn.com/w80/ma.png",
           "gp": 1,
           "w": 0,
@@ -162,7 +162,7 @@
           "status": "alive"
         },
         {
-          "name": "Haiti",
+          "name": "海地",
           "flag": "https://flagcdn.com/w80/ht.png",
           "gp": 1,
           "w": 0,
@@ -181,7 +181,7 @@
       "name": "D",
       "teams": [
         {
-          "name": "United States",
+          "name": "美國",
           "flag": "https://flagcdn.com/w80/us.png",
           "gp": 1,
           "w": 1,
@@ -194,7 +194,7 @@
           "status": "alive"
         },
         {
-          "name": "Australia",
+          "name": "澳洲",
           "flag": "https://flagcdn.com/w80/au.png",
           "gp": 1,
           "w": 1,
@@ -207,7 +207,7 @@
           "status": "alive"
         },
         {
-          "name": "Paraguay",
+          "name": "巴拉圭",
           "flag": "https://flagcdn.com/w80/py.png",
           "gp": 1,
           "w": 0,
@@ -220,7 +220,7 @@
           "status": "alive"
         },
         {
-          "name": "Turkey",
+          "name": "土耳其",
           "flag": "https://flagcdn.com/w80/tr.png",
           "gp": 1,
           "w": 0,
@@ -239,7 +239,7 @@
       "name": "E",
       "teams": [
         {
-          "name": "Germany",
+          "name": "德國",
           "flag": "https://flagcdn.com/w80/de.png",
           "gp": 1,
           "w": 1,
@@ -252,7 +252,7 @@
           "status": "alive"
         },
         {
-          "name": "Ivory Coast",
+          "name": "象牙海岸",
           "flag": "https://flagcdn.com/w80/ci.png",
           "gp": 1,
           "w": 1,
@@ -265,7 +265,7 @@
           "status": "alive"
         },
         {
-          "name": "Curacao",
+          "name": "庫拉索",
           "flag": "https://flagcdn.com/w80/cw.png",
           "gp": 1,
           "w": 0,
@@ -278,7 +278,7 @@
           "status": "alive"
         },
         {
-          "name": "Ecuador",
+          "name": "厄瓜多",
           "flag": "https://flagcdn.com/w80/ec.png",
           "gp": 1,
           "w": 0,
@@ -297,7 +297,7 @@
       "name": "F",
       "teams": [
         {
-          "name": "Sweden",
+          "name": "瑞典",
           "flag": "https://flagcdn.com/w80/se.png",
           "gp": 1,
           "w": 1,
@@ -310,7 +310,7 @@
           "status": "alive"
         },
         {
-          "name": "Netherlands",
+          "name": "荷蘭",
           "flag": "https://flagcdn.com/w80/nl.png",
           "gp": 1,
           "w": 0,
@@ -323,7 +323,7 @@
           "status": "alive"
         },
         {
-          "name": "Japan",
+          "name": "日本",
           "flag": "https://flagcdn.com/w80/jp.png",
           "gp": 1,
           "w": 0,
@@ -336,7 +336,7 @@
           "status": "alive"
         },
         {
-          "name": "Tunisia",
+          "name": "突尼西亞",
           "flag": "https://flagcdn.com/w80/tn.png",
           "gp": 1,
           "w": 0,
@@ -355,207 +355,194 @@
       "name": "G",
       "teams": [
         {
-          "name": "Belgium",
+          "name": "比利時",
           "flag": "https://flagcdn.com/w80/be.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
-          "name": "Egypt",
+          "name": "埃及",
           "flag": "https://flagcdn.com/w80/eg.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
-          "name": "Iran",
+          "name": "伊朗",
           "flag": "https://flagcdn.com/w80/ir.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 2,
+          "ga": 2,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
-          "name": "New Zealand",
+          "name": "紐西蘭",
           "flag": "https://flagcdn.com/w80/nz.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 2,
+          "ga": 2,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         }
       ],
-      "analysis": "G 組首輪全部戰平。"
+      "analysis": "G 組四隊全平，第二輪將決定誰能突圍。"
     },
     {
       "name": "H",
       "teams": [
         {
-          "name": "Spain",
+          "name": "西班牙",
           "flag": "https://flagcdn.com/w80/es.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
-          "name": "Cape Verde",
-          "flag": "https://flagcdn.com/w80/cv.png",
-          "gp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
-          "status": "alive"
-        },
-        {
-          "name": "Uruguay",
+          "name": "烏拉圭",
           "flag": "https://flagcdn.com/w80/uy.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
-          "name": "Saudi Arabia",
+          "name": "沙烏地阿拉伯",
           "flag": "https://flagcdn.com/w80/sa.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "status": "alive"
+        },
+        {
+          "name": "維德角",
+          "flag": "https://flagcdn.com/w80/cv.png",
+          "gp": 1,
+          "w": 0,
+          "d": 1,
           "l": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         }
       ],
-      "analysis": "H 組首輪冷門頻傳，Spain 0-0 Cape Verde。"
+      "analysis": "H 組全員平局開局。Spain 被維德角 0-0 逼平是本屆最大冷門。"
     },
     {
       "name": "I",
       "teams": [
         {
-          "name": "France",
+          "name": "法國",
           "flag": "https://flagcdn.com/w80/fr.png",
-          "gp": 0,
-          "w": 0,
+          "gp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3,
           "status": "alive"
         },
         {
-          "name": "Senegal",
-          "flag": "https://flagcdn.com/w80/sn.png",
-          "gp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
-          "status": "alive"
-        },
-        {
-          "name": "Iraq",
-          "flag": "https://flagcdn.com/w80/iq.png",
-          "gp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
-          "status": "alive"
-        },
-        {
-          "name": "Norway",
+          "name": "挪威",
           "flag": "https://flagcdn.com/w80/no.png",
-          "gp": 0,
-          "w": 0,
+          "gp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3,
+          "status": "alive"
+        },
+        {
+          "name": "塞內加爾",
+          "flag": "https://flagcdn.com/w80/sn.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "pts": 0,
+          "status": "alive"
+        },
+        {
+          "name": "伊拉克",
+          "flag": "https://flagcdn.com/w80/iq.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
           "pts": 0,
           "status": "alive"
         }
       ],
-      "analysis": "I 組 France 將出戰 Senegal。"
+      "analysis": "I 組 France 與 Norway 首戰雙雙取勝，淨勝球差距將是後續排名關鍵。"
     },
     {
       "name": "J",
       "teams": [
         {
-          "name": "Argentina",
+          "name": "阿根廷",
           "flag": "https://flagcdn.com/w80/ar.png",
-          "gp": 0,
-          "w": 0,
+          "gp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gf": 0,
+          "gf": 3,
           "ga": 0,
-          "gd": 0,
-          "pts": 0,
+          "gd": 3,
+          "pts": 3,
           "status": "alive"
         },
         {
-          "name": "Algeria",
-          "flag": "https://flagcdn.com/w80/dz.png",
-          "gp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
-          "status": "alive"
-        },
-        {
-          "name": "Austria",
+          "name": "奧地利",
           "flag": "https://flagcdn.com/w80/at.png",
           "gp": 0,
           "w": 0,
@@ -568,7 +555,7 @@
           "status": "alive"
         },
         {
-          "name": "Jordan",
+          "name": "約旦",
           "flag": "https://flagcdn.com/w80/jo.png",
           "gp": 0,
           "w": 0,
@@ -579,15 +566,28 @@
           "gd": 0,
           "pts": 0,
           "status": "alive"
+        },
+        {
+          "name": "阿爾及利亞",
+          "flag": "https://flagcdn.com/w80/dz.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
+          "pts": 0,
+          "status": "alive"
         }
       ],
-      "analysis": "J 組 Argentina 是最被看好的球隊。"
+      "analysis": "J 組阿根廷首戰強勢 3-0 取勝，Messi 狀態火熱。"
     },
     {
       "name": "K",
       "teams": [
         {
-          "name": "Portugal",
+          "name": "葡萄牙",
           "flag": "https://flagcdn.com/w80/pt.png",
           "gp": 0,
           "w": 0,
@@ -600,7 +600,7 @@
           "status": "alive"
         },
         {
-          "name": "Congo DR",
+          "name": "剛果民主共和國",
           "flag": "https://flagcdn.com/w80/cd.png",
           "gp": 0,
           "w": 0,
@@ -613,7 +613,7 @@
           "status": "alive"
         },
         {
-          "name": "Ghana",
+          "name": "迦納",
           "flag": "https://flagcdn.com/w80/gh.png",
           "gp": 0,
           "w": 0,
@@ -626,7 +626,7 @@
           "status": "alive"
         },
         {
-          "name": "Panama",
+          "name": "巴拿馬",
           "flag": "https://flagcdn.com/w80/pa.png",
           "gp": 0,
           "w": 0,
@@ -645,7 +645,7 @@
       "name": "L",
       "teams": [
         {
-          "name": "Croatia",
+          "name": "克羅埃西亞",
           "flag": "https://flagcdn.com/w80/hr.png",
           "gp": 0,
           "w": 0,
@@ -658,7 +658,7 @@
           "status": "alive"
         },
         {
-          "name": "England",
+          "name": "英格蘭",
           "flag": "https://flagcdn.com/w80/gb-eng.png",
           "gp": 0,
           "w": 0,
@@ -671,7 +671,7 @@
           "status": "alive"
         },
         {
-          "name": "Colombia",
+          "name": "哥倫比亞",
           "flag": "https://flagcdn.com/w80/co.png",
           "gp": 0,
           "w": 0,
@@ -684,7 +684,7 @@
           "status": "alive"
         },
         {
-          "name": "Uzbekistan",
+          "name": "烏茲別克",
           "flag": "https://flagcdn.com/w80/uz.png",
           "gp": 0,
           "w": 0,

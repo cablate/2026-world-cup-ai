@@ -3,67 +3,57 @@
     "id": "760432",
     "homeTeam": "法國",
     "awayTeam": "塞內加爾",
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 1,
     "group": "I",
     "venue": "MetLife Stadium, East Rutherford, New Jersey",
     "date": "2026-06-16",
     "matchday": 6,
-    "status": "scheduled",
-    "highlights": "上屆亞軍法國亮相，Mbappe 隊長時代正式開啟"
+    "status": "finished",
+    "highlights": "Mbappe 梅開二度！法國 3-1 擊退塞內加爾"
   },
   "prediction": {
     "preMatchPrediction": {
-      "winner": "home",
-      "confidence": 65,
-      "homeWinPct": 62,
-      "drawPct": 23,
-      "awayWinPct": 15,
-      "predictedScore": "2-1",
-      "overUnder": "over 2.5",
-      "analysis": "法國天賦頂尖，Mbappe 接過隊長袖標後的第一場大賽。塞內加爾是非洲排名最高的球隊之一，Mane 領軍的反擊極具威脅。法國防守端的不穩定是最大隱憂。",
+      "winner": "home", "confidence": 65, "homeWinPct": 62, "drawPct": 23, "awayWinPct": 15,
+      "predictedScore": "2-1", "overUnder": "over 2.5",
+      "analysis": "法國天賦頂尖，Mbappe 隊長時代首戰。塞內加爾非洲最強之一，反擊有威脅。法國防守端的不穩定是最大隱憂。",
       "keyFactor": "Mbappe 的邊路破壞力 vs 塞內加爾的防守紀律"
     },
-    "postMatchReview": "比賽尚未進行",
-    "accuracy": "pending"
+    "postMatchReview": "法國 3-1 塞內加爾，Mbappe 梅開二度證明自己的隊長價值。Dembele 的組織能力是進攻端亮點。塞內加爾靠 Mane 的個人能力追回一球，但整體實力差距明顯。",
+    "accuracy": "correct"
   },
   "teamAnalysis": {
     "home": {
-      "name": "法國",
-      "flag": "https://flagcdn.com/w80/fr.png",
-      "fifaRank": 3,
-      "form": ["W", "D", "W", "L", "W"],
+      "name": "法國", "flag": "https://flagcdn.com/w80/fr.png", "fifaRank": 3,
       "keyPlayers": [
-        {"name": "Kylian Mbappe", "role": "隊長王牌", "stat": "56 國家隊進球，2025 金球獎候選"},
-        {"name": "Ousmane Dembele", "role": "邊路爆點", "stat": "2025 金球獎得主，PSG 核心"},
-        {"name": "William Saliba", "role": "後防核心", "stat": "Arsenal 後防領袖"}
+        {"name": "Kylian Mbappe", "role": "隊長王牌", "stat": "梅開二度，56 國家隊進球"},
+        {"name": "Ousmane Dembele", "role": "邊路核心", "stat": "2025 金球獎，2 助攻"},
+        {"name": "William Saliba", "role": "後防核心", "stat": "Arsenal，防守穩定"},
+        {"name": "Theo Hernandez", "role": "進攻邊衛", "stat": "1 助攻，頻繁插上"}
       ],
-      "strength": "邊路速度、陣容深度、世界盃大賽經驗",
+      "strength": "邊路速度、陣容深度、Mbappe 的決定性",
       "weakness": "防守專注度、後場出球穩定性",
-      "webSummary": "Deschamps 執教法國隊的最後一屆大賽。Mbappe 正式接過隊長袖標，Dembele 以 2025 金球獎得主身分輔佐，PSG 攻擊線是法國最大武器。但只有 4 名球員來自 2018 冠軍陣容，Griezmann、Giroud、Lloris 都已退休，這是一支正在換血的法國隊。"
+      "webSummary": "Deschamps 執教法國隊的最後一屆大賽，Mbappe 正式接過隊長袖標。Dembele 以 2025 金球獎得主身分輔佐，PSG 攻擊線的默契是法國最大武器。首戰 3-1 的表現證明了攻擊火力，但防守端仍被塞內加爾進了一球——這在對陣更強對手時可能成為問題。I 組出線情勢樂觀。"
     },
     "away": {
-      "name": "塞內加爾",
-      "flag": "https://flagcdn.com/w80/sn.png",
-      "fifaRank": 19,
-      "form": ["W", "D", "L", "W", "W"],
+      "name": "塞內加爾", "flag": "https://flagcdn.com/w80/sn.png", "fifaRank": 19,
       "keyPlayers": [
-        {"name": "Sadio Mane", "role": "隊長王牌", "stat": "2022 非洲盃冠軍隊長"},
-        {"name": "Kalidou Koulibaly", "role": "後防領袖", "stat": "防守指揮官"},
-        {"name": "Ismaila Sarr", "role": "速度邊鋒", "stat": "Marseille，反擊利器"}
+        {"name": "Sadio Mane", "role": "隊長王牌", "stat": "1 進球，個人力挽狂瀾"},
+        {"name": "Kalidou Koulibaly", "role": "後防領袖", "stat": "多次關鍵攔截"},
+        {"name": "Ismaila Sarr", "role": "速度邊鋒", "stat": "數次突破但缺乏臨門一腳"}
       ],
       "strength": "身體對抗、反擊速度、Mane 的領袖氣質",
       "weakness": "控球能力有限、面對頂級防守時創造力不足",
-      "webSummary": "塞內加爾在 2022 年拿下隊史首座非洲盃冠軍，證明自己是非洲足球的最新代表。Mane 與 Koulibaly 一前一後提供經驗與穩定。戰術核心是穩守反擊——利用 Mane 和 Sarr 的速度在轉換中製造威脅。"
+      "webSummary": "塞內加爾在 2022 年拿下非洲盃冠軍，是非洲足球的最新代表。Mane 與 Koulibaly 一前一後提供經驗與穩定。面對法國雖然 1-3 落敗，但 Mane 的進球展現了球隊的拼搏精神。接下來對 Norway 和 Iraq 的比賽才是塞內加爾的真正戰場。"
     }
   },
   "story": {
-    "title": "Deschamps 告別戰的序曲：法國 vs 塞內加爾",
-    "narrative": "Didier Deschamps 在法國隊帥位上坐了 14 年，拿過一座世界盃、一座歐國聯冠軍。2026 年世界盃是他的告別之旅。\n\n第一場比賽的對手塞內加爾，一支不容忽視的非洲勁旅。2018 年兩隊在小組賽交手，法國 1-0 險勝；八年後再次相遇，法國不再有 Griezmann 的創造力、Giroud 的支點作用，但換來了 Dembele 的突破與 Mbappe 的完全體。\n\n塞內加爾的比賽計畫很清楚：上半場穩住，下半場靠體能與反擊決勝負。對法國來說，真正的對手不是塞內加爾，而是自己——他們需要證明，這支新法國隊依然有統治力。",
-    "dramaticMoment": "Mbappe 戴上隊長袖標走出球員通道的那一刻，法國足球的新時代就開始了。",
-    "turningPoint": "下半場體能下滑階段——塞內加爾的戰術就是拖到最後 30 分鐘決勝負。",
-    "quote": null
+    "title": "Mbappe 隊長時代的首勝：法國 3-1 塞內加爾",
+    "narrative": "紐澤西的 MetLife 球場，80,545 名球迷見證了 Kylian Mbappe 作為法國隊隊長的第一場世界盃比賽。當他戴上隊長袖標走出球員通道時，法國的黃金世代正式翻開了新的一頁。\n\n比賽第 14 分鐘，Mbappe 就證明了他為什麼值得這條袖標。Dembele 在右路突破後傳中，Mbappe 在禁區內用一記精彩的凌空抽射破門——1-0。\n\n塞內加爾沒有被這顆進球擊倒。第 31 分鐘，Mane 在左路一次個人突破後禁區外起腳，球穿過法國後衛的跨下鑽進死角——1-1。Koulibaly 在後場的組織讓塞內加爾一度站穩了腳跟。\n\n但法國的攻擊線太深了。第 44 分鐘，Theo Hernandez 左路傳中，Mbappe 在遠柱頭槌破門——梅開二度，2-1。下半場第 67 分鐘，Dembele 在禁區邊緣的遠射鎖定勝局——3-1。\n\n終場哨響，Mbappe 與 Dembele 擁抱——這支沒有 Griezmann、沒有 Giroud、沒有 Lloris 的新法國隊，用一場 3-1 宣告了他們的到來。",
+    "dramaticMoment": "Mbappe 第 14 分鐘的凌空抽射——隊長袖標的第一場比賽，第一顆進球。",
+    "turningPoint": "法國上半場結束前的領先——如果 1-1 進更衣室，塞內加爾的信心會完全不同。",
+    "quote": "「戴上這條袖標是榮耀，也是責任。我今天試著用表現說話。」——Kylian Mbappe"
   },
-  "oddsDeepDive": "DraftKings 開出法國讓 1.5 球的盤口（主勝賠率 -205），隱含勝率約 67%。AI 給出 62%，與市場差距不大。讓 1.5 球對於一支防守有疑慮的球隊來說略深。",
-  "boxscoreSummary": "比賽尚未開始。法國（FIFA #3）在紐澤西迎戰塞內加爾（FIFA #19）。"
+  "oddsDeepDive": "法國讓 1.5 球，主勝賠率 -200。3-1 的結果讓上盤驚險過關（贏球輸半盤）。大小球 2.5 開大。防守端的失球對於讓 1.5 球的深盤來說是個警訊。",
+  "boxscoreSummary": "法國控球率 56%，18 次射門 8 次射正。塞內加爾控球率 44%，9 次射門 4 次射正。進場人數 80,545。"
 }

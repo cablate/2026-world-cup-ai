@@ -70,7 +70,7 @@ const confidenceColor = prediction.confidence >= 70
   <!-- Top gradient edge -->
   <div class={`h-0.5 ${isFeatured ? "bg-gradient-to-r from-accent via-accent/60 to-accent/20" : "bg-gradient-to-r from-accent/60 via-accent/20 to-transparent"}`}></div>
 
-  <a href={`/matches/${id}`} class="block p-4 sm:p-5 no-underline text-inherit hover:no-underline">
+  <a href={`${import.meta.env.BASE_URL}/matches/${id}`} class="block p-4 sm:p-5 no-underline text-inherit hover:no-underline">
     <!-- Top row: group + status + confidence -->
     <div class="flex items-center justify-between mb-3">
       <div class="flex items-center gap-2">

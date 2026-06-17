@@ -1,0 +1,52 @@
+{
+  "match": {
+    "id": "760435",
+    "homeTeam": "葡萄牙", "awayTeam": "剛果民主共和國",
+    "homeScore": 0, "awayScore": 0,
+    "group": "K", "venue": "NRG Stadium, Houston, Texas",
+    "date": "2026-06-17", "matchday": 7, "status": "scheduled",
+    "highlights": "葡萄牙黃金世代登場 vs 剛果民主共和國"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 75, "homeWinPct": 70, "drawPct": 20, "awayWinPct": 10,
+      "predictedScore": "3-0", "overUnder": "over 2.5",
+      "analysis": "葡萄牙 FIFA 排名第 5，陣容深度史上最佳。Congo DR 排名 61，實力差距明顯。葡萄牙的中場控制力將完全主導比賽。",
+      "keyFactor": "Vitinha 與 Bruno Fernandes 的中場創造力"
+    },
+    "postMatchReview": "比賽尚未進行",
+    "accuracy": "pending"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "葡萄牙", "flag": "https://flagcdn.com/w80/pt.png", "fifaRank": 5,
+      "keyPlayers": [
+        {"name":"Cristiano Ronaldo","role":"傳奇前鋒","stat":"41 歲第 6 屆世界盃"},
+        {"name":"Vitinha","role":"中場核心","stat":"2025 金球獎第三"},
+        {"name":"Bruno Fernandes","role":"創造中場","stat":"Man Utd，關鍵傳球機器"}
+      ],
+      "strength": "中場深度、多樣化進攻、Ronaldo 的關鍵能力",
+      "weakness": "防守轉換、面對快速反擊的脆弱性",
+      "webSummary": "葡萄牙擁有史上最深厚的陣容——Vitinha、Bruno Fernandes、Joao Neves 的中場組合堪稱頂級。Ronaldo 以 41 歲征戰第 6 屆世界盃，雖然不再是先發保證，但作為替補殺手的角色轉換非常成功。葡萄牙在 2025 年拿下歐國聯冠軍，是奪冠熱門之一。"
+    },
+    "away": {
+      "name": "剛果民主共和國", "flag": "https://flagcdn.com/w80/cd.png", "fifaRank": 61,
+      "keyPlayers": [
+        {"name":"Cedric Bakambu","role":"前鋒","stat":"Galatasaray，反擊箭頭"},
+        {"name":"Chancel Mbemba","role":"後防領袖","stat":"Marseille，經驗豐富"}
+      ],
+      "strength": "身體對抗、防守硬度",
+      "weakness": "技術差距、組織能力不足",
+      "webSummary": "剛果民主共和國首次世界盃之旅，開幕戰就面對奪冠熱門葡萄牙。對他們來說，這是學習的比賽——雖然實力差距懸殊，但 Congo DR 的身體條件在非洲名列前茅。"
+    }
+  },
+  "story": {
+    "title": "葡萄牙黃金世代的首秀 vs 剛果",
+    "narrative": "葡萄牙帶著史上最深厚的陣容來到休士頓。Vitinha 剛剛在金球獎排名第三，Bruno Fernandes 是曼聯的創造核心，Joao Neves 被認為是歐洲最有潛力的年輕中場——還有那個 41 歲、第六屆世界盃的 Cristiano Ronaldo。\n\n對手剛果民主共和國是首次世界盃之旅，世界排名 61。對他們來說，這場比賽的目標很現實：防守、學習、盡量不輸太慘。\n\n葡萄牙的實力優勢是壓倒性的。問題不在於會不會贏，而在於他們想展示什麼風格的足球——Martinez 的控球組織還是更直接的進攻足球？Ronaldo 會不會先發？這都是比賽的看點。",
+    "dramaticMoment": "Cristiano Ronaldo 踏上第六屆世界盃草皮的那一刻。",
+    "turningPoint": "葡萄牙的第一顆進球將決定比賽基調——早進球 = 屠殺，晚進球 = Congo DR 的信心會增長。",
+    "quote": null
+  },
+  "oddsDeepDive": "葡萄牙讓 1.5/2 球，賠率 1.30，市場極度看好葡萄牙大勝。AI 也持相同看法。問題不在葡萄牙會不會贏，而在於贏幾球。",
+  "boxscoreSummary": "比賽尚未開始。葡萄牙（FIFA #5）在休士頓迎戰剛果（FIFA #61）。"
+}

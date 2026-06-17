@@ -5,7 +5,8 @@
     "2026-06-13",
     "2026-06-14",
     "2026-06-15",
-    "2026-06-16"
+    "2026-06-16",
+    "2026-06-17"
   ],
   "matches": {
     "2026-06-11": [
@@ -199,34 +200,91 @@
         "id": "760432",
         "homeTeam": "法國",
         "awayTeam": "塞內加爾",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 3,
+        "awayScore": 1,
         "group": "I",
-        "venue": "MetLife Stadium, New Jersey",
-        "status": "scheduled",
+        "venue": "MetLife Stadium, East Rutherford, New Jersey",
+        "status": "finished",
         "matchday": 6
       },
       {
         "id": "760430",
         "homeTeam": "伊拉克",
         "awayTeam": "挪威",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 4,
         "group": "I",
-        "venue": "Gillette Stadium, Boston",
-        "status": "scheduled",
+        "venue": "Gillette Stadium, Foxborough, Massachusetts",
+        "status": "finished",
         "matchday": 6
       },
       {
         "id": "760433",
         "homeTeam": "阿根廷",
         "awayTeam": "阿爾及利亞",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayScore": 0,
         "group": "J",
-        "venue": "GEHA Field at Arrowhead Stadium, Kansas City",
-        "status": "scheduled",
+        "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
+        "status": "finished",
         "matchday": 6
+      }
+    ],
+    "2026-06-17": [
+      {
+        "id": "760431",
+        "homeTeam": "奧地利",
+        "awayTeam": "約旦",
+        "homeScore": 1,
+        "awayScore": 0,
+        "group": "J",
+        "venue": "Levi's Stadium, Santa Clara, California",
+        "status": "finished",
+        "matchday": 7
+      },
+      {
+        "id": "760435",
+        "homeTeam": "葡萄牙",
+        "awayTeam": "剛果民主共和國",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "K",
+        "venue": "NRG Stadium, Houston, Texas",
+        "status": "scheduled",
+        "matchday": 7
+      },
+      {
+        "id": "760437",
+        "homeTeam": "英格蘭",
+        "awayTeam": "克羅埃西亞",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "L",
+        "venue": "AT&T Stadium, Arlington, Texas",
+        "status": "scheduled",
+        "matchday": 7
+      },
+      {
+        "id": "760434",
+        "homeTeam": "迦納",
+        "awayTeam": "巴拿馬",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "L",
+        "venue": "BMO Field, Toronto, Canada",
+        "status": "scheduled",
+        "matchday": 7
+      },
+      {
+        "id": "760436",
+        "homeTeam": "烏茲別克",
+        "awayTeam": "哥倫比亞",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "K",
+        "venue": "Estadio Banorte, Mexico City",
+        "status": "scheduled",
+        "matchday": 7
       }
     ]
   }

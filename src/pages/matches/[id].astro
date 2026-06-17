@@ -35,7 +35,7 @@ const statusColor = isFinished ? "bg-bg-hover text-text-muted" : isLive ? "bg-wi
 
   <!-- Breadcrumb -->
   <div class="flex items-center gap-2 text-xs text-text-muted mb-6 mt-2">
-    <a href="/" class="text-accent hover:opacity-80 transition-opacity">今日賽程</a>
+    <a href={import.meta.env.BASE_URL || "/"} class="text-accent hover:opacity-80 transition-opacity">今日賽程</a>
     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-text-muted/50">
       <path d="M9 18l6-6-6-6"/>
     </svg>

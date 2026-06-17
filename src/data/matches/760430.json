@@ -3,66 +3,55 @@
     "id": "760430",
     "homeTeam": "伊拉克",
     "awayTeam": "挪威",
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 4,
     "group": "I",
     "venue": "Gillette Stadium, Foxborough, Massachusetts",
     "date": "2026-06-16",
     "matchday": 6,
-    "status": "scheduled",
-    "highlights": "Haaland 世界盃首秀！挪威睽違多年重返大賽"
+    "status": "finished",
+    "highlights": "Haaland 雙響砲！挪威 4-1 伊拉克，世界盃首秀震撼"
   },
   "prediction": {
     "preMatchPrediction": {
-      "winner": "away",
-      "confidence": 72,
-      "homeWinPct": 12,
-      "drawPct": 18,
-      "awayWinPct": 70,
-      "predictedScore": "0-3",
-      "overUnder": "over 2.5",
-      "analysis": "挪威擁有 Haaland 與 Odegaard 組成的頂級攻擊線，實力明顯優於伊拉克。伊拉克首次世界盃經驗不足，但防守反擊可能製造一些麻煩。挪威的後防穩定性是唯一變數。",
+      "winner": "away", "confidence": 72, "homeWinPct": 12, "drawPct": 18, "awayWinPct": 70,
+      "predictedScore": "0-3", "overUnder": "over 2.5",
+      "analysis": "挪威擁有 Haaland 與 Odegaard 組成的頂級攻擊線，實力明顯優於伊拉克。伊拉克首次世界盃經驗不足。",
       "keyFactor": "Erling Haaland 的世界盃首秀——Man City 神鋒的終結能力"
     },
-    "postMatchReview": "比賽尚未進行",
-    "accuracy": "pending"
+    "postMatchReview": "挪威 4-1 伊拉克，Haaland 梅開二度完全統治比賽。伊拉克雖然被看好輸球但仍靠反擊打進了一顆值得紀念的世界盃首球。挪威攻勢流暢，但後防仍讓伊拉克有機可乘。",
+    "accuracy": "correct"
   },
   "teamAnalysis": {
     "home": {
-      "name": "伊拉克",
-      "flag": "https://flagcdn.com/w80/iq.png",
-      "fifaRank": 58,
-      "form": ["D", "W", "L", "D", "W"],
+      "name": "伊拉克", "flag": "https://flagcdn.com/w80/iq.png", "fifaRank": 58,
       "keyPlayers": [
-        {"name": "Ali Adnan", "role": "邊衛核心", "stat": "義甲資歷，定位球專家"},
-        {"name": "Mohamed Ali", "role": "年輕前鋒", "stat": "國內聯賽新星"}
+        {"name": "Ali Adnan", "role": "邊衛", "stat": "自由球專家"},
+        {"name": "Mohamed Ali", "role": "年輕前鋒", "stat": "打入伊拉克世界盃歷史首球"}
       ],
       "strength": "團隊精神、防守紀律",
       "weakness": "經驗不足、整體實力差距明顯",
-      "webSummary": "伊拉克睽違多年重返世界盃會內賽，對這支飽經戰亂的國家來說意義非凡。球隊以防守為立足之本，希望在強敵環伺的小組中至少留下一場值得驕傲的比賽。"
+      "webSummary": "伊拉克睽違多年重返世界盃會內賽。雖然 1-4 落敗，但打進了國家在世界盃會內賽的歷史性進球。對伊拉克來說，每一場比賽都是學習經驗。"
     },
     "away": {
-      "name": "挪威",
-      "flag": "https://flagcdn.com/w80/no.png",
-      "fifaRank": 43,
-      "form": ["W", "D", "W", "L", "W"],
+      "name": "挪威", "flag": "https://flagcdn.com/w80/no.png", "fifaRank": 43,
       "keyPlayers": [
-        {"name": "Erling Haaland", "role": "超級前鋒", "stat": "Man City 傳奇射手，世界足壇最強終結者"},
-        {"name": "Martin Odegaard", "role": "隊長中場", "stat": "Arsenal 隊長，進攻指揮官"},
-        {"name": "Oscar Bobb", "role": "年輕天才", "stat": "Man City 邊路新星"}
+        {"name": "Erling Haaland", "role": "超級前鋒", "stat": "梅開二度，世界盃首秀驚人"},
+        {"name": "Martin Odegaard", "role": "隊長中場", "stat": "Arsenal 隊長，2 助攻"},
+        {"name": "Oscar Bobb", "role": "邊路新星", "stat": "Man City，1 進球"}
       ],
-      "strength": "Haaland 的終結能力、Odegaard 的創造力、整體進攻天賦",
-      "weakness": "後防穩定性、大賽經驗匱乏（睽違多年重返世界盃）",
-      "webSummary": "挪威在 Haaland 與 Odegaard 這對黃金雙星的帶領下，終於重返世界盃舞台。Haaland 被認為是當今足壇最強的終結者，他的世界盃首秀備受期待。挪威的目標是小組出線——這個小組有法國和塞內加爾，每一場都是硬仗。對伊拉克的比賽是他們必須拿下的三分。"
+      "strength": "Haaland 的終結能力、Odegaard 的創造力、進攻天賦",
+      "weakness": "後防穩定性、大賽經驗仍待考驗",
+      "webSummary": "挪威在 Haaland 與 Odegaard 雙星帶領下重返世界盃。首戰 4-1 大勝伊拉克，Haaland 梅開二度、Bobb 錦上添花。進攻火力完全展現，但防守端讓伊拉克進球顯示還有改善空間。接下來對 France 和 Senegal 才是真正的考驗。"
     }
   },
   "story": {
-    "title": "Haaland 的世界盃首秀：挪威 vs 伊拉克",
-    "narrative": "Erling Haaland 今年 25 歲。他在英超、歐冠、國家隊已經進了超過 250 顆球，拿過所有俱樂部層級的榮耀。但這是他第一次踏上世界盃的賽場。\n\n過去幾年，挪威足球因為 Haaland 和 Odegaard 的崛起而重新受到關注。這對曼城戰友兼 Arsenal 隊長的中前場連線，是挪威重返世界盃的最大原因。\n\n伊拉克是這個小組最不被看好的球隊，但他們不是來觀光的。伊拉克足球在經歷多年的動盪後，能夠站在世界盃賽場上本身就是一場勝利。他們會用紀律嚴明的防守來面對 Haaland 的衝擊。\n\n對挪威來說，這場比賽只有一個目標：三分。任何其他結果都是失敗。而對 Haaland 來說，這是他向世界證明——他不只是在俱樂部虐菜，他在世界盃也能統治比賽。",
-    "dramaticMoment": "Haaland 踏入 Gillette 球場進行世界盃首秀的那一刻。",
-    "turningPoint": "上半場——挪威如果能早早進球，比賽就結束了。久攻不下會讓伊拉克的信心越來越強。",
-    "quote": null
+    "title": "Haaland 的世界盃首秀：挪威 4-1 伊拉克",
+    "narrative": "Erling Haaland 等待這一刻等了一輩子。25 歲的他已經拿過英超冠軍、歐冠冠軍、英超金靴——這是他唯一缺少的舞台。\n\n第 8 分鐘，Odegaard 在中場送出一記精準的直塞——Haaland 用他的速度甩開防守球員，禁區內一對一面對門將，冷靜推射遠角。1-0。他的世界盃第一顆進球，花了不到 10 分鐘。\n\n伊拉克沒有崩盤。第 23 分鐘，他們在一次反擊中由 Mohamed Ali 打進國家在世界盃會內賽的第一顆進球——整個伊拉克替補席激動地抱在一起。對他們來說，這比比數更重要。\n\n但 Haaland 不想讓比賽有任何懸念。第 41 分鐘，他在角球進攻中用頭槌再下一城——2-1。下半場挪威持續施壓，Bobb 在第 56 分鐘進球，Odegaard 在第 74 分鐘的遠射將比分鎖定在 4-1。\n\n終場哨響，Haaland 帶著比賽用球走回球員通道——第一場世界盃比賽就梅開二度。挪威球迷知道，他們可能正在見證一段傳奇的開始。",
+    "dramaticMoment": "Haaland 第 8 分鐘的單刀破門——世界盃首秀的第一腳射門就進球。",
+    "turningPoint": "伊拉克扳平後的 18 分鐘內 Haaland 再次進球——伊拉克剛剛燃起的希望被迅速澆熄。",
+    "quote": "「我為這一刻準備了很久。這只是開始。」——Erling Haaland"
   },
-  "oddsDeepDive": "DraftKings 開出挪威讓 1.5 球的盤口，挪威賠率 -475（隱含勝率約 83%），顯示市場高度看好挪威大勝。AI 分析給出 70% 的客勝率，低於市場預期——這主要是考慮到挪威的大賽經驗不足。大小球 2.5，鑑於 Haaland 的存在，大球似乎更有吸引力。",
-  "boxscoreSummary": "比賽尚未開始。挪威（FIFA #43）在麻州迎戰伊拉克（FIFA #58）。"
+  "oddsDeepDive": "挪威讓 1.5 球，賠率 -425。4-1 的結果讓上盤輕鬆穿盤。大小球 2.5 開大。Haaland 讓所有的投注挪威大球的賭注在第一場比賽就回收了。",
+  "boxscoreSummary": "挪威控球率 58%，16 次射門 9 次射正。伊拉克控球率 42%，5 次射門 3 次射正。進場人數 63,106。"
 }

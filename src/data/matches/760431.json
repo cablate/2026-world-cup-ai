@@ -1,0 +1,51 @@
+{
+  "match": {
+    "id": "760431",
+    "homeTeam": "奧地利", "awayTeam": "約旦",
+    "homeScore": 0, "awayScore": 0,
+    "group": "J", "venue": "Levi's Stadium, Santa Clara, California",
+    "date": "2026-06-17", "matchday": 7, "status": "scheduled",
+    "highlights": "Rangnick 的奧地利首戰 vs 約旦"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home", "confidence": 58, "homeWinPct": 52, "drawPct": 28, "awayWinPct": 20,
+      "predictedScore": "2-1", "overUnder": "over 2.5",
+      "analysis": "奧地利 FIFA 排名 22，Rangnick 的高位壓迫體系。約旦排名 68，首次世界盃。奧地利實力佔優，但約旦可能在鐵桶陣中找到機會。",
+      "keyFactor": "Alaba 的後場出球與領導力"
+    },
+    "postMatchReview": "比賽尚未進行",
+    "accuracy": "pending"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "奧地利", "flag": "https://flagcdn.com/w80/at.png", "fifaRank": 22,
+      "keyPlayers": [
+        {"name":"David Alaba","role":"後防領袖","stat":"Real Madrid，後場出球核心"},
+        {"name":"Marcel Sabitzer","role":"中場引擎","stat":"Borussia Dortmund，全能中場"}
+      ],
+      "strength": "戰術執行力、團隊防守、Alaba 的領導力",
+      "weakness": "關鍵時刻得分能力、缺乏頂級前鋒",
+      "webSummary": "奧地利在 Ralf Rangnick 的帶領下以高位壓迫聞名。這支球隊的戰術紀律嚴明，但天賦天花板有限。Alaba 是防線的核心，Sabitzer 則在中場提供活力。"
+    },
+    "away": {
+      "name": "約旦", "flag": "https://flagcdn.com/w80/jo.png", "fifaRank": 68,
+      "keyPlayers": [
+        {"name":"Musa Al-Taamari","role":"前鋒核心","stat":"Montpellier，技術型前鋒"},
+        {"name":"Yazan Al-Naimat","role":"前鋒","stat":"Al Ahli，速度型"}
+      ],
+      "strength": "團隊防守、拼搏精神",
+      "weakness": "球星質量、頂級賽事經驗",
+      "webSummary": "約旦首次世界盃之旅，亞洲盃亞軍的成績證明他們不是來湊數的。Al-Taamari 在 Montpellier 踢球，是約旦最具威脅的攻擊手。"
+    }
+  },
+  "story": {
+    "title": "Rangnick 的壓迫美學：奧地利 vs 約旦",
+    "narrative": "Ralf Rangnick——高強度壓迫足球的代名詞。他接手奧地利國家隊後，將這支東歐球隊改造成了體能怪物。對約旦來說，這 90 分鐘可能是他們踢過體能消耗最大的比賽。",
+    "dramaticMoment": "Alaba 的長傳發動攻勢——後防領袖如何從後場組織。",
+    "turningPoint": "奧地利能否在上半場取得領先——越早進球，約旦的防守計畫就越早破產。",
+    "quote": null
+  },
+  "oddsDeepDive": "奧地利讓 0.5 球，賠率 1.75。市場合理看好奧地利，AI 也持類似看法。",
+  "boxscoreSummary": "比賽尚未開始。奧地利（FIFA #22）在 Santa Clara 迎戰約旦（FIFA #68）。"
+}
