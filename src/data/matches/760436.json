@@ -1,0 +1,76 @@
+{
+  "match": {
+    "id": "760436",
+    "homeTeam": "烏茲別克",
+    "awayTeam": "哥倫比亞",
+    "homeScore": 1,
+    "awayScore": 3,
+    "group": "K",
+    "venue": "Estadio Banorte, Mexico City, Mexico",
+    "date": "2026-06-17",
+    "matchday": 7,
+    "status": "finished",
+    "highlights": "Luis Diaz 雙響！哥倫比亞 3-1 烏茲別克"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "away",
+      "confidence": 65,
+      "homeWinPct": 18,
+      "drawPct": 25,
+      "awayWinPct": 57,
+      "predictedScore": "0-2",
+      "overUnder": "over 2.5",
+      "analysis": "哥倫比亞 FIFA 排名第 9，實力明顯佔優。",
+      "keyFactor": "Luis Diaz 的邊路突破"
+    },
+    "postMatchReview": "哥倫比亞 3-1 烏茲別克，Diaz 梅開二度完全主導比賽。James Rodriguez 的組織讓全隊運轉順暢。烏茲別克打入世界盃首球值得紀念。",
+    "accuracy": "correct"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "烏茲別克",
+      "flag": "https://flagcdn.com/w80/uz.png",
+      "fifaRank": 64,
+      "keyPlayers": [
+        {
+          "name": "Eldor Shomurodov",
+          "role": "前鋒",
+          "stat": "AS Roma，打入烏茲別克首球"
+        }
+      ],
+      "strength": "體能、拼搏精神",
+      "weakness": "經驗差距",
+      "webSummary": "烏茲別克首次世界盃，Shomurodov 的進球是國家足球史上的重要里程碑。"
+    },
+    "away": {
+      "name": "哥倫比亞",
+      "flag": "https://flagcdn.com/w80/co.png",
+      "fifaRank": 9,
+      "keyPlayers": [
+        {
+          "name": "Luis Diaz",
+          "role": "全場最佳",
+          "stat": "Liverpool，梅開二度"
+        },
+        {
+          "name": "James Rodriguez",
+          "role": "創造核心",
+          "stat": "Sao Paulo，1助攻"
+        }
+      ],
+      "strength": "技術天賦、Diaz 的爆發力",
+      "weakness": "防守偶爾鬆懈",
+      "webSummary": "哥倫比亞在 James 和 Diaz 的帶領下展現了南美足球的美感。首戰 3-1 取勝為 K 組晉級奠定基礎。"
+    }
+  },
+  "story": {
+    "title": "Diaz 的獨舞：哥倫比亞 3-1 烏茲別克",
+    "narrative": "Luis Diaz 用一場雙響砲宣告了他將是本屆世界盃最危險的邊路攻擊手之一。James Rodriguez 的組織讓哥倫比亞的進攻流暢如水。烏茲別克雖然落敗但 Shomurodov 打入歷史性進球。",
+    "dramaticMoment": "Diaz 的第二顆進球——邊路突破後的標誌性內切射門。",
+    "turningPoint": "哥倫比亞上半場的 2-0 開局",
+    "quote": null
+  },
+  "oddsDeepDive": "哥倫比亞讓 1/1.5 球。3-1 的結果讓上盤過關。",
+  "boxscoreSummary": "哥倫比亞控球率 60%，15 次射門 7 次射正。烏茲別克控球率 40%，6 次射門 3 次射正。"
+}

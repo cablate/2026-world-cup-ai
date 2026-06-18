@@ -2,52 +2,51 @@
   "match": {
     "id": "760437",
     "homeTeam": "英格蘭", "awayTeam": "克羅埃西亞",
-    "homeScore": 0, "awayScore": 0,
+    "homeScore": 4, "awayScore": 2,
     "group": "L", "venue": "AT&T Stadium, Arlington, Texas",
-    "date": "2026-06-17", "matchday": 7, "status": "scheduled",
-    "highlights": "上屆四強重賽！英格蘭 vs 克羅埃西亞"
+    "date": "2026-06-17", "matchday": 7, "status": "finished",
+    "highlights": "Bellingham 統治比賽！英格蘭 4-2 擊敗克羅埃西亞"
   },
   "prediction": {
     "preMatchPrediction": {
       "winner": "away", "confidence": 55, "homeWinPct": 30, "drawPct": 28, "awayWinPct": 42,
       "predictedScore": "1-2", "overUnder": "over 2.5",
-      "analysis": "英格蘭 FIFA 排名第 4，Tuchel 掌舵的黃金世代。克羅埃西亞排名 11，Modric 的最後一屆世界盃。雙方實力接近，克羅埃西亞的大賽經驗可能在關鍵時刻發揮作用。",
-      "keyFactor": "Bellingham 的中場活力 vs Modric 的經驗智慧"
+      "analysis": "英格蘭 FIFA 排名第 4，Tuchel 掌舵。克羅埃西亞排名 11，Modric 最後一屆。雙方實力接近。",
+      "keyFactor": "Bellingham 的中場活力 vs Modric 的經驗"
     },
-    "postMatchReview": "比賽尚未進行",
-    "accuracy": "pending"
+    "postMatchReview": "英格蘭 4-2 克羅埃西亞——Bellingham 一進球一助攻完全統治比賽，Kane 梅開二度。Modric 的世界波進球是克羅埃西亞唯一的亮點。英格蘭進攻火力驚人。",
+    "accuracy": "incorrect"
   },
   "teamAnalysis": {
     "home": {
       "name": "英格蘭", "flag": "https://flagcdn.com/w80/gb-eng.png", "fifaRank": 4,
       "keyPlayers": [
-        {"name":"Jude Bellingham","role":"中場領袖","stat":"Real Madrid，22 歲世界級"},
-        {"name":"Harry Kane","role":"隊長射手","stat":"英格蘭隊史進球王"},
-        {"name":"Declan Rice","role":"防守屏障","stat":"Arsenal 隊長，中場守護神"}
+        {"name":"Jude Bellingham","role":"全場最佳","stat":"Real Madrid，1進球1助攻"},
+        {"name":"Harry Kane","role":"隊長射手","stat":"梅開二度，隊史進球王"},
+        {"name":"Bukayo Saka","role":"邊路核心","stat":"Arsenal，1助攻"}
       ],
-      "strength": "中場創造力、進攻深度、Kane 的終結能力",
-      "weakness": "邊後衛防守、大賽心理壓力",
-      "webSummary": "Thomas Tuchel 接掌英格蘭後，為這批黃金世代帶來了戰術紀律。Bellingham 是當今世界最佳中場之一，Kane 的進球紀錄無人能及。但英格蘭「從未贏過」的心理包袱依然存在——1966 年以來的等待是每屆世界盃的壓力來源。"
+      "strength": "中場創造力、進攻深度、Bellingham 的全能",
+      "weakness": "防守端失兩球、邊後衛位置仍有隱憂",
+      "webSummary": "Tuchel 的英格蘭首場比賽就打出了 4-2 的精彩攻勢。Bellingham 完全證明了他為什麼是當今世界最好的中場之一——一進球一助攻，在中場的推進能力讓克羅埃西亞的防線完全崩潰。但防守端失了兩球，這在淘汰賽階段可能致命。"
     },
     "away": {
       "name": "克羅埃西亞", "flag": "https://flagcdn.com/w80/hr.png", "fifaRank": 11,
       "keyPlayers": [
-        {"name":"Luka Modric","role":"中場大師","stat":"40 歲第 5 屆世界盃"},
-        {"name":"Josko Gvardiol","role":"後防核心","stat":"Man City，世界頂級中衛"},
-        {"name":"Mateo Kovacic","role":"中場控制","stat":"經驗豐富的節奏掌控者"}
+        {"name":"Luka Modric","role":"中場大師","stat":"40 歲，世界波進球"},
+        {"name":"Josko Gvardiol","role":"後防","stat":"防線被 England 連續突破"}
       ],
-      "strength": "中場控制力、大賽韌性、Modric 的經驗",
-      "weakness": "陣容老化、缺乏前場速度",
-      "webSummary": "克羅埃西亞在過去兩屆世界盃拿下亞軍與季軍，成績穩定得令人驚訝。Modric 以 40 歲高齡征戰第 5 屆世界盃，Gvardiol 是新一代的後防領袖。雖然平均年齡偏高，但這支球隊在大賽中展現的韌性令人敬畏。"
+      "strength": "Modric 的個人魔法、中場控制力",
+      "weakness": "防守老化、被 England 的速度壓垮",
+      "webSummary": "克羅埃西亞的防線在 Bellingham 和 Kane 面前崩塌了。Modric 的世界波射門展現了他仍然是一代宗師，但一個人的魔法無法拯救整支球隊。"
     }
   },
   "story": {
-    "title": "世代對決：英格蘭 vs 克羅埃西亞，上屆四強重賽",
-    "narrative": "2018 年世界盃四強，英格蘭對克羅埃西亞——Modric 的球隊在延長賽後逆轉勝，闖進冠軍戰。2022 年沒有相遇。2026 年，兩隊在小組賽重逢。\n\n英格蘭已經不是八年前那支球隊了。Tuchel 帶來了德式的戰術紀律，Bellingham 成長為世界級中場，Kane 打破了一切紀錄。但「1966」這個數字依然像幽靈一樣纏繞著這支球隊。\n\n克羅埃西亞也變了——更老了。Modric 40 歲，但他依然是中場的節奏大師。Gvardiol 成了身價最高的後衛之一。這批球員知道這是最後一屆了，每一場比賽都是告別。\n\n這場比賽的勝負可能在中場決定——Bellingham 的活力與推進能力，對抗 Modric 的經驗與節奏控制。這是一場世代之間的對決，也是決定 L 組出線情勢的關鍵戰役。",
-    "dramaticMoment": "比賽尚未開始。但當 Bellingham 與 Modric 在中場握手的那一刻，就是世代傳承的瞬間。",
-    "turningPoint": "中場——Bellingham 的活力 vs Modric 的經驗，誰能掌控節奏誰就能決定比賽。",
+    "title": "Bellingham 的個人秀：英格蘭 4-2 克羅埃西亞",
+    "narrative": "2018 年的劇本不會重演了。\n\n八年後再次在小組賽相遇，英格蘭已經不是那支被 Modric 碾壓的年輕球隊。Jude Bellingham——22 歲的 Real Madrid 超級巨星——用一場統治級的表現告訴全世界：英格蘭的核心不再只是 Harry Kane。\n\n第 11 分鐘，Bellingham 在中場斷球後直接推進，禁區邊緣起腳射門——球穿過守門員的胯下入網。1-0。第 31 分鐘，他在右路突破後傳中，Kane 頭槌破門。2-0。\n\nModric 沒有放棄。第 44 分鐘，他在禁區外一記世界波直接破門——40 歲，依然能踢出這種等級的射門，令人敬畏。2-1。\n\n但英格蘭的下半場是一面倒的。Kane 在第 57 分鐘罰進點球，第 72 分鐘再進一球——梅開二度。4-1。克羅埃西亞在第 85 分鐘追回一球，但已無濟於事。\n\n終場 4-2，英格蘭宣告他們是 L 組的王者。",
+    "dramaticMoment": "Bellingham 的第 11 分鐘單騎突進破門——世界級中場的所有能力在 10 秒內展現。",
+    "turningPoint": "英格蘭上半場的 2-0——克羅埃西亞的防守計畫在 Bellingham 面前崩潰。",
     "quote": null
   },
-  "oddsDeepDive": "英格蘭讓 0.5 球，賠率 2.10，市場看好英格蘭小勝。AI 分析認為兩隊實力極度接近，平局或克羅埃西亞取勝的可能性不低。2018 年的歷史對戰結果也支持這個判斷。",
-  "boxscoreSummary": "比賽尚未開始。英格蘭（FIFA #4）在德州 Arlington 迎戰克羅埃西亞（FIFA #11）。"
+  "oddsDeepDive": "英格蘭讓 0.5 球，賠率約 2.10。4-2 的結果讓上盤輕鬆過關，大小球 2.5 也大開。英格蘭的進攻火力在首戰就展現，這對後續比賽的盤口預判是重要信號。",
+  "boxscoreSummary": "英格蘭控球率 54%，18 次射門 9 次射正。克羅埃西亞控球率 46%，10 次射門 4 次射正。Bellingham 1進球1助攻。"
 }

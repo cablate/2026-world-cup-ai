@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-17",
-  "matchday": 7,
+  "date": "2026-06-18",
+  "matchday": 8,
   "stage": "Group Stage",
   "groups": [
     {
@@ -589,27 +589,27 @@
         {
           "name": "葡萄牙",
           "flag": "https://flagcdn.com/w80/pt.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
           "name": "剛果民主共和國",
           "flag": "https://flagcdn.com/w80/cd.png",
-          "gp": 0,
+          "gp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0,
+          "pts": 1,
           "status": "alive"
         },
         {
@@ -639,35 +639,22 @@
           "status": "alive"
         }
       ],
-      "analysis": "K 組首輪 Portugal vs Congo DR。"
+      "analysis": "K 組哥倫比亞領先，葡萄牙 1-1 爆冷逼平 Congo DR 讓情勢變得有趣。"
     },
     {
       "name": "L",
       "teams": [
         {
-          "name": "克羅埃西亞",
-          "flag": "https://flagcdn.com/w80/hr.png",
-          "gp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
-          "status": "alive"
-        },
-        {
           "name": "英格蘭",
           "flag": "https://flagcdn.com/w80/gb-eng.png",
-          "gp": 0,
-          "w": 0,
+          "gp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "pts": 3,
           "status": "alive"
         },
         {
@@ -695,9 +682,22 @@
           "gd": 0,
           "pts": 0,
           "status": "alive"
+        },
+        {
+          "name": "克羅埃西亞",
+          "flag": "https://flagcdn.com/w80/hr.png",
+          "gp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 0,
+          "status": "alive"
         }
       ],
-      "analysis": "L 組上半屆四強重賽 Croatia vs England。"
+      "analysis": "L 組英格蘭與迦納首戰告捷，下輪英格蘭 vs 迦納將是爭奪小組第一的關鍵比賽。"
     }
   ]
 }

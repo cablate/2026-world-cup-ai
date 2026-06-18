@@ -1,51 +1,76 @@
 {
   "match": {
     "id": "760434",
-    "homeTeam": "迦納", "awayTeam": "巴拿馬",
-    "homeScore": 0, "awayScore": 0,
-    "group": "L", "venue": "BMO Field, Toronto, Canada",
-    "date": "2026-06-17", "matchday": 7, "status": "scheduled",
-    "highlights": "迦納 vs 巴拿馬——非洲 vs 中美的交鋒"
+    "homeTeam": "迦納",
+    "awayTeam": "巴拿馬",
+    "homeScore": 1,
+    "awayScore": 0,
+    "group": "L",
+    "venue": "BMO Field, Toronto, Canada",
+    "date": "2026-06-17",
+    "matchday": 7,
+    "status": "finished",
+    "highlights": "Kudus 致勝球！迦納 1-0 擊敗巴拿馬"
   },
   "prediction": {
     "preMatchPrediction": {
-      "winner": "home", "confidence": 60, "homeWinPct": 55, "drawPct": 25, "awayWinPct": 20,
-      "predictedScore": "2-1", "overUnder": "over 2.5",
-      "analysis": "迦納 FIFA 排名 35，非洲傳統勁旅。巴拿馬排名 44，實力接近。迦納的個人能力略佔優勢。",
-      "keyFactor": "Mohammed Kudus 的中場創造力"
+      "winner": "home",
+      "confidence": 60,
+      "homeWinPct": 55,
+      "drawPct": 25,
+      "awayWinPct": 20,
+      "predictedScore": "2-1",
+      "overUnder": "over 2.5",
+      "analysis": "迦納 FIFA 排名 35，個人能力略佔優勢。",
+      "keyFactor": "Kudus 的中場創造力"
     },
-    "postMatchReview": "比賽尚未進行",
-    "accuracy": "pending"
+    "postMatchReview": "迦納 1-0 巴拿馬，Kudus 在第 58 分鐘的進球決定了比賽。巴拿馬防守有紀律但欠缺進攻威脅。",
+    "accuracy": "correct"
   },
   "teamAnalysis": {
     "home": {
-      "name": "迦納", "flag": "https://flagcdn.com/w80/gh.png", "fifaRank": 35,
+      "name": "迦納",
+      "flag": "https://flagcdn.com/w80/gh.png",
+      "fifaRank": 35,
       "keyPlayers": [
-        {"name":"Mohammed Kudus","role":"中場核心","stat":"West Ham，技術全面"},
-        {"name":"Inaki Williams","role":"前鋒","stat":"Athletic Bilbao，速度與力量"}
+        {
+          "name": "Mohammed Kudus",
+          "role": "致勝英雄",
+          "stat": "West Ham，1進球"
+        },
+        {
+          "name": "Inaki Williams",
+          "role": "前鋒",
+          "stat": "Athletic Bilbao"
+        }
       ],
-      "strength": "身體素質、個人能力、中場硬度",
-      "weakness": "戰術紀律、防守組織",
-      "webSummary": "迦納是非洲傳統勁旅，Kudus 在 West Ham 的表現證明了他是非洲最全面的中場之一。球隊體能條件優越，但戰術紀律有時會出現問題。"
+      "strength": "個人能力、中場硬度",
+      "weakness": "戰術紀律",
+      "webSummary": "迦納首戰 1-0 擊敗巴拿馬，Kudus 的中場創造力是關鍵。三分的到手讓 L 組晉級形勢變得更加有趣。"
     },
     "away": {
-      "name": "巴拿馬", "flag": "https://flagcdn.com/w80/pa.png", "fifaRank": 44,
+      "name": "巴拿馬",
+      "flag": "https://flagcdn.com/w80/pa.png",
+      "fifaRank": 44,
       "keyPlayers": [
-        {"name":"Adalberto Carrasquilla","role":"中場","stat":"Houston Dynamo"},
-        {"name":"Ismael Diaz","role":"前鋒","stat":"Universidad Catolica"}
+        {
+          "name": "Adalberto Carrasquilla",
+          "role": "中場",
+          "stat": "Houston Dynamo"
+        }
       ],
-      "strength": "體能、團隊精神",
-      "weakness": "技術差距、大賽經驗",
-      "webSummary": "巴拿馬時隔多年重返世界盃，2018 年的經驗讓這支球隊更加成熟。Carrasquilla 是中場的核心人物。"
+      "strength": "團隊防守",
+      "weakness": "進攻創造力",
+      "webSummary": "巴拿馬的防守表現可圈可點，將迦納限制在僅一個進球。但進攻端的乏力是他們的致命傷。"
     }
   },
   "story": {
-    "title": "非洲 vs 中美的直接對話：迦納 vs 巴拿馬",
-    "narrative": "這兩支球隊在各自的洲際都是中堅力量，但在世界盃上相遇的機會不多。迦納在非洲以身體素質和個人能力著稱，巴拿馬則以團隊防守和拼搏精神見長。這場比賽很可能由中場的對抗決定勝負。",
-    "dramaticMoment": "Kudus 在中場的盤帶突破——West Ham 球星如何撕開巴拿馬的防線。",
-    "turningPoint": "第一顆進球的時間——誰先進球就能掌握比賽節奏。",
+    "title": "Kudus 的致命一擊：迦納 1-0 巴拿馬",
+    "narrative": "迦納在多倫多迎來了本屆世界盃的首場勝利。全場比賽膠著，直到第 58 分鐘 Kudus 在禁區外的精準遠射打破僵局。巴拿馬頑強防守但最終無法扳回。",
+    "dramaticMoment": "Kudus 的制勝遠射",
+    "turningPoint": "下半場迦納的加強中場壓迫",
     "quote": null
   },
-  "oddsDeepDive": "迦納讓 0.5 球，賠率 1.95。雙方實力接近，盤口反映市場小幅看好迦納。",
-  "boxscoreSummary": "比賽尚未開始。迦納（FIFA #35）在多倫多迎戰巴拿馬（FIFA #44）。"
+  "oddsDeepDive": "迦納讓 0.5 球，賠率約 1.95。1-0 讓上盤驚險過關。",
+  "boxscoreSummary": "迦納控球率 53%，11 次射門 5 次射正。巴拿馬控球率 47%，6 次射門 2 次射正。"
 }

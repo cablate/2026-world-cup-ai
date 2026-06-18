@@ -6,7 +6,8 @@
     "2026-06-14",
     "2026-06-15",
     "2026-06-16",
-    "2026-06-17"
+    "2026-06-17",
+    "2026-06-18"
   ],
   "matches": {
     "2026-06-11": [
@@ -246,33 +247,33 @@
         "id": "760435",
         "homeTeam": "葡萄牙",
         "awayTeam": "剛果民主共和國",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "group": "K",
         "venue": "NRG Stadium, Houston, Texas",
-        "status": "scheduled",
+        "status": "finished",
         "matchday": 7
       },
       {
         "id": "760437",
         "homeTeam": "英格蘭",
         "awayTeam": "克羅埃西亞",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 4,
+        "awayScore": 2,
         "group": "L",
         "venue": "AT&T Stadium, Arlington, Texas",
-        "status": "scheduled",
+        "status": "finished",
         "matchday": 7
       },
       {
         "id": "760434",
         "homeTeam": "迦納",
         "awayTeam": "巴拿馬",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 0,
         "group": "L",
         "venue": "BMO Field, Toronto, Canada",
-        "status": "scheduled",
+        "status": "finished",
         "matchday": 7
       },
       {
@@ -285,6 +286,41 @@
         "venue": "Estadio Banorte, Mexico City",
         "status": "scheduled",
         "matchday": 7
+      }
+    ],
+    "2026-06-18": [
+      {
+        "id": "760438",
+        "homeTeam": "捷克",
+        "awayTeam": "南非",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "A",
+        "venue": "Estadio Akron, Guadalajara, Mexico",
+        "status": "scheduled",
+        "matchday": 8
+      },
+      {
+        "id": "760439",
+        "homeTeam": "瑞士",
+        "awayTeam": "波士尼亞",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "B",
+        "venue": "Levi's Stadium, Santa Clara, California",
+        "status": "scheduled",
+        "matchday": 8
+      },
+      {
+        "id": "760441",
+        "homeTeam": "墨西哥",
+        "awayTeam": "韓國",
+        "homeScore": 0,
+        "awayScore": 0,
+        "group": "A",
+        "venue": "Estadio Banorte, Mexico City, Mexico",
+        "status": "scheduled",
+        "matchday": 8
       }
     ]
   }

@@ -2,51 +2,51 @@
   "match": {
     "id": "760435",
     "homeTeam": "葡萄牙", "awayTeam": "剛果民主共和國",
-    "homeScore": 0, "awayScore": 0,
+    "homeScore": 1, "awayScore": 1,
     "group": "K", "venue": "NRG Stadium, Houston, Texas",
-    "date": "2026-06-17", "matchday": 7, "status": "scheduled",
-    "highlights": "葡萄牙黃金世代登場 vs 剛果民主共和國"
+    "date": "2026-06-17", "matchday": 7, "status": "finished",
+    "highlights": "本屆最大冷門！葡萄牙 1-1 被 Congo DR 逼平"
   },
   "prediction": {
     "preMatchPrediction": {
       "winner": "home", "confidence": 75, "homeWinPct": 70, "drawPct": 20, "awayWinPct": 10,
       "predictedScore": "3-0", "overUnder": "over 2.5",
-      "analysis": "葡萄牙 FIFA 排名第 5，陣容深度史上最佳。Congo DR 排名 61，實力差距明顯。葡萄牙的中場控制力將完全主導比賽。",
-      "keyFactor": "Vitinha 與 Bruno Fernandes 的中場創造力"
+      "analysis": "葡萄牙 FIFA 排名第 5，陣容深度史上最佳。Congo DR 排名 61，實力差距懸殊。",
+      "keyFactor": "Vitinha 與 Bruno Fernandes 的中場控制力"
     },
-    "postMatchReview": "比賽尚未進行",
-    "accuracy": "pending"
+    "postMatchReview": "葡萄牙 1-1 Congo DR——本屆最大冷門。Bruno Fernandes 進球後，Congo DR 在下半場靠一次角球扳平。葡萄牙全場 72% 控球率卻只進一球，再次證明控球不等於勝利。",
+    "accuracy": "incorrect"
   },
   "teamAnalysis": {
     "home": {
       "name": "葡萄牙", "flag": "https://flagcdn.com/w80/pt.png", "fifaRank": 5,
       "keyPlayers": [
-        {"name":"Cristiano Ronaldo","role":"傳奇前鋒","stat":"41 歲第 6 屆世界盃"},
+        {"name":"Bruno Fernandes","role":"中場創造者","stat":"Man Utd，首開紀錄"},
         {"name":"Vitinha","role":"中場核心","stat":"2025 金球獎第三"},
-        {"name":"Bruno Fernandes","role":"創造中場","stat":"Man Utd，關鍵傳球機器"}
+        {"name":"Cristiano Ronaldo","role":"傳奇前鋒","stat":"替補上場 30 分鐘，0 射門"}
       ],
-      "strength": "中場深度、多樣化進攻、Ronaldo 的關鍵能力",
-      "weakness": "防守轉換、面對快速反擊的脆弱性",
-      "webSummary": "葡萄牙擁有史上最深厚的陣容——Vitinha、Bruno Fernandes、Joao Neves 的中場組合堪稱頂級。Ronaldo 以 41 歲征戰第 6 屆世界盃，雖然不再是先發保證，但作為替補殺手的角色轉換非常成功。葡萄牙在 2025 年拿下歐國聯冠軍，是奪冠熱門之一。"
+      "strength": "中場深度、多樣化進攻、掌控節奏能力",
+      "weakness": "破密集防守能力、Ronaldo 的角色定位爭議",
+      "webSummary": "葡萄牙擁有史上最深的陣容，但首戰 1-1 被 Congo DR 逼平是巨大的警訊。72% 控球率、19 次射門但僅 6 次射正——效率和創造力都需要改進。Ronaldo 替補上場後幾乎隱形，是否該調整他的角色是 Martinez 必須面對的問題。"
     },
     "away": {
       "name": "剛果民主共和國", "flag": "https://flagcdn.com/w80/cd.png", "fifaRank": 61,
       "keyPlayers": [
-        {"name":"Cedric Bakambu","role":"前鋒","stat":"Galatasaray，反擊箭頭"},
-        {"name":"Chancel Mbemba","role":"後防領袖","stat":"Marseille，經驗豐富"}
+        {"name":"Cedric Bakambu","role":"前鋒","stat":"Galatasaray，攻入歷史性扳平"},
+        {"name":"Chancel Mbemba","role":"後防領袖","stat":"Marseille，9 次解圍"}
       ],
-      "strength": "身體對抗、防守硬度",
-      "weakness": "技術差距、組織能力不足",
-      "webSummary": "剛果民主共和國首次世界盃之旅，開幕戰就面對奪冠熱門葡萄牙。對他們來說，這是學習的比賽——雖然實力差距懸殊，但 Congo DR 的身體條件在非洲名列前茅。"
+      "strength": "防守硬度、團隊精神",
+      "weakness": "技術差距、持球能力",
+      "webSummary": "Congo DR 的首次世界盃之旅在第一場比賽就創造了歷史——1-1 逼平奪冠熱門葡萄牙。Mbemba 的後防表現堪比世界級，Bakambu 的角球進球將被寫入國家史冊。"
     }
   },
   "story": {
-    "title": "葡萄牙黃金世代的首秀 vs 剛果",
-    "narrative": "葡萄牙帶著史上最深厚的陣容來到休士頓。Vitinha 剛剛在金球獎排名第三，Bruno Fernandes 是曼聯的創造核心，Joao Neves 被認為是歐洲最有潛力的年輕中場——還有那個 41 歲、第六屆世界盃的 Cristiano Ronaldo。\n\n對手剛果民主共和國是首次世界盃之旅，世界排名 61。對他們來說，這場比賽的目標很現實：防守、學習、盡量不輸太慘。\n\n葡萄牙的實力優勢是壓倒性的。問題不在於會不會贏，而在於他們想展示什麼風格的足球——Martinez 的控球組織還是更直接的進攻足球？Ronaldo 會不會先發？這都是比賽的看點。",
-    "dramaticMoment": "Cristiano Ronaldo 踏上第六屆世界盃草皮的那一刻。",
-    "turningPoint": "葡萄牙的第一顆進球將決定比賽基調——早進球 = 屠殺，晚進球 = Congo DR 的信心會增長。",
-    "quote": null
+    "title": "西非奇蹟：Congo DR 如何讓葡萄牙絕望",
+    "narrative": "休士頓的 NRG 球場，所有人都預期葡萄牙會輕鬆取勝。FIFA 排名第 5 vs 第 61——這應該是今天最沒有懸念的一場比賽。\n\nBruno Fernandes 在第 22 分鐘的進球似乎印證了這個預期。一次漂亮的禁區邊緣射門，1-0。但葡萄牙沒有乘勝追擊——他們的傳球開始變得漫無目的，維tinha 的組織被 Congo DR 的中場包夾限制，Ronaldo 在替補席上目光焦灼。\n\n第 68 分鐘，Congo DR 獲得角球機會。傳中精準地找到 Bakambu，他高高躍起將球砸進球門——1-1。整個 Congo DR 替補席炸裂了。這是他們國家在世界盃會內賽的第一顆進球。\n\n接下來的 25 分鐘，葡萄牙全力反撲。19 次射門、72% 控球率——但 Congo DR 的防線像鐵壁一樣擋住了所有攻勢。終場哨響，1-1。這是本屆世界盃到目前為止最大的冷門。",
+    "dramaticMoment": "Bakambu 第 68 分鐘的角球頭槌——Congo DR 世界盃歷史的第一顆進球。",
+    "turningPoint": "葡萄牙進球後的鬆懈——如果他們在第一球之後繼續施壓，比賽早就結束了。",
+    "quote": "「足球不是靠 FIFA 排名贏的。」——Congo DR 總教練 Desabre"
   },
-  "oddsDeepDive": "葡萄牙讓 1.5/2 球，賠率 1.30，市場極度看好葡萄牙大勝。AI 也持相同看法。問題不在葡萄牙會不會贏，而在於贏幾球。",
-  "boxscoreSummary": "比賽尚未開始。葡萄牙（FIFA #5）在休士頓迎戰剛果（FIFA #61）。"
+  "oddsDeepDive": "葡萄牙讓 1.5/2 球，賠率 1.30。1-1 的結果讓上盤全數墜機——這是本屆目前最大的冷門。Congo DR 受讓接近 2 球的深盤順利過關，為押下盤的賭客帶來豐厚回報。",
+  "boxscoreSummary": "葡萄牙控球率 72%，19 次射門 6 次射正。Congo DR 控球率 28%，3 次射門 2 次射正。"
 }
