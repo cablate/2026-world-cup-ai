@@ -1,0 +1,76 @@
+{
+  "match": {
+    "id": "760439",
+    "homeTeam": "瑞士",
+    "awayTeam": "波士尼亞",
+    "homeScore": 4,
+    "awayScore": 1,
+    "group": "B",
+    "venue": "Levi's Stadium, Santa Clara, California",
+    "date": "2026-06-18",
+    "matchday": 8,
+    "status": "finished",
+    "highlights": "瑞士 4-1 大勝波士尼亞，Xhaka 統治中場"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 62,
+      "homeWinPct": 58,
+      "drawPct": 25,
+      "awayWinPct": 17,
+      "predictedScore": "2-0",
+      "overUnder": "under 2.5",
+      "analysis": "瑞士 FIFA #16，戰術紀律嚴明。",
+      "keyFactor": "Xhaka 的中場控制"
+    },
+    "postMatchReview": "瑞士 4-1 波士尼亞，比預期更輕鬆。Xhaka 主導中場，Shaqiri 梅開二度。Dzeko 的進球只是安慰性質。",
+    "accuracy": "correct"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "瑞士",
+      "flag": "https://flagcdn.com/w80/ch.png",
+      "fifaRank": 16,
+      "keyPlayers": [
+        {
+          "name": "Granit Xhaka",
+          "role": "中場指揮官",
+          "stat": "Bayer Leverkusen"
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "role": "進攻核心",
+          "stat": "Chicago Fire，2進球"
+        }
+      ],
+      "strength": "戰術紀律、團隊防守",
+      "weakness": "缺乏頂級前鋒",
+      "webSummary": "瑞士兩輪 4 分，B 組領先。大賽穩定性的展現。"
+    },
+    "away": {
+      "name": "波士尼亞",
+      "flag": "https://flagcdn.com/w80/ba.png",
+      "fifaRank": 57,
+      "keyPlayers": [
+        {
+          "name": "Edin Dzeko",
+          "role": "傳奇前鋒",
+          "stat": "1進球"
+        }
+      ],
+      "strength": "經驗",
+      "weakness": "老化",
+      "webSummary": "波士尼亞兩輪僅 1 分，出線情勢嚴峻。"
+    }
+  },
+  "story": {
+    "title": "瑞士軍刀的全面展示：4-1 大勝",
+    "narrative": "瑞士用一場全面的表現證明了他們是大賽最穩定的球隊。Shaqiri 梅開二度，Xhaka 在中場完全掌控節奏。波士尼亞的 Dzeko 雖然進球但獨木難撐大局。",
+    "dramaticMoment": "Shaqiri 的第二顆進球",
+    "turningPoint": "瑞士上半場的 2-0",
+    "quote": null
+  },
+  "oddsDeepDive": "瑞士讓 0.5 球，4-1 輕鬆穿盤。",
+  "boxscoreSummary": "瑞士控球率 57%，15 次射門 7 次射正。波士尼亞 43%，7 次射門 3 次射正。"
+}

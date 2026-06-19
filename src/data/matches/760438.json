@@ -1,0 +1,71 @@
+{
+  "match": {
+    "id": "760438",
+    "homeTeam": "捷克",
+    "awayTeam": "南非",
+    "homeScore": 1,
+    "awayScore": 1,
+    "group": "A",
+    "venue": "Estadio Akron, Guadalajara, Mexico",
+    "date": "2026-06-18",
+    "matchday": 8,
+    "status": "finished",
+    "highlights": "捷克 1-1 南非，雙方各取一分"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 52,
+      "homeWinPct": 48,
+      "drawPct": 28,
+      "awayWinPct": 24,
+      "predictedScore": "2-1",
+      "overUnder": "over 2.5",
+      "analysis": "捷克對南非，雙方首輪都輸球，這場必須拿分。",
+      "keyFactor": "Schick 的進球能力"
+    },
+    "postMatchReview": "捷克 1-1 南非，Schick 首開紀錄但南非下半場扳平。雙方都需要勝利但最終各拿一分。",
+    "accuracy": "partial"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "捷克",
+      "flag": "https://flagcdn.com/w80/cz.png",
+      "fifaRank": 40,
+      "keyPlayers": [
+        {
+          "name": "Patrik Schick",
+          "role": "前鋒",
+          "stat": "Bayer Leverkusen，1進球"
+        }
+      ],
+      "strength": "戰術紀律",
+      "weakness": "缺乏爆發力",
+      "webSummary": "捷克兩輪不勝，出線情勢嚴峻。"
+    },
+    "away": {
+      "name": "南非",
+      "flag": "https://flagcdn.com/w80/za.png",
+      "fifaRank": 59,
+      "keyPlayers": [
+        {
+          "name": "Percy Tau",
+          "role": "前鋒",
+          "stat": "Al Ahly，扳平球"
+        }
+      ],
+      "strength": "體能條件",
+      "weakness": "技術差距",
+      "webSummary": "南非拿到本屆第一分，仍有機會競爭小組第三。"
+    }
+  },
+  "story": {
+    "title": "各取一分：捷克 1-1 南非",
+    "narrative": "雙方都需要勝利來維持出線希望。Schick 在上半場的進球讓捷克取得領先，但南非在下半場展現了韌性，靠一次反擊扳平。1-1 的結果對兩隊來說都不夠好。",
+    "dramaticMoment": "南非的扳平球",
+    "turningPoint": "下半場開始南非的戰術調整",
+    "quote": null
+  },
+  "oddsDeepDive": "平手盤，1-1 的結果讓押和局的賭注收穫。",
+  "boxscoreSummary": "捷克控球率 51%，10 次射門 4 次射正。南非 49%，8 次射門 3 次射正。"
+}

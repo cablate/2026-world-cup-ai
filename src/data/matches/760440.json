@@ -1,0 +1,70 @@
+{
+  "match": {
+    "id": "760440",
+    "homeTeam": "加拿大",
+    "awayTeam": "卡達",
+    "homeScore": 6,
+    "awayScore": 0,
+    "group": "B",
+    "venue": "BMO Field, Toronto, Canada",
+    "date": "2026-06-18",
+    "matchday": 8,
+    "status": "finished",
+    "highlights": "Davies 帽子戲法！加拿大 6-0 屠殺卡達"
+  },
+  "prediction": {
+    "preMatchPrediction": {
+      "winner": "home",
+      "confidence": 55,
+      "homeWinPct": 50,
+      "drawPct": 28,
+      "awayWinPct": 22,
+      "predictedScore": "2-0",
+      "overUnder": "over 2.5",
+      "analysis": "加拿大主場作戰，Davies 的邊路是最大武器。",
+      "keyFactor": "Davies 的邊路衝擊"
+    },
+    "postMatchReview": "加拿大 6-0 卡達——完全的一面倒。Davies 帽子戲法震驚世界，Jonathan David 梅開二度。加拿大在主場展現了恐怖的攻擊力。",
+    "accuracy": "correct"
+  },
+  "teamAnalysis": {
+    "home": {
+      "name": "加拿大",
+      "flag": "https://flagcdn.com/w80/ca.png",
+      "fifaRank": 48,
+      "keyPlayers": [
+        {
+          "name": "Alphonso Davies",
+          "role": "全場最佳",
+          "stat": "Bayern Munich，帽子戲法"
+        },
+        {
+          "name": "Jonathan David",
+          "role": "前鋒",
+          "stat": "Lille，2進球"
+        }
+      ],
+      "strength": "Davies 的世界級能力、主場優勢",
+      "weakness": "大賽經驗仍在累積",
+      "webSummary": "加拿大在主場踢出了本屆最大比分的一場勝利。Davies 用帽子戲法向世界證明他為什麼是 Bayern Munich 的主力。6-0 的淨勝球可能在小組排名中至關重要。"
+    },
+    "away": {
+      "name": "卡達",
+      "flag": "https://flagcdn.com/w80/qa.png",
+      "fifaRank": 46,
+      "keyPlayers": [],
+      "strength": "—",
+      "weakness": "各層面全面落後",
+      "webSummary": "卡達遭遇慘敗，0-6 的比分反映了他們與世界盃水準的差距。"
+    }
+  },
+  "story": {
+    "title": "多倫多的狂歡：加拿大 6-0 震撼世界",
+    "narrative": "BMO Field 的球迷見證了加拿大足球史上最偉大的一場勝利。Davies 在左路的每一次觸球都讓卡達防線崩潰——帽子戲法，三種不同的進球方式。David 也貢獻了梅開二度。6-0 的比分讓整個加拿大為之沸騰。",
+    "dramaticMoment": "Davies 的第三顆進球——帽子戲法完成",
+    "turningPoint": "加拿大前 20 分鐘的 2-0 開局",
+    "quote": null
+  },
+  "oddsDeepDive": "加拿大讓 0.5/1 球，6-0 遠超出市場預期。",
+  "boxscoreSummary": "加拿大控球率 62%，20 次射門 12 次射正。卡達控球率 38%，4 次射門 1 次射正。"
+}
